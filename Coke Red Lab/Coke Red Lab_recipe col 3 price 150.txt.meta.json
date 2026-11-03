@@ -8,5 +8,5 @@
   "machine": "Coke Red Lab",
   "maker": "Fuji Denki",
   "datetime": "2024-01-09",
-  "description": ""
+  "description": "An old style log of just CSV bytes. Not organized as addresses, control, and data. Lots of errors on decode. tries the recipe PN03N150ACFF to change column 3 price to 150 yen."
 }
