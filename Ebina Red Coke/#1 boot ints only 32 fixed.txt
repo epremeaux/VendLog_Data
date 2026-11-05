@@ -1,0 +1,90 @@
+14:24:15.2: AA:01,6700
+14:24:16.9: A0:31,00FF
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3808,len:0x4bc
+load:0x403c9700,len:0xbd8
+load:0x403cc700,len:0x2a0c
+entry 0x403c98d0
+==================================
+Roku-ban hardware tests
+Version: 5.0.0
+==================================
+
+esp32s3 chip with 2 CPU core(s), WiFi/BLE, silicon revision v0.0, rev=0 16MB external flash
+Minimum free heap size: 8744655 bytes
+chip_info:  features=0x00000012, cores=2, revision=0
+EMB_FLASH...n
+WIFI_BGN....Y
+BLE.........Y
+BT..........n
+IEEE802154..n
+EMB_PSRAM...n
+chip model=9  ESP32-S3
+16MB external flash
+PSRAM size = 8386247
+==================================
+
+STM32 FOTA Programmer
+LittleFS mounted.
+LittleFS total: 1572864
+LittleFS used : 86016
+Select a file to flash:
+  1: /25 new coke.bin (77372 bytes)
+  0: Continue with current STM32 firmware
+Enter the file number, or 0 to continue (8 seconds):
+14:24:25.8: Selection timed out. Continuing with current STM32 firmware.
+Rokuban modem start and stm32 kick
+Attempting STM32 restart
+==================================
+
+26.10.15
+No CT detected.
+14:24:27.5: 0
+char: 0
+14:24:36.4: AA:01,7F00
+14:24:39.6: A0:31,00FF
+A1:01,0000
+A1:02,0000
+A1:03,0000
+A1:04,0000
+E0:00,0039
+14:24:44.5: A0:31,00FF
+14:24:46.4: AA:01,C100
+37:00,0000
+32:00,0000
+33:01,0001
+14:24:47.4: 33:02,0002
+33:03,0002
+33:04,0002
+33:05,0002
+33:06,0002
+33:07,0002
+33:08,0002
+33:09,0002
+33:0A,0002
+33:0B,0002
+33:0C,0002
+33:0D,0002
+33:0E,0002
+33:0F,0002
+33:10,0002
+33:11,0002
+33:12,0002
+33:13,0003
+14:24:48.9: A1:02,0000
+A1:04,0000
+A0:31,00FF
+14:24:56.4: AA:01,A100
+14:24:59.3: A0:31,00FF
+14:25:02.4: 03:10,0001
+03:15,0001
+03:16,0001
+03:17,0001
+03:18,0001
+14:25:04.2: A0:31,00FF
+14:25:06.5: AA:01,A000
+14:25:09.1: A0:31,00FF

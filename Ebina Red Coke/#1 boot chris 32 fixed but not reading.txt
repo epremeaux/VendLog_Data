@@ -1,0 +1,64 @@
+14:29:18.2: ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3808,len:0x4bc
+load:0x403c9700,len:0xbd8
+load:0x403cc700,len:0x2a0c
+entry 0x403c98d0
+NVS initialized.
+BG95 Modem Start and STM32 Power Up
+kicking stm32
+14:29:19.9: Bootloader: 1.73 - Oslo
+Partition size is 4063232
+Filesystem Mounted.
+cleanupFAT: removed 0 garbage entries
+/data/VMID.var 11
+/data/LOC.var 11
+/data/VMCOLS.var 3
+/data/VMBTNS.var 3
+/data/DRINKSSOLD.var 8
+/data/TOTALSALES.var 8
+/data/prices.rec 72
+/data/system.log 104
+/data/drinksales.log 64
+/data/productlist.rec 600
+/data/channels.rec 288
+/data/FIRMWARE.var 51
+/data/amplogs.rec 4008
+/data/messages.log 18000
+ampLogLoad: no saved data
+VMCOLS=36
+VMBTNS=36
+DRINKSSOLD=0
+SalesTotal ¥0
+Reading prices from NVS
+72 bytes read from NVS prices
+100, 100, 100, 100, 36,37-> 100, 0 -- prices buff
+productListLoad: 50 entries restored
+channelsLoad: restored
+VMID: 3141592614
+LOC: 0000000000
+FIRMWARE: 00000000000000000000000000000000000000000000000000
+14:29:21.3: SmartVend device start
+Temperature :33.10
+Boot Loader Complete - 1.73
+26.10.15
+14:29:22.4: No CT detected.
+
+14:29:29.2: [????????????????]
+[                ]
+[                ]
+[                ]
+[??]
+14:29:34.1: [                ]
+14:29:37.0: 37:00,0000
+32:00,0000
+33:01,0001
+Caught INT 33:02,0002
+33:03,0002
+Caught INT Bad Command
+14:29:51.7: GETLOC at 30s: no valid record
+Advertising restarted: OK (connected=0)
+14:30:21.7: GETLOC at 60s: no valid record

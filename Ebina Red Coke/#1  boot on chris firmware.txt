@@ -1,0 +1,163 @@
+>> AT
+!! Timeout waiting for OK/ERROR
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x2b (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3808,len:0x4bc
+load:0x403c9700,len:0xbd8
+load:0x403cc700,len:0x2a0c
+entry 0x403c98d0
+NVS initialized.
+BG95 Modem Start and STM32 Power Up
+kicking stm32
+Bootloader: 1.73 - Oslo
+Partition size is 4063232
+Filesystem Mounted.
+cleanupFAT: removed 0 garbage entries
+/data/VMID.var 11
+/data/LOC.var 11
+/data/VMCOLS.var 3
+/data/VMBTNS.var 3
+/data/DRINKSSOLD.var 8
+/data/TOTALSALES.var 8
+/data/prices.rec 72
+/data/system.log 104
+/data/drinksales.log 64
+/data/productlist.rec 600
+/data/channels.rec 288
+/data/FIRMWARE.var 51
+/data/amplogs.rec 4008
+/data/messages.log 18000
+ampLogLoad: no saved data
+VMCOLS=36
+VMBTNS=36
+DRINKSSOLD=0
+SalesTotal ¥0
+Reading prices from NVS
+72 bytes read from NVS prices
+100, 100, 100, 100, 36,37-> 100, 0 -- prices buff
+productListLoad: 50 entries restored
+channelsLoad: restored
+VMID: 3141592614
+LOC: 0000000000
+FIRMWARE: 00000000000000000000000000000000000000000000000000
+SmartVend device start
+Temperature :38.10
+Boot Loader Complete - 1.73
+26.10.04
+No CT detected.
+
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3808,len:0x4bc
+load:0x403c9700,len:0xbd8
+load:0x403cc700,len:0x2a0c
+entry 0x403c98d0
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3808,len:0x4bc
+load:0x403c9700,len:0xbd8
+load:0x403cc700,len:0x2a0c
+entry 0x403c98d0
+NVS initialized.
+BG95 Modem Start and STM32 Power Up
+kicking stm32
+Bootloader: 1.73 - Oslo
+Partition size is 4063232
+Filesystem Mounted.
+cleanupFAT: removed 0 garbage entries
+/data/VMID.var 11
+/data/LOC.var 11
+/data/VMCOLS.var 3
+/data/VMBTNS.var 3
+/data/DRINKSSOLD.var 8
+/data/TOTALSALES.var 8
+/data/prices.rec 72
+/data/system.log 104
+/data/drinksales.log 64
+/data/productlist.rec 600
+/data/channels.rec 288
+/data/FIRMWARE.var 51
+/data/amplogs.rec 4008
+/data/messages.log 18000
+ampLogLoad: no saved data
+VMCOLS=36
+VMBTNS=36
+DRINKSSOLD=0
+SalesTotal ¥0
+Reading prices from NVS
+72 bytes read from NVS prices
+100, 100, 100, 100, 36,37-> 100, 0 -- prices buff
+productListLoad: 50 entries restored
+channelsLoad: restored
+VMID: 3141592614
+LOC: 0000000000
+FIRMWARE: 00000000000000000000000000000000000000000000000000
+SmartVend device start
+Temperature :37.10
+Boot Loader Complete - 1.73
+26.10.04
+No CT detected.
+
+[????????????????]
+[                ]
+[                ]
+[                ]
+[??]
+[                ]
+37:00,0000
+33:01,0001
+33:02,0002
+33:03,0002
+33:04,0002
+33:05,0002
+33:06,0002
+33:07,0002
+33:08,0002
+33:09,0002
+33:0A,0002
+33:0B,0002
+33:0C,0002
+33:0D,0002
+33:0E,0002
+33:0F,0002
+33:10,0002
+33:11,0002
+33:12,0002
+33:13,0003
+[ ｶﾝｲ ｿｳｻ ﾓｰﾄﾞ   ]
+[                ]
+[                ]
+[                ]
+[                ]
+GETLOC at 30s: no valid record
+Advertising restarted: OK (connected=0)
+03:10,0001
+03:15,0001
+03:16,0001
+03:17,0001
+03:18,0001
+[                ]
+[                ]
+[                ]
+[                ]
+[                ]
+[                ]
+C0:00,001E
+GETLOC at 60s: no valid record
+[                ]
+[                ]
+[                ]
+[                ]
+[                ]
+[                ]
+[                ]
+[                ]
