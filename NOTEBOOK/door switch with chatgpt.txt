@@ -1,0 +1,285 @@
+26.06.16 door switch messages.zipFile
+
+These are message logs from a machine. the message format is generally as follows: 00:17:20:634 VM ROOT - LED 14 : state:4F --- B 08:00 - 08:8D 0E 01 4F 00:17:20:634 = timestamp VM ROOT - LED 14 If a set of addresses are known, these are the labels for source - destination. : state:4F if the message function is known, this is the label. 08:00 - 08:8D these are the source and destination addresses. 0E is a control field 01 indicates one data byte 4F is the data byte. Additional data bytes may follow. Specifically, I am searching for any messages which might indicate that the machine door is opened or closed. Many of the logs in the zip file contain multiple open/close actions on the door switch, as can be known by the log file. Please review the files and make a list of plausible data packets which may contain the door switch data. For example, the file "red machine door switch hold for 5 seconds 6 times.txt" would contain 6 events where the door was closed for 5 seconds, then opened (and then closed again.. 5 more times)
+
+…
+
+I’ll look for packets that change in step with the known door-switch actions, especially in **red machine door switch hold for 5 seconds 6 times.txt**. The most useful candidates will be messages that repeat around each opening or closing, change their data bytes when the switch changes state, and appear less frequently in the logs without door activity.
+
+One important distinction: a packet that changes when the door opens may report the door state directly, or it may report a related machine state that changes as a consequence. I’ll treat these as plausible candidates rather than assume the meaning of any byte before the evidence supports it.
+
+## 1. Strongest candidate: device-status packet
+
+The clearest candidate I found is a packet sent from VM ROOT to the destination 08:80 in the red-machine test log.
+
+**Packet format:**
+
+D 08:00 - 08:80 0E 11 50 ...
+
+The important observation is that the data bytes alternate between two distinct patterns during the test.
+
+|Observed data bytes|First observed timestamp|Occurrences|Interpretation|
+|---|---|--:|---|
+|50 DF FF FF AB FB BF FF FF FF FF FF FF FF FF FF FF|00:31:37:235|6|One status pattern|
+|50 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF|00:31:41:645|6|The alternate status pattern|
+
+These patterns recur throughout red machine door switch hold for 5 seconds 6 times.txt, with transitions occurring at approximately the intervals expected during the door-switch test.
+
+**Why this matters:** The first data byte remains 50, while several subsequent bytes change. This suggests that the packet may contain a collection of status flags, with one or more bits reflecting the switch state.
+
+The available evidence does not yet establish which pattern means _door open_ and which means _door closed_. However, the repeated alternation makes this packet a high-priority candidate for further investigation.
+
+## 2. Second candidate: status packet with control field 0E 0A
+
+Another promising packet appears in several of the other logs, including both files explicitly named for opening and closing the door.
+
+Its address and control fields are:
+
+D 08:00 - 08:80 0E 0A
+
+I found three related data patterns:
+
+|Data bytes|Example timestamp|Observation|
+|---|---|---|
+|D1 00 00 00 00 00 00 00 00 00|00:17:22:647|Appears as part of a three-packet sequence|
+|50 FF FF FF FF FF FF FF FF FF|00:17:22:667|Appears immediately afterward|
+|58 55 55 55 FF FF FF F5 FF FF|00:17:22:687|Appears immediately afterward|
+
+The same three-packet sequence occurs in door open door close 2.txt at approximately 00:18:52.791–00:18:52.825.
+
+It also appears repeatedly in white machine 5 minutes on the head.txt, approximately every 30 seconds.
+
+In white terminal lockout price button fails open door close door then change prices.txt, I found a related pattern:
+
+58 FF FF FF FF FF FF FF FF FF
+
+This appears at 00:33:25:910, 00:33:42:484, and 00:33:51:030, interspersed with occurrences of the 58 55 55 55 FF FF FF F5 FF FF pattern.
+
+**Assessment:** These packets are worth investigating, particularly because their data bytes change while the destination remains the same. However, their timing and recurrence suggest that at least some may be associated with periodic status polling or other machine activity rather than exclusively with the door switch.
+
+I would rank this family below the 0E 11 packet for now.
+
+---
+
+## 3. Other packet families worth investigating
+
+The logs also contain other messages that could be relevant, but the evidence is weaker.
+
+|Priority|Packet family|Why investigate it?|
+|---|---|---|
+|1 — High|D 08:00 - 08:80, control 0E 11, data beginning with 50|Alternates between two distinct payloads during the six-cycle door-switch test.|
+|2 — Medium|D 08:00 - 08:80, control 0E 0A, data beginning with D1, 50, or 58|Occurs in several door-related logs, with different payloads.|
+|3 — Exploratory|VM ROOT - --------, destinations 0B:80, 0B:81, etc., control 0E 11|Contains changing status-like bit patterns, but the relationship to door activity is not established.|
+|4 — Exploratory|VM ROOT - HEAD, destination 09:01, data beginning with E3, E5, or E1|Some values change during the door-related logs, but they may reflect head or machine operation instead.|
+
+The third and fourth families should not be treated as door-switch signals without further comparison against known event times.
+
+---
+
+## 4. What I would investigate next
+
+The most useful next step is to compare the six known opening and closing cycles against the exact timestamps of every packet in the red-machine test.
+
+For each cycle, I would identify:
+
+1. The last occurrence of each candidate packet before the switch changes.
+2. The first occurrence after the change.
+3. Whether the same data-bit transition occurs in all six cycles.
+4. Whether the same transition is absent from logs where the door remains closed.
+5. Whether the corresponding transition reverses when the door closes.
+
+The 0E 11 packet is particularly promising because its two observed payloads differ in a repeatable way. If the same bit or bits change at every known opening and reverse at every known closing, that would be much stronger evidence of a door-state indicator.
+
+### My conclusion
+
+**Start with D 08:00 - 08:80, control field 0E 11, and compare these two payloads:**
+
+- 50 DF FF FF AB FB BF FF FF FF FF FF FF FF FF FF FF
+- 50 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+
+Then investigate the 0E 0A packets as a secondary candidate.
+
+I would not assign a definitive open/closed meaning to either pattern yet. The next comparison should establish whether the transitions consistently match the known physical switch events.
+
+I can also produce a **timestamped event-correlation table for all six cycles**, showing the packets immediately before and after each suspected opening and closing.
+
+![](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/images/acrobat_dc_20x20_dark.svg)Convert to PDF
+
+one helpful bound may be that the keyboard display text is redrawn, in messages marked VM ROOT - KEYBOARD : Row 1 to Row 4
+
+That gives us a useful way to distinguish **door-switch events from keyboard-display activity**.
+
+In the red-machine test, the four keyboard-row messages are sent within roughly 100 milliseconds of one another. For example, at 00:31:41, the rows are redrawn from 00:31:41:580 through 00:31:41:686, with the candidate 08:80 / 0E 11 packet appearing at 00:31:41:645—in the middle of the redraw.
+
+This means we should be careful not to interpret every packet near a display redraw as a door event.
+
+I'd use the keyboard messages as follows:
+
+- **Identify redraw windows:** Group the VM ROOT - KEYBOARD : Row 1 through Row 4 messages into display-redraw events.
+- **Compare candidate packets:** Determine whether the candidate packet changes consistently at the known door-switch transitions, including transitions that occur outside redraw windows.
+- **Separate display effects:** If a packet changes only when the keyboard display redraws, it may be associated with display activity rather than the door switch.
+- **Look for independent evidence:** Prioritize packets whose payloads change at the known door-switch transitions even when no keyboard-row redraw occurs.
+
+One caveat: a redraw could itself be triggered by the door opening, so I wouldn't automatically discard packets that coincide with one.
+
+**The key question is whether the 08:80 / 0E 11 packet tracks the physical switch independently of the keyboard redraws.** Comparing all six cycles against the redraw timestamps should help establish that.
+
+![](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/images/acrobat_dc_20x20_dark.svg)Convert to PDF
+
+long idle.txtDocument
+
+let me give you another log. In this log, the door is simply OPEN for nearly 5 minutes. nothing of note is happening with the machine, so we refer to it as "idle". If any of the above discovered patterns appear here, you can eliminate them.
+
+The idle log is a valuable negative control: since the door remains open for nearly five minutes without significant machine activity, a packet that appears repeatedly in this log is unlikely to be a reliable indicator of a _door opening or closing event_.
+
+There is an important distinction, though: **a packet that occurs while the door is open is not necessarily irrelevant.** It could report the door's current state rather than a transition. I'll distinguish packets that can be eliminated as transition indicators from those that might still report a persistent open-door state.
+
+## Results from long idle.txt
+
+I checked the 3,546-line idle log against the candidate packets identified in the earlier logs.
+
+|Candidate|Found in idle log?|Updated assessment|
+|---|---|---|
+|08:00 → 08:80, control 0E 11, payload beginning 50 DF FF FF AB FB BF|No|**Retain as a strong candidate.**|
+|08:00 → 08:80, control 0E 11, payload beginning 50 FF FF FF FF FF FF|No|**Retain as a strong candidate.**|
+|08:00 → 08:80, control 0E 0A, payload beginning D1 00 00 00|No|Retain for further investigation.|
+|08:00 → 08:80, control 0E 0A, payload beginning 50 FF FF FF|No|Retain for further investigation.|
+|08:00 → 08:80, control 0E 0A, payload beginning 58 55 55 55|No|Retain for further investigation.|
+|08:00 → 0B:xx, control 0E 11|Yes|Deprioritize as a door-transition indicator.|
+
+### An important observation
+
+The 08:00 → 0B:xx packets appear regularly throughout the idle log. For example, the destination addresses 0B:80 through 0B:9D recur in a repeating sequence, approximately once per second.
+
+This regularity suggests that these packets belong to a periodic polling or status-reporting process. They are therefore much less compelling as indicators of individual door-opening and door-closing events.
+
+However, I would not rule out the possibility that their payloads contain a persistent door-state bit without examining the relevant bytes across the test logs.
+
+### Updated conclusion
+
+**None of the five specific 08:80 payload patterns identified above appears in the idle log.** This is encouraging: the patterns remain plausible candidates for door-related messages.
+
+The next step is to compare the five candidates against the six known door-switch cycles and determine which payload changes align most closely with the physical switch transitions.
+
+One qualification: the absence of these packets during this particular idle recording does not prove they indicate the door. It does, however, provide useful evidence for prioritizing them in the next round of analysis.
+
+![](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/images/acrobat_dc_20x20_dark.svg)Convert to PDF
+
+boot and 5 minute idle.txtDocumentboot and 5 minute idle 2.txtDocument
+
+here are two more 5 minute long idle logs, this time on a different machine. They may help to refine the eliminations.
+
+These two new logs substantially strengthen one of the eliminations: **the 08:00 → 08:80 messages with control field 0E 0A are not reliable door-transition indicators by themselves.**
+
+Both recordings contain these messages repeatedly while the machines are idle. For example, the first log shows 50 FF FF..., followed by 58 00 00..., and then another 50 FF FF... message; the second log shows the same general pattern.
+
+## Updated elimination results
+
+|Candidate|Evidence from the two new logs|Assessment|
+|---|---|---|
+|08:00 → 08:80, 0E 0A, payload beginning 50 FF FF...|Appears **90 times** in the first log and **87 times** in the second.|**Eliminate as a unique door-transition indicator.**|
+|08:00 → 08:80, 0E 0A, payload beginning 58 55 55...|This exact pattern does not appear in either new log, although other 58 payloads do.|**Keep as an unconfirmed candidate**, but downgrade confidence in the overall message family.|
+|08:00 → 08:80, 0E 0A, payload beginning D1 00...|Does not appear in either new log.|**Still unresolved**; these recordings don't rule out this exact payload.|
+|08:00 → 08:80, 0E 11, payload beginning 50 DF... or 50 FF...|Neither candidate appears in these logs. The 08:80 traffic here uses other control fields, chiefly 0E 0A.|**Retain for further comparison** with the known door-switch test.|
+
+### What the new logs tell us
+
+Each recording contains more than **1,000 messages** addressed to 08:80 with control field 0E 0A—1,056 in the first and 1,044 in the second. This strongly suggests that this message family includes routine traffic, not just door events.
+
+One important distinction: a message family can be routine while a _particular payload_ still reflects a meaningful state. So I would eliminate the recurring 50 FF FF... payload as a unique door-transition signal, but not automatically discard every 0E 0A payload.
+
+### Current priority
+
+1. **Prioritize the 0E 11 candidates** that appeared in the six-cycle door-switch test but are absent from these new logs.
+2. Keep the exact 58 55 55... and D1 00... payloads as lower-confidence candidates until we compare them against the known door transitions.
+3. Deprioritize the recurring 0E 0A 50 FF... pattern.
+
+These are eliminations based on the available recordings, not proof of the protocol's meaning. The next decisive step remains aligning candidate packets with the exact timestamps of the six physical door transitions.
+
+![](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/images/acrobat_dc_20x20_dark.svg)Convert to PDF
+
+could you print out exact samples from the logs of the messages to check?
+
+Yes. Here are **exact lines copied from your logs**, with timestamps and line numbers, so you can compare them against what the door was physically doing.
+
+## 1. Main candidates from the six door-switch cycles
+
+File: red machine door switch hold for 5 seconds 6 times.txt
+
+These two message patterns each appear six times in the test where you operated the door six times.
+
+### Pattern A — payload starts 50 DF
+
+`Line 37: 00:31:37:235 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 11 50 DF FF FF AB FB BF FF FF FF FF FF FF FF FF FF FF Line 230: 00:31:47:742 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 11 50 DF FF FF AB FB BF FF FF FF FF FF FF FF FF FF FF Line 400: 00:31:56:828 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 11 50 DF FF FF AB FB BF FF FF FF FF FF FF FF FF FF Line 590: 00:32:08:734 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 11 50 DF FF FF AB FB BF FF FF FF FF FF FF FF FF FF Line 763: 00:32:16:839 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 11 50 DF FF FF AB FB BF FF FF FF FF FF FF FF FF Line 955: 00:32:27:451 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 11 50 DF FF FF AB FB BF FF FF FF FF FF FF FF FF`
+
+### Pattern B — payload starts 50 FF
+
+`Line 131: 00:31:41:645 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 11 50 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF Line 330: 00:31:51:746 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 11 50 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF Line 477: 00:32:01:647 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 11 50 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF Line 704: 00:32:13:430 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 11 50 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF Line 880: 00:32:22:736 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 11 50 FF FF FF FF FF FF FF FF FF FF FF FF FF FF Line 1049: 00:32:31:641 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 11 50 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF`
+
+**These are the strongest initial candidates** because both patterns repeat six times in the controlled door test. We still need the exact physical open/close timing to determine which pattern means which state.
+
+For context, here is one of the surrounding sequences from the same file:
+
+`00:31:41:610 VM ROOT - KEYBOARD : Row 2 --- B 08:00 - 09:31 0E 13 00 17 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00:31:41:640 VM ROOT - VEND NEW : -------- --- B 08:00 - 0E:C0 0E 05 30 7F 06 03 00 00:31:41:645 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 11 50 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00:31:41:654 VM ROOT - KEYBOARD : Row 3 --- B 08:00 - 09:31 0E 13 00 33 16 BA B3 D3 B8 20 BA D7 D1 20 20 20 C3 DE B0 C0 20 00:31:41:663 VEND NEW - VM ROOT : -------- --- B 0E:C0 - 08:00 0E 07 B0 00 02 7F 06 03 00`
+
+Notice how the candidate appears among other keyboard and vending messages. That means we should correlate it with the exact door action, rather than assuming the nearby keyboard messages are the door signal.
+
+## 2. The 0E 0A messages from the door-open/door-close logs
+
+These are also worth checking, but the new idle recordings show that some of this family occurs during idle operation.
+
+### Pattern C — D1 00 ...
+
+From door open door close.txt, line 31:
+
+`00:17:22:647 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 0A D1 00 00 00 00 00 00 00 00 00`
+
+From door open door close 2.txt, line 138:
+
+`00:18:52:791 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 0A D1 00 00 00 00 00 00 00 00 00`
+
+This exact payload also appears every 30 seconds in white machine 5 minutes on the head.txt, for example:
+
+`00:01:59:619 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 0A D1 00 00 00 00 00 00 00 00 00 00:02:29:679 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 0A D1 00 00 00 00 00 00 00 00 00 00:02:59:758 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 0A D1 00 00 00 00 00 00 00 00 00`
+
+That regular interval suggests it may be periodic traffic, not necessarily a door transition.
+
+### Pattern D — 50 FF ...
+
+From door open door close.txt, line 32:
+
+`00:17:22:667 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 0A 50 FF FF FF FF FF FF FF FF FF`
+
+From the first new idle recording, line 171:
+
+`00:02:00:783 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 0A 50 FF FF FF FF FF FF FF FF FF`
+
+And from the second new idle recording, line 164:
+
+`00:15:02:783 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 0A 50 FF FF FF FF FF FF FF FF FF`
+
+This is **not a unique door-event marker**: it appears in recordings where the machine was left idle.
+
+### Pattern E — 58 55 55 ...
+
+From door open door close.txt, line 33:
+
+`00:17:22:687 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 0A 58 55 55 55 FF FF FF F5 FF FF`
+
+From door open door close 2.txt, line 140:
+
+`00:18:52:825 VM ROOT - -------- : -------- --- D 08:00 - 08:80 0E 0A 58 55 55 55 FF FF FF F5 FF FF`
+
+However, the same exact message appears in the five-minute recording in white machine 5 minutes on the head.txt, repeatedly at 30-second intervals. So this exact payload also needs more scrutiny before we can label it a door signal.
+
+## 3. What I would check first
+
+|Candidate|What the samples show|Current assessment|
+|---|---|---|
+|0E 11 50 DF FF FF AB FB BF...|Appears six times in the six-cycle door test|**High-priority candidate**|
+|0E 11 50 FF FF FF FF...|Appears six times in the same test, alternating with Pattern A|**High-priority candidate**|
+|0E 0A D1 00 00...|Also repeats periodically in another recording|Probably routine or periodic traffic; unconfirmed|
+|0E 0A 50 FF FF...|Appears during idle recordings|Not a unique door indicator|
+|0E 0A 58 55 55...|Appears repeatedly in a five-minute recording|Not a unique door indicator by itself|
+
+**The most useful next step is to compare Patterns A and B with your actual open/close sequence.** If you can tell me the approximate timestamps when you opened and closed the door in the six-cycle test—or provide the timing notes for that test—I can align each packet to the physical action and try to identify which one corresponds to opening versus closing.

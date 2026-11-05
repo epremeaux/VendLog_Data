@@ -1,0 +1,4 @@
+32 record timing after boot
+26.04.17 boot: 21 seconds
+2026 CCBJI DATA red: 13 seconds
+2026 CCBJI DATA white: 13 seconds

@@ -1,0 +1,55 @@
+IEBus Vending Machine Protocol Analysis
+
+## Overview
+This document summarizes reverse-engineering findings from IEBus vending machine logs, including boot 
+
+## Button Events
+04:nn,0050 = button press
+04:nn,0052 = button release
+nn is selection number in hex.
+
+## Credit Tracking
+05:00,xxxx = credit in hex yen
+HEAD : $: xxxx = credit in decimal yen
+
+## Selection Table (Boot Messages)
+33 messages define selections:
+33 ss tt aa bb cc dd pp qq ...
+- ss = selection number
+- aa bb cc dd = vend parameter block
+- pp qq = price (swapped BCD)
+Example:
+40 02 = 240 yen
+50 01 = 150 yen
+
+## Vend Command
+Vend command:
+0E 07 35 00 00 aa bb cc dd
+Derived directly from 33 records.
+
+## Dispenser Control
+38 xx = state control (enable/disable)
+39 01 = finalize/reset
+Likely sequence:
+38 12 = enable
+button press
+35 ... = vend
+38 10 = disable
+39 01 = finalize
+
+## LED States
+4B = stock out
+4F / 4D = available states
+47 = transitional/other
+
+## Device Mapping
+0B:8x / 0B:9x likely correspond to column devices or inventory nodes.
+
+## Conclusion
+The protocol consists of:
+- Boot-time configuration (32/33)
+- Runtime credit tracking (05/HEAD)
+- Button events (04)
+- Vend command (35)
+- Dispenser state control (38/39)
+The key linkage is that 35 messages reuse parameter blocks from 33 entries.

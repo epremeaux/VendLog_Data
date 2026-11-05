@@ -1,0 +1,37 @@
+Coin bus Free Addresses (and their subsequent required addresses)
+
+
+First wait for the round robin poll by the controller, respond with 0x11 to one of the available addresses.
+Then, the machine will start polling for one or more new addresses, which you must also respond with 0x11 or the machine shuts down.
+
+RED Machine
+polling addresses:
+629D : Coin mech
+5AA5 : Bill acceptor
+
+12 potential devices  (* are NEW addresses in this generation)
+E01F : then answwer to E11E
+C03F : 
+28D7 : *
+A05F : *
+906F : *
+08F7 : 
+10EF : 
+6897 : 
+7887 : 
+30CF : *
+D02F : 
+A857 : then answer to AB54 & AA55
+
+
+
+White Machine  (other than 629D and 5AA5)
+8 potential devices
+E01F : 
+C03F : 
+08F7 : 
+10EF : 
+6897 : 
+7887 : 
+D02F : 
+A857 : 

@@ -1,0 +1,77 @@
+The boot process log is a goldmine — it has 33 "configure channel" commands sent to the dispenser at startup. These are what programs the motor parameters that then appear in 35. Now I can decode the
+  entire format.
+
+  ---
+  35 Payload — Full Decode
+
+  The 33 "program slot" command at boot reveals everything. Its structure maps directly onto the 35 dispense command:
+
+  33 command (boot config):
+   [0]  33         = command code: "configure slot"
+   [1]  slot       = sequential slot index 01–1B (27 channels total)
+   [2]  type       = 01 (first channel), 02 (standard), 03 (last channel)
+   [3]  motor_lo   = motor parameter, low byte
+   [4]  motor_hi   = motor parameter, high byte
+   [5]  speed      = motor speed (05 = normal, 04 = slow — only CH14)
+   [6]  board      = motor board selector (with bit 0 set)
+   [7]  price_lo   = price, low BCD byte (tens + units)
+   [8]  price_hi   = price, hundreds digit
+   [9]  maxprice_lo = same (max / full-price reference)
+   [10] maxprice_hi = same
+   [11–24] zeros
+
+  35 command (dispense trigger):
+   [0]  35         = command code: "dispense"
+   [1]  00         = always 0
+   [2]  00 or 08   = 00 = in stock,  08 = out of stock
+   [3]  motor_lo   } copied from 33 config
+   [4]  motor_hi   } for this slot
+   [5]  speed      }
+   [6]  board      = board selector with bit 0 cleared
+
+  The VM Root looks up the channel's slot config and copies bytes [3–6] directly into the 35. The dispenser controller uses those to run the motor — it doesn't need to know which "channel number" it is.
+
+  ---
+  Price encoding confirmed
+
+  Bytes [7:8] in 33 store the price in a hybrid BCD/binary encoding: price = byte[8] * 100 + BCD(byte[7]):
+
+  
+```
+  ┌──────┬─────────────┬────────────────────┬─────────────┐
+  │ Slot │ Bytes [7:8] │   Decoded price    │ Known price │
+  ├──────┼─────────────┼────────────────────┼─────────────┤
+  │ 01   │ 40 02       │ 2×100 + 40 = 240 ¥ │ 240 ¥ ✓     │
+  ├──────┼─────────────┼────────────────────┼─────────────┤
+  │ 02   │ 50 01       │ 1×100 + 50 = 150 ¥ │ 150 ¥ ✓     │
+  ├──────┼─────────────┼────────────────────┼─────────────┤
+  │ 0E   │ 20 01       │ 1×100 + 20 = 120 ¥ │ 120 ¥ ✓     │
+  └──────┴─────────────┴────────────────────┴─────────────┘
+```
+
+
+  All 27 slots decode to 110–240 ¥ in multiples of 10, consistent with Japanese vending machines. Bytes [9:10] are identical — likely the "full price" reference (for if the machine ever has sale pricing).
+
+  ---
+  Motor parameter (bytes [3:4])
+
+  These are a uint16 little-endian value that varies per slot with no pattern relative to price or channel number. It's almost certainly a motor encoder target count — how far the coil spiral needs to
+  rotate to eject exactly one item. Each coil has a different pitch and travel distance, so every slot has its own calibrated value. This is why the VM Root must embed it directly in the 35 command rather
+  than just sending a channel number.
+
+  ---
+  Board selector (byte [6])
+
+  
+```
+  ┌─────────────┬─────────────┬────────────────────────────────┐
+  │ Value in 33 │ Value in 35 │            Meaning             │
+  ├─────────────┼─────────────┼────────────────────────────────┤
+  │ 21 or 11    │ 20 or 10    │ Motor board A (channels 1–12)  │
+  ├─────────────┼─────────────┼────────────────────────────────┤
+  │ 20 or 10    │ 20 or 10    │ Motor board B (channels 13–30) │
+  └─────────────┴─────────────┴────────────────────────────────┘
+```
+
+
+  The 33 config sets bit 0 (e.g. 21); the 35 command clears it (→ 20). Bit 0 may signal "this is a config write" vs "this is a dispense trigger" at the board level.

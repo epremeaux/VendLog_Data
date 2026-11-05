@@ -1,0 +1,63 @@
+ The 35 command is the dispense trigger — sent to 0E:C0 within ~40ms of every button press, every time, across all channels. The payload is channel-specific and consistent across sessions.
+
+  Complete channel payload map:
+
+  
+```
+  ┌─────────┬───────────────────────────┐
+  │ Channel │ 35 payload (full 7 bytes) │
+  ├─────────┼───────────────────────────┤
+  │ CH01    │ 35 00 00 39 18 05 20      │
+  ├─────────┼───────────────────────────┤
+  │ CH02    │ 35 00 00 10 27 05 20      │
+  ├─────────┼───────────────────────────┤
+  │ CH13    │ 35 00 00 18 45 05 10      │
+  ├─────────┼───────────────────────────┤
+  │ CH14    │ 35 00 00 11 07 04 10      │
+  ├─────────┼───────────────────────────┤
+  │ CH16    │ 35 00 00 85 31 05 10      │
+  ├─────────┼───────────────────────────┤
+  │ CH17    │ 35 00 00 86 37 05 10      │
+  ├─────────┼───────────────────────────┤
+  │ CH19    │ 35 00 00 96 44 05 10      │
+  ├─────────┼───────────────────────────┤
+  │ CH20    │ 35 00 00 06 45 05 10      │
+  ├─────────┼───────────────────────────┤
+  │ CH30    │ 35 00 00 90 46 05 10      │
+  └─────────┴───────────────────────────┘
+```
+
+
+  Bytes 3–4 appear to be motor configuration (coil travel distance/timing), not price — no consistent ratio to yen values. Byte 6 is 20 for channels 1–2 and 10 for 13+, likely indicating which motor driver
+  board.
+
+  ---
+  Why standalone 35 won't dispense
+
+  The "drink buttons" log (rapid button presses, no actual drops) shows 35 being sent but no 38 00/39 01 completion sequence — the dispenser receives 35 and ignores it.
+
+  The required setup sequence before 35 will trigger a drop:
+
+```
+
+  VM ROOT → 0E:C0  [38 12]              ← "credit/authorize dispense"
+  VM ROOT → 0E:C0  [30 1F 06 03 00]     ← dispenser init/query
+  0E:C0   → VM ROOT [B0 00 02 1F 06 03 00] ← dispenser ack
+      ... (button press) ...
+  VM ROOT → 0E:C0  [35 00 00 XX XX XX XX] ← DISPENSE channel X
+      ... ~1–3 seconds (motor runs) ...
+  VM ROOT → 0E:C0  [38 00]              ← idle
+  VM ROOT → 0E:C0  [39 01]              ← done
+
+```
+
+  The 38 12 is the gate. Without it, the dispenser at 0E:C0 is in an unauthorized state and ignores the 35. This explains why a standalone 35 didn't work — the dispenser needs the arm signal first.
+
+  One additional flag: in the "drink buttons" file CH01 shows 35 00 **08** 39 18 05 20 (byte[2]=08) instead of 00. This likely means out-of-stock — the VM sets bit 3 in byte[2] to flag unavailable channels,
+   so the dispenser knows not to run even if armed.
+
+  Minimum sequence to trigger a drop:
+  1. Send 38 12 to 0E:C0
+  2. Send 35 00 00 XX XX XX XX to 0E:C0 with the target channel's payload
+
+  The 30/B0 handshake appears to be part of normal initialization but may not be strictly required for the dispense itself.

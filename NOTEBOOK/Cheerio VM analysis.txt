@@ -1,0 +1,180 @@
+Cheerio VM Analysis
+
+  Firmware: 22.2 int extended, +config file / Bootloader 1.6 Oslo Demo (same ESP32-S3 + BG95 hardware as other machines)
+
+  ---
+  IEBus Node Map
+
+ 
+```
+  ┌─────────────┬───────────┬──────────────────────────────────────────────────────┐
+  │   Address   │   Name    │                         Role                         │
+  ├─────────────┼───────────┼──────────────────────────────────────────────────────┤
+  │ 08:00       │ VM ROOT   │ Main controller                                      │
+  ├─────────────┼───────────┼──────────────────────────────────────────────────────┤
+  │ 08:30       │ VEND      │ Integrated dispenser controller (no external 0E:C0!) │
+  ├─────────────┼───────────┼──────────────────────────────────────────────────────┤
+  │ 08:80–08:A3 │ LEDs 1–36 │ Drink buttons (36 buttons, same as red machine)      │
+  ├─────────────┼───────────┼──────────────────────────────────────────────────────┤
+  │ 09:00       │ —         │ Beep/sound output                                    │
+  ├─────────────┼───────────┼──────────────────────────────────────────────────────┤
+  │ 09:01       │ HEAD      │ LCD coin/change display                              │
+  ├─────────────┼───────────┼──────────────────────────────────────────────────────┤
+  │ 09:20       │ —         │ Timing/clock (sends to 02:E0, 01:70)                 │
+  ├─────────────┼───────────┼──────────────────────────────────────────────────────┤
+  │ 09:32       │ —         │ Inventory tracker (new — not in previous machines)   │
+  └─────────────┴───────────┴──────────────────────────────────────────────────────┘
+```
+
+
+  ---
+  Key Architectural Difference
+
+  The Cheerio machine has no IEBus dispenser at 0E:C0. The 08:30 VEND node is an integrated controller that handles both the VM logic and mechanical dispensing. There is no 33/35 protocol. The entire
+  dispenser language is different.
+
+  ---
+  Confirmed Dispense Sequence (from "drink buy, 100 yen in 50 yen back.txt")
+
+  t=01:12:851  ¥100 coin inserted
+    INT: Cash total: 100 yen
+    HEAD → E0 C0 C0 F9 FF FF FF FE   ($: 0100)
+
+  t=01:20:908  Button 3 pressed (08:82 → 08:00): 94
+    INT: BTN:3:P
+    VM ROOT → 09:00: E5 03 02          (beep)
+
+  t=01:21:433  VM ROOT → VEND (08:30): 02 09 16 10 03 23 01 00 00 00
+    INT label: "DD22:09"               (dispense slot 09)
+
+  t=01:21:440  VEND → VM ROOT: 84 09 01 00   (DC09: dispense confirmed)
+  t=01:21:461  VEND → VM ROOT: 8C 09 02 00   (status update)
+  t=01:21:884  VEND → VM ROOT: 84 09 14 00   (dispense complete)
+
+  t=01:21:911  HEAD → E0 C0 92 FF FF FF FF FF   ($: 0050, ¥50 change)
+    INT: 05:00,0032
+
+  t=01:21:931  VM ROOT → 09:32: 03 00 75 59 40  (stock update, slot 00)
+
+  Dispense command structure (10 bytes to VEND):
+  02 [slot] [b2] [b3] [b4] [b5] 01 00 00 00
+      09     16   10   03   23
+  Bytes 2–5 appear to be motor config parameters (column, row, board, speed or similar). Not yet decoded.
+
+  ---
+  Button Press / Release
+
+  Identical to old and red machines:
+  - Press: 0x94, Release: 0x9C
+  - Button N → address 08:(0x7F+N) (button 3 = 08:82)
+
+  ---
+  HEAD Display (09:01)
+
+  Same 7-segment encoding as all previous machines, but 8 bytes instead of 4:
+
+  E0  [ones] [tens] [hund] [thou] [ttenk] [htenk] [flag]
+  - flag = FE when idle/no cash, FF when cash is present or after reset
+  - Digit encoding identical: C0=0, F9=1, A4=2, B0=3, 99=4, 92=5, 82=6, D8=7, 80=8, 90=9, FF=blank
+
+  
+```
+  ┌────────────────┬─────────────────────────┐
+  │     State      │          Bytes          │
+  ├────────────────┼─────────────────────────┤
+  │ ¥0 idle        │ E0 FF FF FF FF FF FF FE │
+  ├────────────────┼─────────────────────────┤
+  │ ¥100 inserted  │ E0 C0 C0 F9 FF FF FF FF │
+  ├────────────────┼─────────────────────────┤
+  │ ¥50 change     │ E0 C0 92 FF FF FF FF FF │
+  ├────────────────┼─────────────────────────┤
+  │ ¥0 after reset │ E0 FF FF FF FF FF FF FF │
+  └────────────────┴─────────────────────────┘
+```
+
+
+  ---
+  Node 09:32 — Inventory Tracker
+
+  Polls on boot and after each dispense. Format:
+
+  
+```
+  ┌──────────────┬──────────────────┬──────────────────────────────────────┐
+  │  Direction   │     Command      │               Meaning                │
+  ├──────────────┼──────────────────┼──────────────────────────────────────┤
+  │ ROOT → 09:32 │ 0B 01 00 00      │ Init                                 │
+  ├──────────────┼──────────────────┼──────────────────────────────────────┤
+  │ 09:32 → ROOT │ 84 01 01 00 01   │ Init ACK                             │
+  ├──────────────┼──────────────────┼──────────────────────────────────────┤
+  │ ROOT → 09:32 │ 08 35            │ Read slot 00                         │
+  ├──────────────┼──────────────────┼──────────────────────────────────────┤
+  │ ROOT → 09:32 │ 04 NN            │ Read slot NN                         │
+  ├──────────────┼──────────────────┼──────────────────────────────────────┤
+  │ 09:32 → ROOT │ 81 NN [d0 d1 d2] │ Slot NN data                         │
+  ├──────────────┼──────────────────┼──────────────────────────────────────┤
+  │ ROOT → 09:32 │ 03 NN [d0 d1 d2] │ Write slot NN data                   │
+  ├──────────────┼──────────────────┼──────────────────────────────────────┤
+  │ 09:32 → ROOT │ 80 00 10 80      │ Periodic status report (unsolicited) │
+  └──────────────┴──────────────────┴──────────────────────────────────────┘
+```
+
+
+  Stocked slots in this capture:
+  - Slot 00: 76 83 50 → updated to 75 59 40 after one dispense (byte 0 appears to be stock count, 0x76=118 → 0x75=117)
+  - Slot 01: 75 36 20
+  - Slot 08: 04 5B BA
+
+  The 3-byte data format: byte[0] = stock count, bytes[1–2] = unknown (not a simple price BCD match found yet)
+
+  ---
+  VEND Config Message Types (during init)
+
+  
+```
+  ┌────────────────────────────────────────────────────┬─────────────────┬───────────────────────────────────────────────┐
+  │                      Pattern                       │      Bytes      │                    Purpose                    │
+  ├────────────────────────────────────────────────────┼─────────────────┼───────────────────────────────────────────────┤
+  │ 03 NN 65 01 01 07 10                               │ 7B              │ Health check (sends every ~2s, NN increments) │
+  ├────────────────────────────────────────────────────┼─────────────────┼───────────────────────────────────────────────┤
+  │ 16 NN 09 14 00 0A 00 00 0B 00 00 0C 00 00          │ 14B             │ Slot motor config                             │
+  ├────────────────────────────────────────────────────┼─────────────────┼───────────────────────────────────────────────┤
+  │ 04 NN 19 12 20 1A 00 00 1B 00 00 1C 00 00          │ 14B             │ Slot group config                             │
+  ├────────────────────────────────────────────────────┼─────────────────┼───────────────────────────────────────────────┤
+  │ 15 NN 11 0A BE 12 C8 00 13 C8 00 14 00 00 15 00 00 │ 17B             │ Slot pricing/timing                           │
+  ├────────────────────────────────────────────────────┼─────────────────┼───────────────────────────────────────────────┤
+  │ 81 NN [C3 39 0C C3 FF...×14]                       │ 18B (VEND→ROOT) │ Slot status                                   │
+  ├────────────────────────────────────────────────────┼─────────────────┼───────────────────────────────────────────────┤
+  │ 95 NN [pairs...]                                   │ 18B (VEND→ROOT) │ Sales/price counters                          │
+  └────────────────────────────────────────────────────┴─────────────────┴───────────────────────────────────────────────┘
+```
+
+
+  ---
+  Summary vs Previous Machines
+
+  
+```
+  ┌────────────────┬────────────────┬───────────────────────┬─────────────────────────┐
+  │    Feature     │  Old machine   │      Red machine      │       Cheerio VM        │
+  ├────────────────┼────────────────┼───────────────────────┼─────────────────────────┤
+  │ Dispenser node │ 0E:C0 (ext)    │ 0E:C0 (ext)           │ 08:30 (integrated)      │
+  ├────────────────┼────────────────┼───────────────────────┼─────────────────────────┤
+  │ Dispense cmd   │ 35 (7B)        │ 35 (7B)               │ 02 ... (10B to VEND)    │
+  ├────────────────┼────────────────┼───────────────────────┼─────────────────────────┤
+  │ Slot config    │ 33 (25B)       │ 33 (25B)              │ 16/04/15 NN ... to VEND │
+  ├────────────────┼────────────────┼───────────────────────┼─────────────────────────┤
+  │ Button count   │ 24             │ 36                    │ 36                      │
+  ├────────────────┼────────────────┼───────────────────────┼─────────────────────────┤
+  │ HEAD display   │ 4B payload     │ 8B (7-seg per button) │ 8B payload              │
+  ├────────────────┼────────────────┼───────────────────────┼─────────────────────────┤
+  │ Inventory node │ none           │ none                  │ 09:32                   │
+  ├────────────────┼────────────────┼───────────────────────┼─────────────────────────┤
+  │ Price encoding │ BCD via 33     │ BCD via 33            │ Embedded in VEND config │
+  ├────────────────┼────────────────┼───────────────────────┼─────────────────────────┤
+  │ Auth sequence  │ F1/FC/FA/FB/FD │ F1/FC/FA/FB/FD        │ None (no ext dispenser) │
+  └────────────────┴────────────────┴───────────────────────┴─────────────────────────┘
+```
+
+
+  The Cheerio is a significantly more modern design where the dispensing intelligence lives inside the VEND module rather than being exposed over IEBus.

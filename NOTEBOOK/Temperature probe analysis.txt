@@ -1,0 +1,58 @@
+Now I have the complete picture. Let me compile all the findings into a clear summary.
+
+  The temperature data is entirely in the B2 NN messages from VEND → VM ROOT. Here's what the data shows:
+
+  ---
+  Temperature Data: B2 NN Message
+
+  Source: VEND (08:30) → VM ROOT (08:00), 11-byte payload
+  Format: B2 [seqno] [slot] [b3] [b4] [b5] 5A [temp_byte] [b9] [b10] [b11]
+  Encoding: temp_byte = 0x80 + celsius → range 0x80=0°C to 0x8B=11°C
+  Cycle: Polls all 17 positions — slot FF (ambient, b3=0x01), then slots 01–10 hex (1–16)
+
+  Steady-state temperatures (after warmup):
+
+  
+```
+  ┌──────┬─────┬──────┬─────┬────────┐
+  │ Slot │ °C  │ Slot │ °C  │ Match? │
+  ├──────┼─────┼──────┼─────┼────────┤
+  │ 01   │ 6   │ 09   │ 6   │ ✓ pair │
+  ├──────┼─────┼──────┼─────┼────────┤
+  │ 02   │ 2   │ 0A   │ 2   │ ✓ pair │
+  ├──────┼─────┼──────┼─────┼────────┤
+  │ 03   │ 3   │ 0B   │ 3   │ ✓ pair │
+  ├──────┼─────┼──────┼─────┼────────┤
+  │ 04   │ 1   │ 0C   │ 1   │ ✓ pair │
+  ├──────┼─────┼──────┼─────┼────────┤
+  │ 05   │ 4   │ 0D   │ 4   │ ✓ pair │
+  ├──────┼─────┼──────┼─────┼────────┤
+  │ 06   │ 8   │ 0E   │ 8   │ ✓ pair │
+  ├──────┼─────┼──────┼─────┼────────┤
+  │ 07   │ 10  │ 0F   │ 10  │ ✓ pair │
+  ├──────┼─────┼──────┼─────┼────────┤
+  │ 08   │ 3   │ 10   │ 3   │ ✓ pair │
+  └──────┴─────┴──────┴─────┴────────┘
+```
+
+
+  Every slot X and slot X+8 are perfectly identical — the machine's two halves (probably front/back or left/right columns) report the same temperature, giving 8 unique readings.
+
+  The 4-probe question
+
+  The 32 NN command (VM ROOT → VEND) echoes each slot's temperature back with a sensor flag:
+  - 3C = sensor present, temp included
+  - C3 = no sensor (bitwise complement of 3C)
+
+  In each polling cycle, exactly 4 slots get C3 (no-sensor). The pattern in steady-state: slots 03, 08, 0B, 10 — but this shifts over time (later in the log it moves to different slots entirely, like 01,
+  06, 09, 0E). The no-sensor marker rotates through the 16 positions across cycles.
+
+  This means the controller is not permanently marking 4 fixed probes — it appears to be cycling through some kind of probe-measurement-and-rest pattern. The 4 physical probes may be assigned to 4 rotating
+  slot groups, not 4 fixed positions.
+
+  ---
+  Bottom line: The B2 NN message is where all temperature data lives. In steady state, the 8 slot-pairs (left/right columns) each maintain a consistent temperature. If you want to read the "4 probe" values
+  specifically, it's likely the 4 readings from one side's unique slots — e.g. 01, 03, 05, 07 (odd slots, one per 2-row zone) or whichever 4 positions correspond to the physical probe mounting points in
+  this machine's cabinet.
+
+  Do you know where the 4 probes are physically placed in the cabinet (top/bottom, front/back)? That would let us map them to specific slot numbers.
