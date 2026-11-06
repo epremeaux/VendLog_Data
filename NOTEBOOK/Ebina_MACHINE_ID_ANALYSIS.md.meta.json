@@ -1,0 +1,11 @@
+{
+  "tags": [
+    "Ebina",
+    "settings"
+  ],
+  "machine": "NOTEBOOK",
+  "maker": "",
+  "datetime": "",
+  "description": "Analysis of all 4 machines, given several possible numbers from IMP_CD and LCTN_CD as provided by Chiyoda.\nSummary:\nMachine\tFile\tLine\tMachine ID\tStatus\nEbina Red Coke #1\t#1 5 min boot log.txt\t190\t2216133541\t✓ Found\nEbina White Coke #2\t#2 5 minute boot log.txt\t203\t2305485511\t✓ Found\nEbina Blue #3\t#3 5 minute boot.txt\t-\t-\t✗ Not found\nEbina Food #4\t#4 5 minute boot log (food).txt\t-\t-\t✗ Not found\nDecoded Payloads:\n\nRed Coke #1: Hex 32 41 35 13 16 22 50 37 37 32... → Decoded 323737502216133541 (ID at position 8-17)\nWhite Coke #2: Hex 32 11 55 48 05 23 73 35 22 32... → Decoded 322235732305485511 (ID at position 8-17)\nOther IDs Not Found: 301746472, 240074921, 302235730, 308159718, 2318359945, 2216120881",
+  "uploaded": "2026-11-06T13:48:25+00:00"
+}
