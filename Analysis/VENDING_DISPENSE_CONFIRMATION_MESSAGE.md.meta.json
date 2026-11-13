@@ -1,6 +1,8 @@
 {
-  "tags": [],
-  "machine": "",
+  "tags": [
+    "markdown"
+  ],
+  "machine": "Analysis",
   "maker": "Analysis",
   "datetime": "",
   "description": "",
