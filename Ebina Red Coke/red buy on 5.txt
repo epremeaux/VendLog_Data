@@ -1,0 +1,824 @@
+A0:31,00FF
+AA:01,8000
+A0:31,00FF
+A0:31,00FF
+AA:01,6A00
+ST1
+00:10:41:648  FujiDnKB - VM ROOT  : --------	--L  B  09:31 - 08:00   0E  06   81 00 00 1F
+00:10:41:652  -------- - -------- : --------	--L  D  08:44 - 00:0C   0E  11   
+A0:31,0000
+00:10:42:021  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:10:42:120  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:42:373  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  09   03 11 00 00 00 00 04 00 00
+00:10:42:383  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 11 49 03 7F 00
+00:10:42:420  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 11 00 83
+00:10:42:521  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:10:42:624  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:42:973  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8B 08 00 00 00 A5 C3 00 00 98
+00:10:42:984  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8B 49 32 7F 00
+00:10:43:020  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8B 00 83
+00:10:43:024  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:10:43:181  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 9E 08 00 00 00 5A 83 00 FF 24
+00:10:43:220  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 9E 00 B2
+00:10:43:224  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:43:321  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:10:43:621  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:43:721  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:10:44:322  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:10:44:371  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8C 09 00 00 00 A5 3C 86 39 60
+00:10:44:382  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8C 49 32 7F 00
+00:10:44:420  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8C 00 83
+00:10:44:521  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  12   17 9C 00 00 01 F4 00 00 01 F4 00 00 01 F4 00 00 01 F4
+00:10:44:536  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 9C 49 17 7F 00
+00:10:44:570  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 9C 00 83
+00:10:44:579  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 9F 09 00 00 00 5A 86 00 00 20
+00:10:44:620  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 9F 00 B2
+00:10:44:789  VM ROOT  - -------- : --------	---  B  08:00 - 08:80   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:44:811  VM ROOT  - -------- : --------	---  B  08:00 - 08:81   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:44:831  VM ROOT  - -------- : --------	---  B  08:00 - 08:82   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:44:851  VM ROOT  - -------- : --------	---  B  08:00 - 08:83   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:44:871  VM ROOT  - -------- : --------	---  B  08:00 - 08:84   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:44:890  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  02   C9 C1
+00:10:44:921  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:10:45:521  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:10:45:672  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8D 0A 00 00 00 A5 3C 82 39 64
+00:10:45:683  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8D 49 32 7F 00
+00:10:45:720  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8D 00 83
+00:10:45:880  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 A0 0A 00 00 00 5A 82 00 00 24
+00:10:45:920  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 A0 00 B2
+00:10:46:121  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:10:46:523  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:46:571  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  12   17 9D 00 00 01 F4 00 00 01 F4 00 00 01 F4 00 00 01 F4
+00:10:46:586  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 9D 49 17 7F 00
+00:10:46:596  FujiDnKB - VM ROOT  : Flap    	---  B  09:31 - 08:00   0E  06   81 00 00 00 08 00
+A0:31,00FF
+00:10:46:620  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 9D 00 83
+00:10:46:972  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8E 0B 00 00 00 A5 3C 81 39 65
+00:10:46:983  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8E 49 32 7F 00
+00:10:47:020  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8E 00 83
+00:10:47:121  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:47:180  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 A1 0B 00 00 00 5A 81 00 00 25
+00:10:47:220  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 A1 00 B2
+00:10:47:722  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:48:023  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8F 0C 00 00 00 A5 C3 00 00 98
+00:10:48:034  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8F 49 32 7F 00
+00:10:48:070  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8F 00 83
+00:10:48:230  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 A2 0C 00 00 00 5A 83 00 FF 24
+00:10:48:270  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 A2 00 B2
+00:10:48:280  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 89 0D 00 00 00 A5 3C 84 39 62
+00:10:48:291  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 89 49 32 7F 00
+00:10:48:320  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 89 00 83
+00:10:48:324  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:48:625  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 A3 0D 00 00 00 5A 84 1C 01 05
+00:10:48:660  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 A3 00 B2
+00:10:48:669  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  12   81 4F 1E 00 08 FE FF FF FF FF 00 80 FF FF FF FF BF FF
+00:10:48:710  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 4F 00 81
+00:10:48:719  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  12   94 4E FF FF 6F FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:48:760  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 4E 00 94
+00:10:48:789  VM ROOT  - -------- : --------	---  B  08:00 - 08:85   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:48:811  VM ROOT  - -------- : --------	---  B  08:00 - 08:86   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:48:831  VM ROOT  - -------- : --------	---  B  08:00 - 08:87   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:48:851  VM ROOT  - -------- : --------	---  B  08:00 - 08:88   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:48:871  VM ROOT  - -------- : --------	---  B  08:00 - 08:89   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:48:890  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  02   C9 C1
+00:10:48:921  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:48:990  VM ROOT  - LED 01   : state:4B	---  B  08:00 - 08:80   0E  01   4B
+00:10:49:089  VM ROOT  - LED 02   : state:4B	---  B  08:00 - 08:81   0E  01   4B
+00:10:49:188  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+00:10:49:289  VM ROOT  - LED 04   : state:4B	---  B  08:00 - 08:83   0E  01   4B
+00:10:49:388  VM ROOT  - LED 05   : state:4F	---  B  08:00 - 08:84   0E  01   4F
+00:10:49:490  VM ROOT  - LED 06   : state:4F	---  B  08:00 - 08:85   0E  01   4F
+00:10:49:521  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:49:589  VM ROOT  - LED 07   : state:4F	---  B  08:00 - 08:86   0E  01   4F
+00:10:49:673  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8A 0E 00 00 00 A5 3C 88 39 5E
+00:10:49:684  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8A 49 32 7F 00
+00:10:49:690  VM ROOT  - LED 08   : state:4F	---  B  08:00 - 08:87   0E  01   4F
+00:10:49:720  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8A 00 83
+00:10:49:788  VM ROOT  - LED 09   : state:4F	---  B  08:00 - 08:88   0E  01   4F
+00:10:49:882  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 A4 0E 00 00 00 5A 88 B6 01 67
+00:10:49:889  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E6 06
+00:10:49:909  VM ROOT  - LED 10   : state:4F	---  B  08:00 - 08:89   0E  01   4F
+00:10:49:920  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 A4 00 B2
+00:10:49:990  VM ROOT  - LED 11   : state:4F	---  B  08:00 - 08:8A   0E  01   4F
+00:10:50:088  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E3 FE
+00:10:50:099  VM ROOT  - LED 12   : state:4F	---  B  08:00 - 08:8B   0E  01   4F
+00:10:50:121  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:50:188  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E2 FF
+00:10:50:199  VM ROOT  - LED 13   : state:4F	---  B  08:00 - 08:8C   0E  01   4F
+00:10:50:288  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E1 FC
+00:10:50:299  VM ROOT  - LED 14   : state:4F	---  B  08:00 - 08:8D   0E  01   4F
+00:10:50:389  VM ROOT  - HEAD     : $: 0000	---  B  08:00 - 09:01   0E  08   E0 FF FF FF FF FF FF FF
+00:10:50:400  VM ROOT  - CLOCK    : --------	---  B  08:00 - 08:18   0E  03   B1 FD FF
+00:10:50:410  VM ROOT  - CLOCK    : --------	---  B  08:00 - 08:18   0E  05   B0 FE FF FF FF
+00:10:50:414  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  03   D3 FD FF
+00:10:50:420  VM ROOT  - LED 15   : state:4F	---  B  08:00 - 08:8E   0E  01   4F
+00:10:50:491  VM ROOT  - LED 16   : state:4B	---  B  08:00 - 08:8F   0E  01   4B
+00:10:50:590  VM ROOT  - LED 17   : state:4F	---  B  08:00 - 08:90   0E  01   4F
+AA:01,7A00
+00:10:50:690  VM ROOT  - LED 18   : state:4F	---  B  08:00 - 08:91   0E  01   4F
+00:10:50:721  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:50:790  VM ROOT  - LED 19   : state:4F	---  B  08:00 - 08:92   0E  01   4F
+00:10:50:889  VM ROOT  - LED 20   : state:4F	---  B  08:00 - 08:93   0E  01   4F
+00:10:50:975  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8B 0F 00 00 00 A5 3C 8A 39 5C
+00:10:50:986  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8B 49 32 7F 00
+00:10:50:991  VM ROOT  - LED 21   : state:4B	---  B  08:00 - 08:94   0E  01   4B
+00:10:51:020  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8B 00 83
+00:10:51:090  VM ROOT  - LED 22   : state:4B	---  B  08:00 - 08:95   0E  01   4B
+00:10:51:183  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 A5 0F 00 00 00 5A 8A 00 00 1C
+00:10:51:190  VM ROOT  - LED 23   : state:4B	---  B  08:00 - 08:96   0E  01   4B
+00:10:51:220  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 A5 00 B2
+00:10:51:288  VM ROOT  - LED 24   : state:4B	---  B  08:00 - 08:97   0E  01   4B
+00:10:51:321  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:51:389  VM ROOT  - -------- : --------	---  D  08:00 - 08:70   0E  0F   E0 FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:51:409  VM ROOT  - -------- : --------	--L  D  08:00 - 08:70   07  FF   FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:51:430  VM ROOT  - LED 25   : state:4B	---  B  08:00 - 08:98   0E  01   4B
+00:10:51:490  VM ROOT  - LED 26   : state:4B	---  B  08:00 - 08:99   0E  01   4B
+00:10:51:525  FujiDnKB - VM ROOT  : Flap    	---  B  09:31 - 08:00   0E  06   81 00 00 00 08 00
+A0:31,00FF
+00:10:51:591  VM ROOT  - LED 27   : state:4B	---  B  08:00 - 08:9A   0E  01   4B
+00:10:51:690  VM ROOT  - LED 28   : state:4B	---  B  08:00 - 08:9B   0E  01   4B
+00:10:51:789  VM ROOT  - LED 29   : state:4B	---  B  08:00 - 08:9C   0E  01   4B
+00:10:51:888  VM ROOT  - LED 30   : state:4B	---  B  08:00 - 08:9D   0E  01   4B
+00:10:51:920  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:52:521  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:52:789  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  09   D1 00 00 00 00 00 00 00 00
+00:10:52:801  VM ROOT  - -------- : --------	---  B  08:00 - 08:8A   0E  11   C0 C0 92 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:52:820  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  09   50 FF FF FF FF FF FF FF FF
+00:10:52:830  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  09   58 55 FF FF FD FF 55 55 5F
+00:10:52:841  VM ROOT  - -------- : --------	---  B  08:00 - 08:8B   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:52:861  VM ROOT  - -------- : --------	---  B  08:00 - 08:8C   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:52:881  VM ROOT  - -------- : --------	---  B  08:00 - 08:8D   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:52:901  VM ROOT  - -------- : --------	---  B  08:00 - 08:8E   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:52:919  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  02   C9 C1
+00:10:53:075  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8C 10 00 00 00 A5 C3 00 00 98
+00:10:53:086  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8C 49 32 7F 00
+00:10:53:120  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8C 00 83
+00:10:53:124  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:53:130  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  09   03 12 00 00 00 00 04 00 00
+00:10:53:140  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 12 49 03 7F 00
+00:10:53:180  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 12 00 83
+00:10:53:190  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0E   04 1C 19 00 32 1A 00 32 1B 00 32 1C 00 00
+00:10:53:203  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 1C 49 04 7F 00
+00:10:53:240  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 1C 00 83
+00:10:53:250  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0E   14 49 1D 00 00 1E 00 00 1F 00 00 20 00 00
+00:10:53:263  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 49 49 14 7F 00
+00:10:53:300  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 49 00 83
+00:10:53:308  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 A6 10 00 00 00 5A 83 00 FF 24
+00:10:53:315  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  11   15 52 11 C8 00 12 C8 00 13 C8 00 14 00 00 15 00 00
+00:10:53:340  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 A6 00 B2
+00:10:53:347  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 52 49 15 7F 00
+00:10:53:380  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 52 00 83
+00:10:53:390  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  08   16 5C 09 00 14 0B 00 00
+00:10:53:400  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 5C 49 16 7F 00
+00:10:53:422  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  02   CA 02
+00:10:53:430  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 5C 00 83
+00:10:53:722  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:53:847  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  11   80 4F 28 21 00 23 1D 00 26 20 00 00 00 00 00 00 43
+00:10:53:890  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 4F 00 80
+00:10:53:899  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  12   93 4F 00 4C 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00:10:53:941  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 4F 00 93
+00:10:53:950  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  12   95 4F A0 00 85 00 8C 00 75 00 98 00 83 00 00 00 00 00
+00:10:53:990  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 4F 00 95
+00:10:53:999  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  12   96 4F 0F 01 32 01 00 00 00 00 00 00 00 00 00 00 01 00
+00:10:54:040  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 4F 00 96
+00:10:54:047  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  04   82 50 00 00
+00:10:54:080  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 50 00 82
+00:10:54:320  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:54:421  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8D 01 00 00 00 A5 3C 86 39 60
+00:10:54:432  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8D 49 32 7F 00
+00:10:54:470  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8D 00 83
+00:10:54:629  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 A7 01 00 00 00 5A 86 00 00 20
+00:10:54:670  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 A7 00 B2
+00:10:54:920  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:55:522  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:55:722  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8E 02 00 00 00 A5 3C 82 39 64
+00:10:55:733  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8E 49 32 7F 00
+00:10:55:770  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8E 00 83
+00:10:55:931  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 A8 02 00 00 00 5A 82 00 00 24
+00:10:55:970  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 A8 00 B2
+00:10:56:121  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:56:463  FujiDnKB - VM ROOT  : Flap    	---  B  09:31 - 08:00   0E  06   81 00 00 00 08 00
+A0:31,00FF
+00:10:56:722  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:56:799  VM ROOT  - -------- : --------	---  B  08:00 - 08:8F   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:56:821  VM ROOT  - -------- : --------	---  B  08:00 - 08:90   0E  11   C0 C0 90 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:56:841  VM ROOT  - -------- : --------	---  B  08:00 - 08:91   0E  11   C0 C0 82 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:56:861  VM ROOT  - -------- : --------	---  B  08:00 - 08:92   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:56:881  VM ROOT  - -------- : --------	---  B  08:00 - 08:93   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:56:900  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  02   C9 C1
+00:10:57:022  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8F 03 00 00 00 A5 3C 81 39 65
+00:10:57:033  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8F 49 32 7F 00
+00:10:57:070  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8F 00 83
+00:10:57:199  VM ROOT  - HEAD     : $: 0010	---  B  08:00 - 09:01   0E  08   E0 C0 F9 FF FF FF FF FF
+00:10:57:209  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E2 FE
+05:00,000A
+00:10:57:220  VM ROOT  - HEAD     : Beep    	---  B  08:00 - 09:01   0E  03   E5 03 01
+00:10:57:231  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 A9 03 00 00 00 5A 81 00 00 25
+00:10:57:270  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 A9 00 B2
+00:10:57:295  VM ROOT  - -------- : --------	---  B  08:00 - 08:80   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:311  VM ROOT  - -------- : --------	---  B  08:00 - 08:81   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:321  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:57:331  VM ROOT  - -------- : --------	---  B  08:00 - 08:82   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:351  VM ROOT  - -------- : --------	--L  B  08:00 - 08:83   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:366  VM ROOT  - -------- : --------	---  B  08:00 - 08:83   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:381  VM ROOT  - -------- : --------	---  B  08:00 - 08:84   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:401  VM ROOT  - -------- : --------	---  B  08:00 - 08:85   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:421  VM ROOT  - -------- : --------	---  B  08:00 - 08:86   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:440  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  09   03 13 00 00 00 00 04 00 00
+00:10:57:450  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 13 49 03 7F 00
+00:10:57:455  VM ROOT  - -------- : --------	---  B  08:00 - 08:87   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:480  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 13 00 83
+00:10:57:491  VM ROOT  - -------- : --------	---  B  08:00 - 08:88   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:511  VM ROOT  - -------- : --------	---  B  08:00 - 08:89   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:531  VM ROOT  - -------- : --------	---  B  08:00 - 08:8A   0E  11   C0 C0 92 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:551  VM ROOT  - -------- : --------	---  B  08:00 - 08:8B   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:571  VM ROOT  - -------- : --------	---  B  08:00 - 08:8C   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:591  VM ROOT  - -------- : --------	---  B  08:00 - 08:8D   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:611  VM ROOT  - -------- : --------	---  B  08:00 - 08:80   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:631  VM ROOT  - -------- : --------	---  B  08:00 - 08:81   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:651  VM ROOT  - -------- : --------	---  B  08:00 - 08:82   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:671  VM ROOT  - -------- : --------	---  B  08:00 - 08:83   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:691  VM ROOT  - -------- : --------	---  B  08:00 - 08:84   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:709  VM ROOT  - VEND NEW : DD ARM  	---  B  08:00 - 0E:C0   0E  02   38 12
+15:0A,0000
+00:10:57:721  VM ROOT  - -------- : --------	---  B  08:00 - 08:85   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:741  VM ROOT  - -------- : --------	---  B  08:00 - 08:86   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:761  VM ROOT  - -------- : --------	---  B  08:00 - 08:87   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:781  VM ROOT  - -------- : --------	--L  B  08:00 - 08:88   0E  11   C0 C0 B0 F9 FF FF FF FF FF
+00:10:57:787  VM ROOT  - -------- : --------	---  B  08:00 - 08:88   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:801  VM ROOT  - -------- : --------	---  B  08:00 - 08:89   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:821  VM ROOT  - -------- : --------	---  B  08:00 - 08:8A   0E  11   C0 C0 92 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:841  VM ROOT  - -------- : --------	---  B  08:00 - 08:8B   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:861  VM ROOT  - -------- : --------	---  B  08:00 - 08:8C   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:881  VM ROOT  - -------- : --------	---  B  08:00 - 08:8D   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:901  VM ROOT  - -------- : --------	---  B  08:00 - 08:8E   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:921  VM ROOT  - -------- : --------	---  B  08:00 - 08:8F   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:930  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:57:941  VM ROOT  - -------- : --------	---  B  08:00 - 08:90   0E  11   C0 C0 90 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:961  VM ROOT  - -------- : --------	---  B  08:00 - 08:91   0E  11   C0 C0 82 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:57:981  VM ROOT  - -------- : --------	---  B  08:00 - 08:80   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:001  VM ROOT  - -------- : --------	---  B  08:00 - 08:81   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:021  VM ROOT  - -------- : --------	---  B  08:00 - 08:82   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:041  VM ROOT  - -------- : --------	---  B  08:00 - 08:83   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:061  VM ROOT  - -------- : --------	---  B  08:00 - 08:84   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:081  VM ROOT  - -------- : --------	---  B  08:00 - 08:85   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:101  VM ROOT  - -------- : --------	---  B  08:00 - 08:86   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:121  VM ROOT  - -------- : --------	---  B  08:00 - 08:87   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:140  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 89 04 00 00 00 A5 C3 00 00 98
+00:10:58:151  VM ROOT  - -------- : --------	---  B  08:00 - 08:88   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:160  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 89 49 32 7F 00
+00:10:58:171  VM ROOT  - -------- : --------	---  B  08:00 - 08:89   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:200  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 89 00 83
+00:10:58:211  VM ROOT  - -------- : --------	---  B  08:00 - 08:8A   0E  11   C0 C0 92 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:231  VM ROOT  - -------- : --------	---  B  08:00 - 08:8B   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:251  VM ROOT  - -------- : --------	---  B  08:00 - 08:8C   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:271  VM ROOT  - -------- : --------	---  B  08:00 - 08:8D   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:291  VM ROOT  - -------- : --------	---  B  08:00 - 08:8E   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:311  VM ROOT  - -------- : --------	---  B  08:00 - 08:8F   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:331  VM ROOT  - -------- : --------	---  B  08:00 - 08:80   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:349  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 AA 04 00 00 00 5A 83 00 FF 24
+00:10:58:356  VM ROOT  - -------- : --------	---  B  08:00 - 08:81   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:381  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 AA 00 B2
+00:10:58:390  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8A 05 00 00 00 A5 3C 84 39 62
+00:10:58:401  VM ROOT  - -------- : --------	---  B  08:00 - 08:82   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:410  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8A 49 32 7F 00
+00:10:58:421  VM ROOT  - -------- : --------	---  B  08:00 - 08:83   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:450  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8A 00 83
+00:10:58:461  VM ROOT  - -------- : --------	---  B  08:00 - 08:84   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:481  VM ROOT  - -------- : --------	---  B  08:00 - 08:85   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:501  VM ROOT  - -------- : --------	---  B  08:00 - 08:86   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:521  VM ROOT  - -------- : --------	---  B  08:00 - 08:87   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:530  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:58:541  VM ROOT  - -------- : --------	---  B  08:00 - 08:88   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:561  VM ROOT  - -------- : --------	---  B  08:00 - 08:89   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:581  VM ROOT  - -------- : --------	---  B  08:00 - 08:8A   0E  11   C0 C0 92 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:601  VM ROOT  - -------- : --------	---  B  08:00 - 08:8B   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:621  VM ROOT  - -------- : --------	---  B  08:00 - 08:8C   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:641  VM ROOT  - -------- : --------	---  B  08:00 - 08:8D   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:661  VM ROOT  - -------- : --------	---  B  08:00 - 08:8E   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:681  VM ROOT  - -------- : --------	---  B  08:00 - 08:8F   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:701  VM ROOT  - -------- : --------	---  B  08:00 - 08:90   0E  11   C0 C0 90 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:721  VM ROOT  - -------- : --------	---  B  08:00 - 08:91   0E  11   C0 C0 82 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:741  VM ROOT  - -------- : --------	---  B  08:00 - 08:92   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:750  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 AB 05 00 00 00 5A 84 1C 01 05
+00:10:58:761  VM ROOT  - -------- : --------	---  B  08:00 - 08:93   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:790  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 AB 00 B2
+00:10:58:801  VM ROOT  - -------- : --------	---  B  08:00 - 08:94   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:821  VM ROOT  - -------- : --------	---  B  08:00 - 08:95   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:841  VM ROOT  - -------- : --------	---  B  08:00 - 08:96   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:861  VM ROOT  - -------- : --------	---  B  08:00 - 08:97   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:881  VM ROOT  - -------- : --------	---  B  08:00 - 08:98   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:901  VM ROOT  - -------- : --------	---  B  08:00 - 08:99   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:921  VM ROOT  - -------- : --------	---  B  08:00 - 08:9A   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:941  VM ROOT  - -------- : --------	---  B  08:00 - 08:9B   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:961  VM ROOT  - -------- : --------	---  B  08:00 - 08:9C   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:58:981  VM ROOT  - -------- : --------	---  B  08:00 - 08:9D   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:000  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  02   C9 C1
+00:10:59:121  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:59:251  VM ROOT  - HEAD     : Beep    	---  B  08:00 - 09:01   0E  03   E5 03 01
+00:10:59:299  VM ROOT  - HEAD     : $: 0110	---  B  08:00 - 09:01   0E  08   E0 C0 F9 F9 FF FF FF FF
+05:00,006E
+00:10:59:340  VM ROOT  - -------- : --------	---  B  08:00 - 08:80   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:361  VM ROOT  - -------- : --------	---  B  08:00 - 08:81   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:381  VM ROOT  - -------- : --------	---  B  08:00 - 08:82   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:400  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  09   50 FF FF FE EF FF FF FF FF
+00:10:59:411  VM ROOT  - -------- : --------	---  B  08:00 - 08:83   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:431  VM ROOT  - -------- : --------	---  B  08:00 - 08:84   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:451  VM ROOT  - -------- : --------	---  B  08:00 - 08:85   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:471  VM ROOT  - -------- : --------	---  B  08:00 - 08:86   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:491  VM ROOT  - -------- : --------	---  B  08:00 - 08:87   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:511  VM ROOT  - -------- : --------	---  B  08:00 - 08:88   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:531  VM ROOT  - -------- : --------	---  B  08:00 - 08:89   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:551  VM ROOT  - -------- : --------	---  B  08:00 - 08:8A   0E  11   C0 C0 92 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:571  VM ROOT  - -------- : --------	---  B  08:00 - 08:8B   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:591  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  12   17 9E 00 00 01 F4 00 00 01 F4 00 00 01 F4 00 00 01 F4
+00:10:59:606  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 9E 49 17 7F 00
+00:10:59:611  VM ROOT  - -------- : --------	---  B  08:00 - 08:8C   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:640  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 9E 00 83
+00:10:59:651  VM ROOT  - -------- : --------	---  B  08:00 - 08:8D   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:671  VM ROOT  - -------- : --------	---  B  08:00 - 08:8E   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:691  VM ROOT  - -------- : --------	---  B  08:00 - 08:8F   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:711  VM ROOT  - -------- : --------	---  B  08:00 - 08:90   0E  11   C0 C0 90 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:722  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:10:59:731  VM ROOT  - -------- : --------	---  B  08:00 - 08:91   0E  11   C0 C0 82 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:751  VM ROOT  - -------- : --------	---  B  08:00 - 08:92   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:771  VM ROOT  - -------- : --------	---  B  08:00 - 08:93   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:791  VM ROOT  - -------- : --------	---  B  08:00 - 08:94   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:811  VM ROOT  - -------- : --------	---  B  08:00 - 08:95   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:830  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8B 06 00 00 00 A5 3C 88 39 5E
+00:10:59:841  VM ROOT  - -------- : --------	---  B  08:00 - 08:96   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:850  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8B 49 32 7F 00
+00:10:59:861  VM ROOT  - -------- : --------	--L  B  08:00 - 08:97   0E  11   C0 BF BF BF BF FF FF FF
+00:10:59:866  VM ROOT  - -------- : --------	---  B  08:00 - 08:97   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:890  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8B 00 83
+00:10:59:901  VM ROOT  - -------- : --------	---  B  08:00 - 08:98   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:921  VM ROOT  - -------- : --------	---  B  08:00 - 08:99   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:941  VM ROOT  - -------- : --------	---  B  08:00 - 08:9A   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:961  VM ROOT  - -------- : --------	---  B  08:00 - 08:9B   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:10:59:981  VM ROOT  - -------- : --------	---  B  08:00 - 08:9C   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:00:001  VM ROOT  - -------- : --------	---  B  08:00 - 08:9D   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:00:020  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  02   C9 C1
+00:11:00:038  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 AC 06 00 00 00 5A 88 B6 01 67
+00:11:00:070  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 AC 00 B2
+00:11:00:322  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+AA:01,F100
+00:11:00:922  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:01:122  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8C 07 00 00 00 A5 3C 8A 39 5C
+00:11:01:133  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8C 49 32 7F 00
+00:11:01:170  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8C 00 83
+00:11:01:272  VM ROOT  - HEAD     : Beep    	---  B  08:00 - 09:01   0E  03   E5 03 01
+00:11:01:298  VM ROOT  - HEAD     : $: 0120	---  B  08:00 - 09:01   0E  08   E0 C0 A4 F9 FF FF FF FF
+05:00,0078
+00:11:01:330  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 AD 07 00 00 00 5A 8A 00 00 1C
+00:11:01:361  VM ROOT  - -------- : --------	---  B  08:00 - 08:80   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:379  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 AD 00 B2
+00:11:01:391  VM ROOT  - -------- : --------	---  B  08:00 - 08:81   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:411  VM ROOT  - -------- : --------	---  B  08:00 - 08:82   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:420  FujiDnKB - VM ROOT  : Flap    	---  B  09:31 - 08:00   0E  06   81 00 00 00 08 00
+00:11:01:431  VM ROOT  - -------- : --------	---  B  08:00 - 08:83   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+A0:31,00FF
+00:11:01:451  -------- - -------- : --------	---  B  08:20 - 08:84   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:471  VM ROOT  - -------- : --------	---  B  08:00 - 08:85   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:491  VM ROOT  - -------- : --------	---  B  08:00 - 08:86   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:511  VM ROOT  - -------- : --------	---  B  08:00 - 08:87   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:523  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:01:531  VM ROOT  - -------- : --------	---  B  08:00 - 08:88   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:551  VM ROOT  - -------- : --------	---  B  08:00 - 08:89   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:571  VM ROOT  - -------- : --------	---  B  08:00 - 08:8A   0E  11   C0 C0 92 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:591  VM ROOT  - -------- : --------	---  B  08:00 - 08:8B   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:611  VM ROOT  - -------- : --------	---  B  08:00 - 08:8C   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:631  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  12   17 9F 00 00 01 F4 00 00 01 F4 00 00 01 F4 00 00 01 F4
+00:11:01:645  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 9F 49 17 7F 00
+00:11:01:651  VM ROOT  - -------- : --------	---  B  08:00 - 08:8D   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:680  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 9F 00 83
+00:11:01:691  VM ROOT  - -------- : --------	---  B  08:00 - 08:8E   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:711  VM ROOT  - -------- : --------	---  B  08:00 - 08:8F   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:731  VM ROOT  - -------- : --------	---  B  08:00 - 08:90   0E  11   C0 C0 90 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:751  VM ROOT  - -------- : --------	---  B  08:00 - 08:91   0E  11   C0 C0 82 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:771  VM ROOT  - -------- : --------	---  B  08:00 - 08:92   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:791  VM ROOT  - -------- : --------	---  B  08:00 - 08:93   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:811  VM ROOT  - -------- : --------	---  B  08:00 - 08:94   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:831  VM ROOT  - -------- : --------	--L  B  08:00 - 08:95   0E  11   C0 BF BF BF BF FF FF FF
+00:11:01:836  VM ROOT  - -------- : --------	---  B  08:00 - 08:95   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:851  VM ROOT  - -------- : --------	---  B  08:00 - 08:96   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:871  VM ROOT  - -------- : --------	---  B  08:00 - 08:97   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:891  VM ROOT  - -------- : --------	---  B  08:00 - 08:98   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:911  VM ROOT  - -------- : --------	---  B  08:00 - 08:99   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:931  VM ROOT  - -------- : --------	---  B  08:00 - 08:9A   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:951  VM ROOT  - -------- : --------	---  B  08:00 - 08:9B   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:971  VM ROOT  - -------- : --------	---  B  08:00 - 08:9C   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:01:991  VM ROOT  - -------- : --------	---  B  08:00 - 08:9D   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:02:009  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  02   C9 C1
+00:11:02:122  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:02:722  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:03:172  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8D 08 00 00 00 A5 C3 00 00 98
+00:11:03:183  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8D 49 32 7F 00
+00:11:03:220  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8D 00 83
+00:11:03:322  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:03:380  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 AE 08 00 00 00 5A 83 00 FF 24
+00:11:03:420  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 AE 00 B2
+00:11:03:674  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  12   81 50 1E 00 08 FE FF FF FF FF 00 80 FF FF FF FF BF FF
+00:11:03:710  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 50 00 81
+00:11:03:718  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  12   94 4F FF FF 6F FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:03:760  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 4F 00 94
+00:11:03:922  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:04:473  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8E 09 00 00 00 A5 3C 86 39 60
+00:11:04:484  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8E 49 32 7F 00
+00:11:04:520  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8E 00 83
+00:11:04:524  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:04:680  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 AF 09 00 00 00 5A 86 00 00 20
+00:11:04:720  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 AF 00 B2
+00:11:05:122  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:05:631  VM ROOT  - HEAD     : Beep    	---  B  08:00 - 09:01   0E  03   E5 03 01
+00:11:05:718  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  09   50 FF EA BE AF FA FF FF FF
+00:11:05:724  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:05:730  VM ROOT  - HEAD     : $: 0130	---  B  08:00 - 09:01   0E  08   E0 C0 B0 F9 FF FF FF FF
+00:11:05:751  VM ROOT  - -------- : --------	---  B  08:00 - 08:80   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+05:00,0082
+00:11:05:771  VM ROOT  - -------- : --------	---  B  08:00 - 08:81   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:05:790  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8F 0A 00 00 00 A5 3C 82 39 64
+00:11:05:801  VM ROOT  - -------- : --------	---  B  08:00 - 08:82   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:05:810  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8F 49 32 7F 00
+00:11:05:821  VM ROOT  - -------- : --------	---  B  08:00 - 08:83   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:05:850  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8F 00 83
+00:11:05:861  VM ROOT  - -------- : --------	---  B  08:00 - 08:84   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:05:881  VM ROOT  - -------- : --------	---  B  08:00 - 08:85   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:05:901  VM ROOT  - -------- : --------	---  B  08:00 - 08:86   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:05:921  VM ROOT  - -------- : --------	---  B  08:00 - 08:87   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:05:941  VM ROOT  - -------- : --------	---  B  08:00 - 08:88   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:05:961  VM ROOT  - -------- : --------	---  B  08:00 - 08:89   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:05:981  VM ROOT  - -------- : --------	---  B  08:00 - 08:8A   0E  11   C0 C0 92 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:05:998  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 B0 0A 00 00 00 5A 82 00 00 24
+00:11:06:004  VM ROOT  - -------- : --------	---  B  08:00 - 08:8B   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:030  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 B0 00 B2
+00:11:06:041  VM ROOT  - -------- : --------	---  B  08:00 - 08:8C   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:061  VM ROOT  - -------- : --------	---  B  08:00 - 08:8D   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:081  VM ROOT  - -------- : --------	---  B  08:00 - 08:8E   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:101  VM ROOT  - -------- : --------	---  B  08:00 - 08:8F   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:121  VM ROOT  - -------- : --------	---  B  08:00 - 08:90   0E  11   C0 C0 90 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:141  VM ROOT  - -------- : --------	---  B  08:00 - 08:91   0E  11   C0 C0 82 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:161  VM ROOT  - -------- : --------	--L  B  08:00 - 08:92   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:176  VM ROOT  - -------- : --------	---  B  08:00 - 08:92   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:191  VM ROOT  - -------- : --------	---  B  08:00 - 08:93   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:211  VM ROOT  - -------- : --------	---  B  08:00 - 08:94   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:231  VM ROOT  - -------- : --------	---  B  08:00 - 08:95   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:251  VM ROOT  - -------- : --------	---  B  08:00 - 08:96   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:271  VM ROOT  - -------- : --------	---  B  08:00 - 08:97   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:291  VM ROOT  - -------- : --------	---  B  08:00 - 08:98   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:311  VM ROOT  - -------- : --------	---  B  08:00 - 08:99   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:322  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:06:331  VM ROOT  - -------- : --------	---  B  08:00 - 08:9A   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:340  FujiDnKB - VM ROOT  : Flap    	---  B  09:31 - 08:00   0E  06   81 00 00 00 08 00
+00:11:06:351  VM ROOT  - -------- : --------	---  B  08:00 - 08:9B   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+A0:31,00FF
+00:11:06:371  VM ROOT  - -------- : --------	---  B  08:00 - 08:9C   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:391  VM ROOT  - -------- : --------	---  B  08:00 - 08:9D   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:06:409  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  02   C9 C1
+00:11:06:923  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:07:072  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 89 0B 00 00 00 A5 3C 81 39 65
+00:11:07:083  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 89 49 32 7F 00
+00:11:07:120  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 89 00 83
+00:11:07:130  VM ROOT  - FujiDnKB : --------	---  B  08:00 - 09:31   0E  07   04 00 00 00 00 00 40
+00:11:07:280  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 B1 0B 00 00 00 5A 81 00 00 25
+00:11:07:320  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 B1 00 B2
+00:11:07:522  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:08:042  VM ROOT  - HEAD     : Beep    	---  B  08:00 - 09:01   0E  03   E5 03 01
+00:11:08:122  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:08:128  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  09   50 FF AA BE AF FA FF FF FF
+00:11:08:140  VM ROOT  - HEAD     : $: 0140	---  B  08:00 - 09:01   0E  08   E0 C0 99 F9 FF FF FF FF
+00:11:08:151  VM ROOT  - -------- : --------	---  B  08:00 - 08:80   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+05:00,008C
+00:11:08:171  VM ROOT  - -------- : --------	---  B  08:00 - 08:81   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:190  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  09   03 14 00 00 00 00 04 00 00
+00:11:08:200  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 14 49 03 7F 00
+00:11:08:204  VM ROOT  - -------- : --------	---  B  08:00 - 08:82   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:230  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 14 00 83
+00:11:08:240  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8A 0C 00 00 00 A5 C3 00 00 98
+00:11:08:251  VM ROOT  - -------- : --------	---  B  08:00 - 08:83   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:260  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8A 49 32 7F 00
+00:11:08:270  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  09   50 FF AA AE AB FA FF FF FF
+00:11:08:291  VM ROOT  - -------- : --------	---  B  08:00 - 08:84   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:309  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8A 00 83
+00:11:08:320  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0E   04 1D 19 00 32 1A 00 32 1B 00 32 1C 00 00
+00:11:08:333  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 1D 49 04 7F 00
+00:11:08:341  VM ROOT  - -------- : --------	---  B  08:00 - 08:85   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:370  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 1D 00 83
+00:11:08:380  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0E   14 4A 1D 00 00 1E 00 00 1F 00 00 20 00 00
+00:11:08:393  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 4A 49 14 7F 00
+00:11:08:401  VM ROOT  - -------- : --------	---  B  08:00 - 08:86   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:430  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 4A 00 83
+00:11:08:441  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  11   15 53 11 C8 00 12 C8 00 13 C8 00 14 00 00 15 00 00
+00:11:08:450  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 B2 0C 00 00 00 5A 83 00 FF 24
+00:11:08:461  VM ROOT  - -------- : --------	---  B  08:00 - 08:87   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:490  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 B2 00 B2
+00:11:08:497  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 53 49 15 7F 00
+00:11:08:502  VM ROOT  - -------- : --------	---  B  08:00 - 08:88   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:530  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 53 00 83
+00:11:08:540  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8B 0D 00 00 00 A5 3C 84 39 62
+00:11:08:551  VM ROOT  - -------- : --------	---  B  08:00 - 08:89   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:560  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8B 49 32 7F 00
+00:11:08:571  VM ROOT  - -------- : --------	---  B  08:00 - 08:8A   0E  11   C0 C0 92 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:600  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8B 00 83
+00:11:08:610  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  08   16 5D 09 00 14 0B 00 00
+00:11:08:619  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 5D 49 16 7F 00
+00:11:08:624  VM ROOT  - -------- : --------	---  B  08:00 - 08:8B   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:650  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 5D 00 83
+00:11:08:661  VM ROOT  - -------- : --------	---  B  08:00 - 08:8C   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:681  VM ROOT  - -------- : --------	---  B  08:00 - 08:8D   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:701  VM ROOT  - -------- : --------	---  B  08:00 - 08:8E   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:721  VM ROOT  - -------- : --------	---  B  08:00 - 08:8F   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:730  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:08:741  VM ROOT  - -------- : --------	---  B  08:00 - 08:90   0E  11   C0 C0 90 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:761  VM ROOT  - -------- : --------	---  B  08:00 - 08:91   0E  11   C0 C0 82 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:781  VM ROOT  - -------- : --------	---  B  08:00 - 08:92   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:793  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  11   80 50 28 21 00 23 1D 00 26 20 00 00 00 00 00 00 43
+00:11:08:802  VM ROOT  - -------- : --------	---  B  08:00 - 08:93   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:830  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 50 00 80
+00:11:08:838  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  12   93 50 00 4C 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00:11:08:848  VM ROOT  - -------- : --------	---  B  08:00 - 08:94   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:880  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 50 00 93
+00:11:08:888  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 B3 0D 00 00 00 5A 84 1C 01 05
+00:11:08:894  VM ROOT  - -------- : --------	---  B  08:00 - 08:95   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:920  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 B3 00 B2
+00:11:08:928  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  12   95 50 A0 00 85 00 8C 00 75 00 99 00 83 00 00 00 00 00
+00:11:08:938  VM ROOT  - -------- : --------	---  B  08:00 - 08:96   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:08:970  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 50 00 95
+00:11:08:979  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  12   96 50 0F 01 32 01 00 00 00 00 00 00 00 00 01 00 01 00
+00:11:08:988  VM ROOT  - -------- : --------	---  B  08:00 - 08:97   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:09:020  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 50 00 96
+00:11:09:030  VM ROOT  - -------- : --------	---  B  08:00 - 08:98   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:09:039  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  04   82 51 00 00
+00:11:09:051  VM ROOT  - -------- : --------	---  B  08:00 - 08:99   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:09:080  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 51 00 82
+00:11:09:091  VM ROOT  - -------- : --------	---  B  08:00 - 08:9A   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:09:111  VM ROOT  - -------- : --------	---  B  08:00 - 08:9B   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:09:131  VM ROOT  - -------- : --------	---  B  08:00 - 08:9C   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:09:151  VM ROOT  - -------- : --------	---  B  08:00 - 08:9D   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:09:169  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  02   C9 C1
+00:11:09:322  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:09:922  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:09:971  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8C 0E 00 00 00 A5 3C 88 39 5E
+00:11:09:982  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8C 49 32 7F 00
+00:11:10:020  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8C 00 83
+00:11:10:129  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  11   CB 00 55 55 15 55 00 00 00 00 00 00 00 00 00 00 00
+00:11:10:180  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 B4 0E 00 00 00 5A 88 B6 01 67
+00:11:10:220  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 B4 00 B2
+00:11:10:521  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+AA:01,C500
+00:11:11:122  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:11:272  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8D 0F 00 00 00 A5 3C 8A 39 5C
+00:11:11:279  FujiDnKB - VM ROOT  : Flap    	---  B  09:31 - 08:00   0E  06   81 00 00 00 08 00
+00:11:11:283  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8D 49 32 7F 00
+A0:31,00FF
+00:11:11:330  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8D 00 83
+00:11:11:480  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 B5 0F 00 00 00 5A 8A 00 00 1C
+00:11:11:520  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 B5 00 B2
+00:11:11:723  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:12:322  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:12:473  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  09   03 15 00 00 00 00 04 00 00
+00:11:12:483  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 15 49 03 7F 00
+00:11:12:520  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 15 00 83
+00:11:12:923  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:13:129  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  11   E3 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00:11:13:151  VM ROOT  - -------- : --------	---  B  08:00 - 08:99   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:13:171  VM ROOT  - -------- : --------	---  B  08:00 - 08:9A   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:13:191  VM ROOT  - -------- : --------	---  B  08:00 - 08:9B   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:13:211  VM ROOT  - -------- : --------	--L  B  08:00 - 08:9C   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF
+00:11:13:218  VM ROOT  - -------- : --------	---  B  08:00 - 08:9C   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:13:241  VM ROOT  - -------- : --------	---  B  08:00 - 08:9D   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:13:259  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  02   C9 C1
+00:11:13:272  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8E 10 00 00 00 A5 C3 00 00 98
+00:11:13:283  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8E 49 32 7F 00
+00:11:13:320  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8E 00 83
+00:11:13:480  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 B6 10 00 00 00 5A 83 00 FF 24
+00:11:13:520  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 B6 00 B2
+00:11:13:524  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:13:623  Drnk BTN - VM ROOT  : BTN:05:P	---  B  08:84 - 08:00   0E  01   94
+04:05,0050
+00:11:13:634  VM ROOT  - HEAD     : Beep    	---  B  08:00 - 09:01   0E  03   E5 03 01
+00:11:13:650  VM ROOT  - VEND NEW : DD NEW $	---  B  08:00 - 0E:C0   0E  07   35 00 00 12 51 05 10
+00:11:13:728  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  09   50 FF BF FF FF FF FF FF FF
+00:11:13:794  Drnk BTN - VM ROOT  : BTN:05:R	---  B  08:84 - 08:00   0E  01   9C
+04:05,0052
+00:11:14:011  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0A   02 09 06 00 07 00 01 03 00 0F
+00:11:14:021  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   84 09 01 00 00 00
+00:11:14:050  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 09 00 84
+00:11:14:057  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   84 09 02 00 00 00
+00:11:14:090  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 09 00 84
+00:11:14:122  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:14:523  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8F 01 00 00 00 A5 3C 86 39 60
+00:11:14:534  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8F 49 32 7F 00
+00:11:14:570  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8F 00 83
+00:11:14:622  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  12   17 99 00 00 01 F4 00 00 01 F4 00 00 01 F4 00 00 01 F4
+00:11:14:637  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 99 49 17 7F 00
+00:11:14:670  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 99 00 83
+00:11:14:721  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:14:964  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   84 09 34 00 01 1C
+00:11:15:000  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 09 00 84
+00:11:15:008  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 B7 01 00 00 00 5A 86 00 00 20
+00:11:15:040  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 B7 00 B2
+00:11:15:050  VM ROOT  - HEAD     : $: 0000	---  B  08:00 - 09:01   0E  08   E0 FF FF FF FF FF FF FF
+00:11:15:059  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E2 FF
+05:00,0000
+00:11:15:109  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  12   81 51 1E 00 08 FE FF FF FF FF 00 80 FF FF FF FF BF FF
+00:11:15:150  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 51 00 81
+00:11:15:158  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  12   94 50 BF FF 6F FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:15:168  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  09   50 FF FF FF FF FF FF FF FF
+00:11:15:200  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 50 00 94
+00:11:15:322  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:15:380  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0D   90 17 00 00 00 0C 00 00 00 00 00 0C 14
+00:11:15:388  VM ROOT  - VEND NEW : CONFIRM 	---  B  08:00 - 0E:C0   0E  02   39 01
+11:12,5105
+00:11:15:420  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 17 00 90
+00:11:15:448  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E1 F8
+00:11:15:923  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:15:950  VM ROOT  - -------- : --------	---  B  08:00 - 08:80   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:15:971  VM ROOT  - -------- : --------	---  B  08:00 - 08:81   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:15:991  VM ROOT  - -------- : --------	---  B  08:00 - 08:82   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:011  VM ROOT  - -------- : --------	---  B  08:00 - 08:83   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:031  VM ROOT  - -------- : --------	---  B  08:00 - 08:84   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:051  VM ROOT  - -------- : --------	---  B  08:00 - 08:85   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:071  VM ROOT  - -------- : --------	---  B  08:00 - 08:86   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:091  VM ROOT  - -------- : --------	---  B  08:00 - 08:87   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:111  VM ROOT  - -------- : --------	---  B  08:00 - 08:88   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:131  VM ROOT  - -------- : --------	---  B  08:00 - 08:89   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:151  VM ROOT  - -------- : --------	---  B  08:00 - 08:8A   0E  11   C0 C0 92 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:171  VM ROOT  - -------- : --------	---  B  08:00 - 08:8B   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:191  VM ROOT  - -------- : --------	---  B  08:00 - 08:8C   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:211  VM ROOT  - -------- : --------	---  B  08:00 - 08:8D   0E  11   C0 C0 C0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:227  FujiDnKB - VM ROOT  : Flap    	---  B  09:31 - 08:00   0E  06   81 00 00 00 08 00
+00:11:16:232  VM ROOT  - -------- : --------	---  B  08:00 - 08:8E   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+A0:31,00FF
+00:11:16:251  VM ROOT  - -------- : --------	---  B  08:00 - 08:8F   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:271  VM ROOT  - -------- : --------	---  B  08:00 - 08:90   0E  11   C0 C0 90 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:291  VM ROOT  - -------- : --------	---  B  08:00 - 08:91   0E  11   C0 C0 82 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:311  VM ROOT  - -------- : --------	---  B  08:00 - 08:92   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:331  VM ROOT  - -------- : --------	---  B  08:00 - 08:93   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:351  VM ROOT  - -------- : --------	---  B  08:00 - 08:94   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:371  VM ROOT  - -------- : --------	---  B  08:00 - 08:95   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:390  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 89 02 00 00 00 A5 3C 82 39 64
+00:11:16:401  VM ROOT  - -------- : --------	---  B  08:00 - 08:96   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:410  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 89 49 32 7F 00
+00:11:16:421  VM ROOT  - -------- : --------	---  B  08:00 - 08:97   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:450  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 89 00 83
+00:11:16:461  VM ROOT  - -------- : --------	---  B  08:00 - 08:98   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:479  VM ROOT  - VEND NEW : --------	---  B  08:00 - 0E:C0   0E  02   38 10
+00:11:16:491  VM ROOT  - -------- : --------	---  B  08:00 - 08:99   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:511  VM ROOT  - -------- : --------	---  B  08:00 - 08:9A   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:522  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:16:531  VM ROOT  - -------- : --------	---  B  08:00 - 08:9B   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:551  VM ROOT  - -------- : --------	---  B  08:00 - 08:9C   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:571  VM ROOT  - -------- : --------	---  B  08:00 - 08:9D   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:16:589  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  02   C9 C1
+00:11:16:598  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 B8 02 00 00 00 5A 82 00 00 24
+00:11:16:631  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 B8 00 B2
+00:11:16:671  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  12   17 9A 00 00 01 F4 00 00 01 F4 00 00 01 F4 00 00 01 F4
+00:11:16:685  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 9A 49 17 7F 00
+00:11:16:720  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 9A 00 83
+00:11:17:122  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:17:242  HEAD     - VM ROOT  : --------	---  B  09:01 - 08:00   0E  02   D1 FC
+00:11:17:678  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8A 03 00 00 00 A5 3C 81 39 65
+00:11:17:689  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8A 49 32 7F 00
+00:11:17:720  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8A 00 83
+00:11:17:723  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:17:887  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 B9 03 00 00 00 5A 81 00 00 25
+00:11:17:920  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 B9 00 B2
+00:11:18:321  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8B 04 00 00 00 A5 C3 00 00 98
+00:11:18:328  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:11:18:332  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8B 49 32 7F 00
+00:11:18:348  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E1 FC
+00:11:18:380  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8B 00 83
+00:11:18:529  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 BA 04 00 00 00 5A 83 00 FF 24
+00:11:18:570  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 BA 00 B2
+00:11:18:922  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:11:18:972  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8C 05 00 00 00 A5 3C 84 39 62
+00:11:18:983  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8C 49 32 7F 00
+00:11:19:020  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8C 00 83
+00:11:19:181  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 BB 05 00 00 00 5A 84 1C 01 05
+00:11:19:220  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 BB 00 B2
+00:11:19:348  VM ROOT  - LED 01   : state:4B	---  B  08:00 - 08:80   0E  01   4B
+00:11:19:421  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:19:450  VM ROOT  - LED 02   : state:4B	---  B  08:00 - 08:81   0E  01   4B
+00:11:19:548  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+00:11:19:648  VM ROOT  - LED 04   : state:4B	---  B  08:00 - 08:83   0E  01   4B
+00:11:19:750  VM ROOT  - LED 05   : state:4F	---  B  08:00 - 08:84   0E  01   4F
+00:11:19:822  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:11:19:850  VM ROOT  - LED 06   : state:4F	---  B  08:00 - 08:85   0E  01   4F
+00:11:19:948  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E6 06
+00:11:19:959  VM ROOT  - LED 07   : state:4F	---  B  08:00 - 08:86   0E  01   4F
+00:11:20:022  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:20:048  VM ROOT  - LED 08   : state:4F	---  B  08:00 - 08:87   0E  01   4F
+00:11:20:148  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E3 FE
+00:11:20:159  VM ROOT  - LED 09   : state:4F	---  B  08:00 - 08:88   0E  01   4F
+00:11:20:248  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E2 FF
+00:11:20:259  VM ROOT  - LED 10   : state:4F	---  B  08:00 - 08:89   0E  01   4F
+00:11:20:275  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8D 06 00 00 00 A5 3C 88 39 5E
+00:11:20:286  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8D 49 32 7F 00
+00:11:20:320  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8D 00 83
+00:11:20:348  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E1 FC
+00:11:20:359  VM ROOT  - LED 11   : state:4F	---  B  08:00 - 08:8A   0E  01   4F
+00:11:20:449  VM ROOT  - HEAD     : $: 0000	---  B  08:00 - 09:01   0E  08   E0 FF FF FF FF FF FF FF
+00:11:20:459  VM ROOT  - CLOCK    : --------	---  B  08:00 - 08:18   0E  03   B1 FD FF
+00:11:20:469  VM ROOT  - CLOCK    : --------	---  B  08:00 - 08:18   0E  05   B0 FE FF FF FF
+00:11:20:474  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  03   D3 FD FF
+00:11:20:479  VM ROOT  - LED 12   : state:4F	---  B  08:00 - 08:8B   0E  01   4F
+00:11:20:483  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 BC 06 00 00 00 5A 88 B6 01 67
+00:11:20:530  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 BC 00 B2
+00:11:20:549  VM ROOT  - -------- : --------	---  B  08:00 - 08:80   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:20:569  VM ROOT  - LED 13   : state:4F	---  B  08:00 - 08:8C   0E  01   4F
+00:11:20:580  VM ROOT  - -------- : --------	---  B  08:00 - 08:81   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:20:601  VM ROOT  - -------- : --------	---  B  08:00 - 08:82   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:20:621  VM ROOT  - -------- : --------	---  B  08:00 - 08:83   0E  11   C0 BF BF BF BF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:20:630  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:20:641  VM ROOT  - -------- : --------	---  B  08:00 - 08:84   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:20:659  VM ROOT  - LED 14   : state:4F	---  B  08:00 - 08:8D   0E  01   4F
+00:11:20:669  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  02   C9 C1
+00:11:20:749  VM ROOT  - LED 15   : state:4F	---  B  08:00 - 08:8E   0E  01   4F
+AA:01,A300
+00:11:20:849  VM ROOT  - LED 16   : state:4B	---  B  08:00 - 08:8F   0E  01   4B
+00:11:20:948  VM ROOT  - LED 17   : state:4F	---  B  08:00 - 08:90   0E  01   4F
+00:11:21:050  VM ROOT  - LED 18   : state:4F	---  B  08:00 - 08:91   0E  01   4F
+00:11:21:149  VM ROOT  - LED 19   : state:4F	---  B  08:00 - 08:92   0E  01   4F
+00:11:21:156  FujiDnKB - -------- : --------	--L  B  09:31 - 08:83   0E  11   
+00:11:21:157  -------- - -------- : --------	--L  D  02:E8 - 03:10   08  00   00 00 44 00
+00:11:21:222  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:21:248  VM ROOT  - LED 20   : state:4F	---  B  08:00 - 08:93   0E  01   4F
+00:11:21:350  VM ROOT  - LED 21   : state:4B	---  B  08:00 - 08:94   0E  01   4B
+00:11:21:449  VM ROOT  - -------- : --------	---  D  08:00 - 08:70   0E  0F   E0 FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:21:469  VM ROOT  - -------- : --------	--L  D  08:00 - 08:70   07  FF   FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:21:489  VM ROOT  - LED 22   : state:4B	---  B  08:00 - 08:95   0E  01   4B
+00:11:21:549  VM ROOT  - LED 23   : state:4B	---  B  08:00 - 08:96   0E  01   4B
+00:11:21:576  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8E 07 00 00 00 A5 3C 8A 39 5C
+00:11:21:587  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8E 49 32 7F 00
+00:11:21:620  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8E 00 83
+00:11:21:648  VM ROOT  - LED 24   : state:4B	---  B  08:00 - 08:97   0E  01   4B
+00:11:21:750  VM ROOT  - LED 25   : state:4B	---  B  08:00 - 08:98   0E  01   4B
+00:11:21:784  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 BD 07 00 00 00 5A 8A 00 00 1C
+00:11:21:820  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 BD 00 B2
+00:11:21:823  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:21:850  VM ROOT  - LED 26   : state:4B	---  B  08:00 - 08:99   0E  01   4B
+00:11:21:949  VM ROOT  - LED 27   : state:4B	---  B  08:00 - 08:9A   0E  01   4B
+00:11:22:049  VM ROOT  - LED 28   : state:4B	---  B  08:00 - 08:9B   0E  01   4B
+00:11:22:149  VM ROOT  - LED 29   : state:4B	---  B  08:00 - 08:9C   0E  01   4B
+00:11:22:250  VM ROOT  - LED 30   : state:4B	---  B  08:00 - 08:9D   0E  01   4B
+00:11:22:423  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:22:522  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:11:22:725  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:22:848  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  09   D1 00 00 00 00 00 00 00 00
+00:11:22:860  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  09   50 FF FF FF FF FF FF FF FF
+00:11:22:870  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  09   58 55 FF FF FD FF 55 55 5F
+00:11:23:221  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  09   03 16 00 00 00 00 04 00 00
+00:11:23:231  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 16 49 03 7F 00
+00:11:23:260  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 16 00 83
+00:11:23:270  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0E   04 1E 19 00 32 1A 00 32 1B 00 32 1C 00 00
+00:11:23:283  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 1E 49 04 7F 00
+00:11:23:320  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 1E 00 83
+00:11:23:323  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:23:330  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0E   14 4B 1D 00 00 1E 00 00 1F 00 00 20 00 00
+00:11:23:343  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 4B 49 14 7F 00
+00:11:23:380  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 4B 00 83
+00:11:23:390  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8F 08 00 00 00 A5 C3 00 00 98
+00:11:23:401  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8F 49 32 7F 00
+00:11:23:430  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8F 00 83
+00:11:23:440  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  11   15 54 11 C8 00 12 C8 00 13 C8 00 14 00 00 15 00 00
+00:11:23:455  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 54 49 15 7F 00
+00:11:23:470  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  02   CA 02
+00:11:23:490  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 54 00 83
+00:11:23:500  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  08   16 5E 09 00 14 0B 00 00
+00:11:23:509  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 5E 49 16 7F 00
+00:11:23:540  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 5E 00 83
+00:11:23:598  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 BE 08 00 00 00 5A 83 00 FF 24
+00:11:23:630  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 BE 00 B2
+00:11:23:738  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  11   80 51 28 21 00 23 1D 00 26 20 00 00 00 00 00 00 43
+00:11:23:780  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 51 00 80
+00:11:23:788  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  12   93 51 00 4C 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00:11:23:830  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 51 00 93
+00:11:23:838  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  12   95 51 A0 00 85 00 8E 00 75 00 98 00 83 00 00 00 00 00
+00:11:23:880  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 51 00 95
+00:11:23:888  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  12   96 51 0F 01 32 01 00 00 00 00 00 00 00 00 00 00 00 00
+00:11:23:922  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:23:930  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 51 00 96
+00:11:24:030  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  04   82 52 00 00
+00:11:24:060  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 52 00 82
+00:11:24:522  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:24:559  VM ROOT  - -------- : --------	---  B  08:00 - 08:85   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:24:580  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 89 09 00 00 00 A5 3C 86 39 60
+00:11:24:591  VM ROOT  - -------- : --------	---  B  08:00 - 08:86   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:24:600  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 89 49 32 7F 00
+00:11:24:611  VM ROOT  - -------- : --------	---  B  08:00 - 08:87   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:24:640  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 89 00 83
+00:11:24:651  VM ROOT  - -------- : --------	---  B  08:00 - 08:88   0E  11   C0 C0 B0 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:24:671  VM ROOT  - -------- : --------	---  B  08:00 - 08:89   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:11:24:689  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  02   C9 C1
+00:11:24:788  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 BF 09 00 00 00 5A 86 00 00 20
+00:11:24:821  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 BF 00 B2
+00:11:25:122  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:25:723  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:11:25:873  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  0B   32 8A 0A 00 00 00 A5 3C 82 39 64
+00:11:25:884  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  06   83 8A 49 32 7F 00
+00:11:25:920  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 8A 00 83
+00:11:26:081  VEND     - VM ROOT  : --------	---  B  08:30 - 08:00   0E  0B   B2 C0 0A 00 00 00 5A 82 00 00 24
+00:11:26:095  FujiDnKB - VM ROOT  : Flap    	---  B  09:31 - 08:00   0E  06   81 00 00 00 08 00
+A0:31,00FF
+00:11:26:120  VM ROOT  - VEND     : --------	---  B  08:00 - 08:30   0E  04   05 C0 00 B2
+00:11:26:322  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
