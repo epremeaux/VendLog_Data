@@ -2,7 +2,9 @@
 
 ## Executive Summary
 
-The buy-named logs repeatedly contain this VEND-to-controller frame:
+The strongest current **candidate for a product dropping from a channel into the elevator basket** is an `08:F1` response of the form `08:F1 - 08:00 0E 04 84 <attempt-id> 12 00`, correlated with an earlier `08:00 - 08:F1 0E 0A 02 <attempt-id> <channel> 11 01 0A 50 00 00 00` command. The user reports that the product dropped into the basket in both jam-error videos as well as in `video buy 13.txt`; the jam errors occurred later when the elevator failed to deliver the product to the pickup slot and the machine refunded the coins. This candidate may indicate a drop into the basket, **not successful delivery to the customer**, and needs testing against attempts where no product dropped.
+
+An older candidate, the following VEND-to-controller frame, occurs repeatedly in the buy-named logs:
 
 ```
 08:30 - 08:00   0E  06   83 <CHANNEL> 49 03 07 00
@@ -23,7 +25,7 @@ This is a candidate vending-related response pattern, **not proven evidence that
 
 ### Objective
 
-Determine the exact log message, if one exists, that confirms a product physically dropped, and determine the channel it came from. Analyze the buy-named text files in `logs/Ebina Food`; use the two jam-error files to identify messages that may indicate a failed vend. The operator reports one purchase per buy log and approximately 12 such logs.
+Determine the exact log message, if one exists, that confirms a product physically dropped into the elevator basket, and determine the channel it came from. Analyze the buy-named text files in `logs/Ebina Food`. The operator reports one purchase per buy log and approximately 12 such logs. In both jam-error videos, channel 7 dispensed into the basket, but the elevator failed to deliver it to the pickup slot and the coins were refunded; these are not negative examples for the basket-drop event.
 
 ### Operational sequence supplied by the operator
 
@@ -36,8 +38,8 @@ Treat the display labels (`$: 0004`, etc.) as display values, not the serial-mes
    `UI 10KEY - VM ROOT : idle --- B 09:51 - 08:00 0E 03 30 FF FB`.
    Newer logs may label this key as `10key: A`; older logs may not label the key.
 5. After ACCEPT, the display returns to the selected channel.
-6. During the machine's product search, the display may show `$: 0000`.
-7. When the display returns to the temperature value, infer that the product was dispensed. Therefore, investigate messages after ACCEPT and before this return-to-temperature event.
+6. During the purchase, the display may show `$: 0000`. In the video for channel 13, the user observed this transition as the drink fell into the basket.
+7. When the display returns to the temperature value, the machine has returned to its normal display. This alone does not distinguish successful customer delivery from an elevator failure and refund. Investigate messages after ACCEPT through this transition, and later messages for delivery failure.
 
 The robot may try several physical channels mapped to the entered selection. The channel in a candidate frame, if it is a channel at all, may therefore differ from the user's entered selection. The log named `Buy 14, tries 14 then 15 then finally vends from 13.txt` is a useful known-outcome case.
 
@@ -46,6 +48,10 @@ The robot may try several physical channels mapped to the entered selection. The
 A bus frame has source address, destination address, control field, payload length, and payload. For example, in `09:51 - 08:00 0E 03 30 FF FB`, `09:51` is the source and `08:00` the destination; `0E` is control, `03` is payload length, and `30 FF FB` is payload.
 
 Ignore standalone lines with the `05:00,0009`-style pattern when identifying the relevant bus messages. Do not mistake `$:` display labels or periodic status traffic for a vend event.
+
+### Address observations across machine logs
+
+A search of the machine logs under `logs` found `08:F1` traffic only in `Ebina Food` logs, not in logs from other machines. No machine log contained `08:FA`. These observations are limited to the available logs.
 
 ### Channel-number constraints and hypotheses
 
@@ -172,7 +178,50 @@ A reliable drop marker still requires comparing the candidate frames inside each
 
 These are investigation leads, **not confirmed dispense messages**. The examples below reproduce complete log frames, including direction and both bus addresses.
 
-### 1. Repeated `83` response: strongest lead, not a unique drop signal
+### 1. `08:F1` drop-event candidate and channel correlation
+
+The user observed `video buy 13.txt`: the machine tried channels 14, 15, and then 13; the drink fell into the basket around `00:41:30`. The command's third payload byte matches each channel as a direct hexadecimal value:
+
+```text
+00:40:48:041  08:00 - 08:F1  0E  0A  02 12 0E 11 01 0A 50 00 00 00
+00:41:07:206  08:00 - 08:F1  0E  0A  02 14 0F 11 01 0A 50 00 00 00
+00:41:26:116  08:00 - 08:F1  0E  0A  02 16 0D 11 01 0A 50 00 00 00
+00:41:30:032  08:F1 - 08:00  0E  04  84 16 12 00
+00:41:30:052  08:00 - 08:F1  0E  04  05 16 00 84
+00:41:30:088  08:00 - 09:01  0E  08  E0 FF FF FF FF FF FF FF  $: 0000
+```
+
+The candidate `84 16 12 00` precedes the `0000` display by 56 ms. The shared `16` likely correlates the response to the command whose channel byte is `0D` (13), rather than itself specifying a channel. This correlation is a hypothesis, not a fully decoded protocol.
+
+Working interpretation: `02 <id> <channel> 11 01 0A 50 00 00 00` is a candidate drop request; the third payload byte identifies the channel, and the second is a request/response correlation code. `84 <id> 12 00` is a candidate confirmation that the product dropped into the basket. The remaining request bytes are not yet decoded and must not be discarded from the matching criteria: the five-minute boot log includes `08:00 - 08:F1 0E 0A 02 11 00 E0 00 00 00 00 00 00`, so `02` alone does not uniquely identify a drop request. Boot responses also include `84 <id> 01 00`, `84 <id> 02 00`, and `84 <id> 04 00`, making the `12` status important; `84` alone is not a drop confirmation.
+
+The operator clarified that the jam videos show a successful channel-7 drop into the basket followed by a later elevator-delivery failure and refund. Both logs contain matching command/response pairs:
+
+```text
+video buy 7 jam error.txt:
+00:24:43:214  08:00 - 08:F1  0E  0A  02 17 07 11 01 0A 50 00 00 00
+00:24:47:616  08:F1 - 08:00  0E  04  84 17 12 00
+
+video buy 7 jam error 2.txt:
+00:32:25:604  08:00 - 08:F1  0E  0A  02 12 07 11 01 0A 50 00 00 00
+00:32:29:920  08:F1 - 08:00  0E  04  84 12 12 00
+```
+
+The operator also confirmed that `Video anim + buy 7.txt` went directly to channel 7, dropped the drink, and delivered it normally:
+
+```text
+00:13:34:440  08:00 - 08:F1  0E  0A  02 12 07 11 01 0A 50 00 00 00
+00:13:38:878  08:F1 - 08:00  0E  04  84 12 12 00
+00:13:38:936  08:00 - 09:01  0E  08  E0 FF FF FF FF FF FF FF  $: 0000
+```
+
+In this example, the candidate response precedes the `0000` display by 58 ms.
+
+Across the 12 buy-named food text logs, `08:F1 - 08:00 0E 04 84 <id> 12 00` appears once in each of 11 files and does not appear in `#4 buy channel 1 for 120 yen.txt`. The operator reports that this exception is incomplete and data was lost after the 120 yen was inserted; it cannot establish whether a drop occurred or a confirmation was missed. The captured portion contains an ACCEPT and a channel-1 request `08:00 - 08:F1 0E 0A 02 12 01 11 01 0A 50 00 00 00`; the same ID receives statuses `01`, `02`, `42`, and `44`, but not `12`. The candidate response is absent from all seven non-buy food text logs examined, including the boot, door and button logs.
+
+These observations support the basket-drop hypothesis but do not prove that `12` is exclusive to a drop; compare an observed no-drop attempt. A later elevator jam/refund does not contradict a prior basket drop and must not be used as evidence of a successful customer delivery.
+
+### 2. Repeated `83` response: not a unique drop signal
 
 In `food buy 7.txt`, the controller request and VEND response are followed by an acknowledgement:
 
@@ -192,7 +241,7 @@ The same response family also appears in the jam-error log:
 
 It also repeats in channel-like sequences at regular intervals. In the first example, a `$: 0004` temperature display frame occurs at `00:03:37:048`, just before the `83` response. That timing is outside the proposed accept-to-return-to-temperature window, further cautioning against treating each `83` response as a drop confirmation.
 
-### 2. Longer VEND status/event-looking frames
+### 3. Longer VEND status/event-looking frames
 
 These complete VEND-to-controller frames occur near the repeated response sequence and may be useful for comparison across known successful and jammed attempts. Their meanings are not decoded:
 
@@ -203,7 +252,7 @@ These complete VEND-to-controller frames occur near the repeated response sequen
 
 Compare these frames only within bounded purchase attempts; their appearance in a log is not enough to assign a meaning.
 
-### 3. Frames observed in the jam-error log
+### 4. Frames observed in the jam-error log
 
 These are useful failure-side comparators. Their semantics are also unconfirmed:
 
@@ -214,4 +263,4 @@ These are useful failure-side comparators. Their semantics are also unconfirmed:
 
 ### Suggested next analysis
 
-For each known purchase, find the ACCEPT frame and the subsequent return-to-temperature frame, then compare every complete frame in that interval across successful and jam-error logs. Record the entered selection, the channel-like bytes requested and returned, and whether each candidate appears before or after the display transition. Test decimal `+30` and hexadecimal `+0x20` hypotheses against the explicit channel-14-to-channel-13 example; do not infer a mapping from the byte range alone. The goal is a frame or sequence that tracks the known physical outcome, not merely a recurring VEND response.
+For each known purchase, find the ACCEPT frame and the subsequent return-to-temperature frame, then compare complete frames across the interval. Record the entered selection, candidate command channel and attempt identifier, and subsequent `08:F1` responses. Compare the candidate drop event with video-confirmed no-drop attempts, and analyze later messages separately for elevator delivery failures and refunds. Do not infer a mapping from the older recurring VEND-response byte range alone.
