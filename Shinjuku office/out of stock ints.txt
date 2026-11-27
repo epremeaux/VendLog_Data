@@ -1,0 +1,55 @@
+RDY
+APP RDY
+AT+CREG=2 ---->> ATE0
+AT+CREG=2 ---->> OK
+AT+QIACT=1 ---->> OK
+865684071746064
+IMEI:865684071746064
+OK
++QNWINFO: No Service
+AT+QNWINFO RESPONSE IS [+QNWINFO: No Service]
+OK
++CCLK: "80/01/06,00:00:06+36"
+The current date/time is: Mon Jun 19 09:08:19 1939
+network: 1939-06-19 09:08:19
+===================================================
+BG95 Modem Start and STM32 Power Up
+Bootloader: 1.6 - Oslo Demo
+esp32s3 chip with 2 CPU core(s), WiFi/BLE, silicon revision v0.0, rev=0 8MB external flash
+Minimum free heap size: 368192 bytes
+chip_info:  features=0x00000012, cores=2, revision=0
+EMB_FLASH...n
+WIFI_BGN....Y
+BLE.........Y
+BT..........n
+IEEE802154..n
+EMB_PSRAM...n
+chip model=9  ESP32-S3
+8MB external flash
+PSRAM size = 0
+Attempting STM32 restart
+INT: 24.1 TickTock : reset counters doh!
+No CT detected.
+INT: 03:04,0001
+INT: 03:05,0001
+INT: 03:06,0001
+INT: 03:07,0001
+INT: 03:08,0001
+INT: 03:09,0001
+INT: 03:0A,0001
+INT: 03:0B,0001
+INT: 03:0C,0001
+INT: 03:0F,0001
+INT: E0:00,0039
+INT: 03:12,0001
+INT: 03:19,0001
+INT: 03:1C,0001
+INT: 03:1D,0001
+INT: 03:01,0001
+INT: 03:03,0001
+INT: C0:00,001E
+INT: AA:01,9B00
+INT: AA:01,A000
+INT: AA:01,9500
+INT: AA:01,9D00
+INT: AA:01,8B00

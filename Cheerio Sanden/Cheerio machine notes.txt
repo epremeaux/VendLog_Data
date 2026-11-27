@@ -1,0 +1,38 @@
+Cheerio messages that decode properly
+
+Head price (possibly correct)
+VM root  - HEAD     : Head 000	---  B  08:00 - 09:01   0E  08   E0 FF FF FF FF FF FF FF
+(after pressing the test button on the keyboard. I think the head is also displaying some info related to what the terminal is doing, which does not typically happen on the Coke machines. I specifically
+remember seeing it write words even. Maybe this is showing the mode code or something.):
+VM root  - HEAD     : Head 501	---  B  08:00 - 09:01   0E  08   E0 F9 CE 92 CE FF FE FE
+VM root  - HEAD     : Head 502	---  B  08:00 - 09:01   0E  08   E0 A4 CE 92 CE FF FF FF
+VM root  - HEAD     : Head 003	---  B  08:00 - 09:01   0E  08   E0 B0 9D 25 9D FE FE FE
+VM root  - HEAD     : Head 120	---  B  08:00 - 09:01   0E  08   E0 C0 A4 F9 FF FF FF FF
+
+
+Button LED outputs
+VM root  - LED 01   : state:4D	---  B  08:00 - 08:80   0E  01   4D
+||
+VM root  - LED 36   : state:4D	---  B  08:00 - 08:A3   0E  01   4D
+
+
+Button Press and release
+Drnk BTN - VM root  : BTN:1:P 	---  B  08:80 - 08:00   0E  01   94
+Drnk BTN - VM root  : BTN:1:R 	---  B  08:80 - 08:00   0E  01   9C
+Drnk BTN - VM root  : BTN:36:P 	---  B  08:A3 - 08:00   0E  01   94
+Drnk BTN - VM root  : BTN:36:R 	---  B  08:A3 - 08:00   0E  01   9C
+
+
+Working commands:
+DSxx  :  remote drink sale column xx
+this works, but does not send back a confirmation message in the way we normally decode it.
+
+
+
+NON WORKING!
+DDxx  :  a drink was dropped by coin/free vend, when pressing the drink button
+We DONT see sales on the machine! when user selects a drink with the button,
+we see the button press, but not the DDxx message!
+
+Have not found anything that resembles the terminal keyboard buttons or text to be desplayed on the terminal screen.
+

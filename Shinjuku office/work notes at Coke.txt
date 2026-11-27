@@ -1,0 +1,23 @@
+
+6/15
+- rewrite keyboard text display to add if write is not changed, dont send the interupt
+- get 32 record Location ID  TEST   GETLOC command
+- test the drop sequence
+- write new drop command with inputs
+
+results
+- fixed text display flooding with interrupts
+- wrote get32 location and ID code
+- now using keyboard test drop for drink vending
+
+
+6/16
+to do
+- fix index of 33 records (00 and 27 seem empty)
+- price change request code
+- if possible, fix recipe code.. else document as INCOMPLETE
+
+
+prices white machine
+01 = 160
+12 = 140

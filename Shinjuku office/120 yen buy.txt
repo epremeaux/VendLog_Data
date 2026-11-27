@@ -1,0 +1,746 @@
+ST1
+OK
+00:01:09:805  VM ROOT  - LED 16   : state:4B	---  B  08:00 - 08:8F   0E  01   4B
+00:01:09:808  VM ROOT  - -------- : --------	---  B  08:00 - 0B:90   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:09:837  VM ROOT  - -------- : --------	---  B  08:00 - 0B:90   0E  02   C4 00
+00:01:09:840  VM ROOT  - -------- : --------	---  B  08:00 - 0B:90   0E  02   E8 00
+00:01:09:863  VM ROOT  - -------- : --------	---  B  08:00 - 0B:90   0E  02   C1 01
+00:01:09:906  VM ROOT  - LED 17   : state:4B	---  B  08:00 - 08:90   0E  01   4B
+00:01:10:009  VM ROOT  - LED 18   : state:4B	---  B  08:00 - 08:91   0E  01   4B
+00:01:10:038  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:10:112  VM ROOT  - LED 19   : state:4D	---  B  08:00 - 08:92   0E  01   4D
+00:01:10:214  VM ROOT  - LED 20   : state:4B	---  B  08:00 - 08:93   0E  01   4B
+INT: AA:01,9400
+OK
+00:01:10:317  VM ROOT  - LED 21   : state:4D	---  B  08:00 - 08:94   0E  01   4D
+00:01:10:420  VM ROOT  - LED 22   : state:4B	---  B  08:00 - 08:95   0E  01   4B
+00:01:10:523  VM ROOT  - -------- : --------	--L  B  08:00 - 08:96   0E  02   
+00:01:10:528  VM ROOT  - LED 23   : state:4D	---  B  08:00 - 08:96   0E  01   4D
+00:01:10:630  VM ROOT  - LED 24   : state:4B	---  B  08:00 - 08:97   0E  01   4B
+00:01:10:638  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:10:733  VM ROOT  - LED 25   : state:4B	---  B  08:00 - 08:98   0E  01   4B
+00:01:10:816  VM ROOT  - -------- : --------	---  B  08:00 - 0B:91   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:10:845  VM ROOT  - LED 26   : state:4B	---  B  08:00 - 08:99   0E  01   4B
+00:01:10:848  VM ROOT  - -------- : --------	---  B  08:00 - 0B:91   0E  02   C4 00
+00:01:10:851  VM ROOT  - -------- : --------	---  B  08:00 - 0B:91   0E  02   E8 00
+00:01:10:874  VM ROOT  - -------- : --------	---  B  08:00 - 0B:91   0E  02   C1 01
+00:01:10:957  VM ROOT  - LED 27   : state:4B	---  B  08:00 - 08:9A   0E  01   4B
+00:01:11:000  VM ROOT  - KEYBOARD : Row 1   	---  B  08:00 - 09:31   0E  13   00 01 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:11:030  VM ROOT  - KEYBOARD : Row 2   	---  B  08:00 - 09:31   0E  13   00 17 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:11:060  VM ROOT  - LED 28   : state:4B	---  B  08:00 - 08:9B   0E  01   4B
+00:01:11:063  VM ROOT  - KEYBOARD : Row 3   	---  B  08:00 - 09:31   0E  13   00 33 16 BA B3 D3 B8 20 BA D7 D1 20 20 20 C3 DE B0 C0 20
+00:01:11:093  VM ROOT  - KEYBOARD : Row 4   	---  B  08:00 - 09:31   0E  13   00 49 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:11:123  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  09   02 00 00 00 00 00 00 00 00
+00:01:11:149  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  07   04 00 00 00 00 54 00
+00:01:11:174  VM ROOT  - LED 29   : state:4B	---  B  08:00 - 08:9C   0E  01   4B
+00:01:11:237  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:11:277  VM ROOT  - LED 30   : state:4B	---  B  08:00 - 08:9D   0E  01   4B
+00:01:11:800  VM ROOT  - -------- : --------	---  B  08:00 - 0B:92   0E  11   C0 C0 D8 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:01:11:829  VM ROOT  - -------- : --------	---  B  08:00 - 0B:92   0E  02   C4 01
+00:01:11:832  VM ROOT  - -------- : --------	---  B  08:00 - 0B:92   0E  02   E8 00
+00:01:11:837  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:11:855  VM ROOT  - -------- : --------	---  B  08:00 - 0B:92   0E  02   C1 01
+00:01:12:398  VM ROOT  - LED 01   : state:47	---  B  08:00 - 08:80   0E  01   47
+00:01:12:439  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:12:501  VM ROOT  - LED 02   : state:47	---  B  08:00 - 08:81   0E  01   47
+00:01:12:604  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+00:01:12:706  VM ROOT  - LED 04   : state:4B	---  B  08:00 - 08:83   0E  01   4B
+00:01:12:809  VM ROOT  - LED 05   : state:4B	---  B  08:00 - 08:84   0E  01   4B
+00:01:12:811  VM ROOT  - -------- : --------	---  B  08:00 - 0B:93   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:12:840  VM ROOT  - -------- : --------	---  B  08:00 - 0B:93   0E  02   C4 00
+00:01:12:843  VM ROOT  - -------- : --------	---  B  08:00 - 0B:93   0E  02   E8 00
+00:01:12:866  VM ROOT  - -------- : --------	---  B  08:00 - 0B:93   0E  02   C1 01
+00:01:12:909  VM ROOT  - LED 06   : state:4B	---  B  08:00 - 08:85   0E  01   4B
+00:01:13:012  VM ROOT  - LED 07   : state:4B	---  B  08:00 - 08:86   0E  01   4B
+00:01:13:038  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:13:115  VM ROOT  - LED 08   : state:4B	---  B  08:00 - 08:87   0E  01   4B
+00:01:13:217  VM ROOT  - LED 09   : state:4B	---  B  08:00 - 08:88   0E  01   4B
+00:01:13:319  VM ROOT  - LED 10   : state:4B	---  B  08:00 - 08:89   0E  01   4B
+00:01:13:422  VM ROOT  - LED 11   : state:4B	---  B  08:00 - 08:8A   0E  01   4B
+00:01:13:525  VM ROOT  - LED 12   : state:4B	---  B  08:00 - 08:8B   0E  01   4B
+00:01:13:628  VM ROOT  - LED 13   : state:4D	---  B  08:00 - 08:8C   0E  01   4D
+00:01:13:638  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:13:731  VM ROOT  - LED 14   : state:4D	---  B  08:00 - 08:8D   0E  01   4D
+00:01:13:815  VM ROOT  - -------- : --------	---  B  08:00 - 0B:94   0E  11   C0 C0 90 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:01:13:845  VM ROOT  - LED 15   : state:4D	---  B  08:00 - 08:8E   0E  01   4D
+00:01:13:848  VM ROOT  - -------- : --------	---  B  08:00 - 0B:94   0E  02   C4 01
+00:01:13:851  VM ROOT  - -------- : --------	---  B  08:00 - 0B:94   0E  02   E8 00
+00:01:13:874  VM ROOT  - -------- : --------	---  B  08:00 - 0B:94   0E  02   C1 01
+00:01:13:958  VM ROOT  - LED 16   : state:4B	---  B  08:00 - 08:8F   0E  01   4B
+00:01:14:061  VM ROOT  - LED 17   : state:4B	---  B  08:00 - 08:90   0E  01   4B
+00:01:14:165  VM ROOT  - LED 18   : state:4B	---  B  08:00 - 08:91   0E  01   4B
+00:01:14:239  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:14:268  VM ROOT  - LED 19   : state:4D	---  B  08:00 - 08:92   0E  01   4D
+00:01:14:372  VM ROOT  - LED 20   : state:4B	---  B  08:00 - 08:93   0E  01   4B
+00:01:14:475  VM ROOT  - LED 21   : state:4D	---  B  08:00 - 08:94   0E  01   4D
+00:01:14:578  VM ROOT  - LED 22   : state:4B	---  B  08:00 - 08:95   0E  01   4B
+00:01:14:681  VM ROOT  - LED 23   : state:4D	---  B  08:00 - 08:96   0E  01   4D
+00:01:14:784  VM ROOT  - LED 24   : state:4B	---  B  08:00 - 08:97   0E  01   4B
+00:01:14:807  VM ROOT  - -------- : --------	---  B  08:00 - 0B:95   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:14:836  VM ROOT  - -------- : --------	---  B  08:00 - 0B:95   0E  02   C4 00
+00:01:14:839  VM ROOT  - -------- : --------	---  B  08:00 - 0B:95   0E  02   E8 00
+00:01:14:842  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:14:862  VM ROOT  - -------- : --------	---  B  08:00 - 0B:95   0E  02   C1 01
+00:01:14:885  VM ROOT  - LED 25   : state:4B	---  B  08:00 - 08:98   0E  01   4B
+00:01:14:988  VM ROOT  - LED 26   : state:4B	---  B  08:00 - 08:99   0E  01   4B
+00:01:14:991  VM ROOT  - KEYBOARD : Row 1   	---  B  08:00 - 09:31   0E  13   00 01 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:15:021  VM ROOT  - KEYBOARD : Row 2   	---  B  08:00 - 09:31   0E  13   00 17 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:15:051  VM ROOT  - KEYBOARD : Row 3   	---  B  08:00 - 09:31   0E  13   00 33 16 BA B3 D3 B8 20 BA D7 D1 20 20 20 C3 DE B0 C0 20
+00:01:15:081  VM ROOT  - LED 27   : state:4B	---  B  08:00 - 08:9A   0E  01   4B
+00:01:15:084  VM ROOT  - KEYBOARD : Row 4   	---  B  08:00 - 09:31   0E  13   00 49 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:15:113  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  09   02 00 00 00 00 00 00 00 00
+00:01:15:139  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  07   04 00 00 00 00 54 00
+00:01:15:184  VM ROOT  - LED 28   : state:4B	---  B  08:00 - 08:9B   0E  01   4B
+00:01:15:287  VM ROOT  - LED 29   : state:4B	---  B  08:00 - 08:9C   0E  01   4B
+00:01:15:390  VM ROOT  - LED 30   : state:4B	---  B  08:00 - 08:9D   0E  01   4B
+00:01:15:439  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:15:813  VM ROOT  - -------- : --------	---  B  08:00 - 0B:96   0E  11   C0 C0 82 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:01:15:842  VM ROOT  - -------- : --------	---  B  08:00 - 0B:96   0E  02   C4 01
+00:01:15:845  VM ROOT  - -------- : --------	---  B  08:00 - 0B:96   0E  02   E8 00
+00:01:15:868  VM ROOT  - -------- : --------	---  B  08:00 - 0B:96   0E  02   C1 01
+00:01:16:038  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:16:491  VM ROOT  - LED 01   : state:47	---  B  08:00 - 08:80   0E  01   47
+00:01:16:594  VM ROOT  - LED 02   : state:47	---  B  08:00 - 08:81   0E  01   47
+00:01:16:638  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:16:697  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+00:01:16:800  VM ROOT  - LED 04   : state:4B	---  B  08:00 - 08:83   0E  01   4B
+00:01:16:803  VM ROOT  - -------- : --------	---  B  08:00 - 0B:97   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:16:832  VM ROOT  - -------- : --------	---  B  08:00 - 0B:97   0E  02   C4 00
+00:01:16:835  VM ROOT  - -------- : --------	---  B  08:00 - 0B:97   0E  02   E8 00
+00:01:16:858  VM ROOT  - -------- : --------	---  B  08:00 - 0B:97   0E  02   C1 01
+00:01:16:901  VM ROOT  - LED 05   : state:4B	---  B  08:00 - 08:84   0E  01   4B
+00:01:17:004  VM ROOT  - LED 06   : state:4B	---  B  08:00 - 08:85   0E  01   4B
+00:01:17:067  VM ROOT  - HEAD     : $: 0000	---  B  08:00 - 09:01   0E  08   E0 FF FF FF FF FF FF FF
+00:01:17:072  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E1 FC
+00:01:17:075  VM ROOT  - KEYBOARD : Row 1   	---  B  08:00 - 09:31   0E  13   00 01 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:17:105  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E3 FE
+00:01:17:108  VM ROOT  - LED 07   : state:4B	---  B  08:00 - 08:86   0E  01   4B
+00:01:17:111  VM ROOT  - KEYBOARD : Row 2   	---  B  08:00 - 09:31   0E  13   00 17 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:17:140  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E6 04
+00:01:17:143  VM ROOT  - KEYBOARD : Row 3   	---  B  08:00 - 09:31   0E  13   00 33 16 BA B3 D3 B8 20 BA D7 D1 20 20 20 C3 DE B0 C0 20
+00:01:17:173  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   B9 55
+00:01:17:176  VM ROOT  - KEYBOARD : Row 4   	---  B  08:00 - 09:31   0E  13   00 49 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:17:206  VM ROOT  - CLOCK    : --------	---  B  08:00 - 08:18   0E  05   B0 FE FF FF FF
+00:01:17:210  VM ROOT  - LED 08   : state:4B	---  B  08:00 - 08:87   0E  01   4B
+00:01:17:213  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  09   02 00 00 00 00 00 00 00 00
+00:01:17:237  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:17:242  VM ROOT  - CLOCK    : --------	---  B  08:00 - 08:18   0E  03   B1 FC FF
+00:01:17:245  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  09   03 00 00 00 00 00 00 00 00
+00:01:17:252  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  03   D3 FC FF
+00:01:17:263  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:17:271  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  07   04 00 00 00 00 54 00
+00:01:17:316  VM ROOT  - LED 09   : state:4B	---  B  08:00 - 08:88   0E  01   4B
+00:01:17:419  VM ROOT  - LED 10   : state:4B	---  B  08:00 - 08:89   0E  01   4B
+00:01:17:522  VM ROOT  - LED 11   : state:4B	---  B  08:00 - 08:8A   0E  01   4B
+00:01:17:625  VM ROOT  - LED 12   : state:4B	---  B  08:00 - 08:8B   0E  01   4B
+00:01:17:728  VM ROOT  - LED 13   : state:4D	---  B  08:00 - 08:8C   0E  01   4D
+00:01:17:811  VM ROOT  - -------- : --------	---  B  08:00 - 0B:98   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:17:837  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:17:842  VM ROOT  - LED 14   : state:4D	---  B  08:00 - 08:8D   0E  01   4D
+00:01:17:844  VM ROOT  - -------- : --------	---  B  08:00 - 0B:98   0E  02   C4 00
+00:01:17:847  VM ROOT  - -------- : --------	---  B  08:00 - 0B:98   0E  02   E8 00
+00:01:17:870  VM ROOT  - -------- : --------	---  B  08:00 - 0B:98   0E  02   C1 01
+00:01:17:953  VM ROOT  - LED 15   : state:4D	---  B  08:00 - 08:8E   0E  01   4D
+00:01:18:056  VM ROOT  - LED 16   : state:4B	---  B  08:00 - 08:8F   0E  01   4B
+00:01:18:159  VM ROOT  - LED 17   : state:4B	---  B  08:00 - 08:90   0E  01   4B
+00:01:18:262  VM ROOT  - LED 18   : state:4B	---  B  08:00 - 08:91   0E  01   4B
+00:01:18:365  VM ROOT  - LED 19   : state:4D	---  B  08:00 - 08:92   0E  01   4D
+00:01:18:438  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:18:468  VM ROOT  - LED 20   : state:4B	---  B  08:00 - 08:93   0E  01   4B
+00:01:18:571  VM ROOT  - LED 21   : state:4D	---  B  08:00 - 08:94   0E  01   4D
+00:01:18:674  VM ROOT  - LED 22   : state:4B	---  B  08:00 - 08:95   0E  01   4B
+00:01:18:777  VM ROOT  - LED 23   : state:4D	---  B  08:00 - 08:96   0E  01   4D
+00:01:18:800  VM ROOT  - -------- : --------	---  B  08:00 - 0B:99   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:18:829  VM ROOT  - -------- : --------	---  B  08:00 - 0B:99   0E  02   C4 00
+00:01:18:832  VM ROOT  - -------- : --------	---  B  08:00 - 0B:99   0E  02   E8 00
+00:01:18:855  VM ROOT  - -------- : --------	---  B  08:00 - 0B:99   0E  02   C1 01
+00:01:18:878  VM ROOT  - LED 24   : state:4B	---  B  08:00 - 08:97   0E  01   4B
+00:01:18:981  VM ROOT  - LED 25   : state:4B	---  B  08:00 - 08:98   0E  01   4B
+00:01:19:038  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:19:084  VM ROOT  - LED 26   : state:4B	---  B  08:00 - 08:99   0E  01   4B
+00:01:19:186  VM ROOT  - LED 27   : state:4B	---  B  08:00 - 08:9A   0E  01   4B
+00:01:19:289  VM ROOT  - LED 28   : state:4B	---  B  08:00 - 08:9B   0E  01   4B
+00:01:19:392  VM ROOT  - LED 29   : state:4B	---  B  08:00 - 08:9C   0E  01   4B
+00:01:19:495  VM ROOT  - LED 30   : state:4B	---  B  08:00 - 08:9D   0E  01   4B
+00:01:19:638  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:19:798  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9A   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:19:827  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9A   0E  02   C4 00
+00:01:19:831  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9A   0E  02   E8 00
+00:01:19:853  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9A   0E  02   C1 01
+00:01:19:996  VM ROOT  - KEYBOARD : Row 1   	---  B  08:00 - 09:31   0E  13   00 01 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:20:026  VM ROOT  - KEYBOARD : Row 2   	---  B  08:00 - 09:31   0E  13   00 17 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:20:056  VM ROOT  - KEYBOARD : Row 3   	---  B  08:00 - 09:31   0E  13   00 33 16 BA B3 D3 B8 20 BA D7 D1 20 20 20 C3 DE B0 C0 20
+00:01:20:086  VM ROOT  - KEYBOARD : Row 4   	---  B  08:00 - 09:31   0E  13   00 49 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:20:116  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  09   02 00 00 00 00 00 00 00 00
+00:01:20:143  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  07   04 00 00 00 00 54 00
+00:01:20:238  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+INT: AA:01,A200
+OK
+00:01:20:627  VM ROOT  - LED 01   : state:47	---  B  08:00 - 08:80   0E  01   47
+00:01:20:730  VM ROOT  - LED 02   : state:47	---  B  08:00 - 08:81   0E  01   47
+00:01:20:813  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9B   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:20:837  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:20:842  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+00:01:20:845  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9B   0E  02   C4 00
+00:01:20:848  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9B   0E  02   E8 00
+00:01:20:872  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9B   0E  02   C1 01
+00:01:20:954  VM ROOT  - LED 04   : state:4B	---  B  08:00 - 08:83   0E  01   4B
+00:01:21:017  VM ROOT  - VEND NEW : --------	---  B  08:00 - 0E:C0   0E  05   30 FF 06 03 00
+00:01:21:036  VEND NEW - VM ROOT  : --------	---  B  0E:C0 - 08:00   0E  07   B0 00 02 FF 06 03 00
+00:01:21:061  VM ROOT  - LED 05   : state:4B	---  B  08:00 - 08:84   0E  01   4B
+00:01:21:164  VM ROOT  - LED 06   : state:4B	---  B  08:00 - 08:85   0E  01   4B
+00:01:21:267  VM ROOT  - LED 07   : state:4B	---  B  08:00 - 08:86   0E  01   4B
+00:01:21:370  VM ROOT  - LED 08   : state:4B	---  B  08:00 - 08:87   0E  01   4B
+00:01:21:438  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:21:473  VM ROOT  - LED 09   : state:4B	---  B  08:00 - 08:88   0E  01   4B
+00:01:21:576  VM ROOT  - LED 10   : state:4B	---  B  08:00 - 08:89   0E  01   4B
+00:01:21:680  VM ROOT  - LED 11   : state:4B	---  B  08:00 - 08:8A   0E  01   4B
+00:01:21:782  VM ROOT  - LED 12   : state:4B	---  B  08:00 - 08:8B   0E  01   4B
+00:01:21:805  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9C   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:21:834  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9C   0E  02   C4 00
+00:01:21:837  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9C   0E  02   E8 00
+00:01:21:860  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9C   0E  02   C1 01
+00:01:21:883  VM ROOT  - LED 13   : state:4D	---  B  08:00 - 08:8C   0E  01   4D
+00:01:21:986  VM ROOT  - LED 14   : state:4D	---  B  08:00 - 08:8D   0E  01   4D
+00:01:22:038  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:22:089  VM ROOT  - LED 15   : state:4D	---  B  08:00 - 08:8E   0E  01   4D
+00:01:22:191  VM ROOT  - LED 16   : state:4B	---  B  08:00 - 08:8F   0E  01   4B
+00:01:22:294  VM ROOT  - LED 17   : state:4B	---  B  08:00 - 08:90   0E  01   4B
+00:01:22:397  VM ROOT  - LED 18   : state:4B	---  B  08:00 - 08:91   0E  01   4B
+00:01:22:500  VM ROOT  - LED 19   : state:4D	---  B  08:00 - 08:92   0E  01   4D
+00:01:22:603  VM ROOT  - LED 20   : state:4B	---  B  08:00 - 08:93   0E  01   4B
+00:01:22:638  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:22:706  VM ROOT  - LED 21   : state:4D	---  B  08:00 - 08:94   0E  01   4D
+00:01:22:809  VM ROOT  - LED 22   : state:4B	---  B  08:00 - 08:95   0E  01   4B
+00:01:22:812  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9D   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:22:841  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9D   0E  02   C4 00
+00:01:22:844  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9D   0E  02   E8 00
+00:01:22:867  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9D   0E  02   C1 01
+00:01:22:910  VM ROOT  - LED 23   : state:4D	---  B  08:00 - 08:96   0E  01   4D
+00:01:23:013  VM ROOT  - LED 24   : state:4B	---  B  08:00 - 08:97   0E  01   4B
+00:01:23:116  VM ROOT  - LED 25   : state:4B	---  B  08:00 - 08:98   0E  01   4B
+00:01:23:219  VM ROOT  - LED 26   : state:4B	---  B  08:00 - 08:99   0E  01   4B
+00:01:23:238  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:23:322  VM ROOT  - LED 27   : state:4B	---  B  08:00 - 08:9A   0E  01   4B
+00:01:23:425  VM ROOT  - LED 28   : state:4B	---  B  08:00 - 08:9B   0E  01   4B
+00:01:23:528  VM ROOT  - LED 29   : state:4B	---  B  08:00 - 08:9C   0E  01   4B
+00:01:23:631  VM ROOT  - LED 30   : state:4B	---  B  08:00 - 08:9D   0E  01   4B
+00:01:23:838  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:23:994  VM ROOT  - KEYBOARD : Row 1   	---  B  08:00 - 09:31   0E  13   00 01 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:24:024  VM ROOT  - KEYBOARD : Row 2   	---  B  08:00 - 09:31   0E  13   00 17 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:24:054  VM ROOT  - KEYBOARD : Row 3   	---  B  08:00 - 09:31   0E  13   00 33 16 BA B3 D3 B8 20 BA D7 D1 20 20 20 C3 DE B0 C0 20
+00:01:24:084  VM ROOT  - KEYBOARD : Row 4   	---  B  08:00 - 09:31   0E  13   00 49 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:24:114  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  09   02 00 00 00 00 00 00 00 00
+00:01:24:140  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  07   04 00 00 00 00 54 00
+00:01:24:439  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:24:765  VM ROOT  - LED 01   : state:47	---  B  08:00 - 08:80   0E  01   47
+00:01:24:808  VM ROOT  - -------- : --------	---  B  08:00 - 0B:80   0E  11   C0 C0 92 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:01:24:837  VM ROOT  - -------- : --------	---  B  08:00 - 0B:80   0E  02   C4 10
+00:01:24:840  VM ROOT  - -------- : --------	---  B  08:00 - 0B:80   0E  02   E8 00
+00:01:24:863  VM ROOT  - LED 02   : state:47	---  B  08:00 - 08:81   0E  01   47
+00:01:24:866  VM ROOT  - -------- : --------	---  B  08:00 - 0B:80   0E  02   C1 01
+00:01:24:969  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+00:01:25:039  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:25:071  VM ROOT  - LED 04   : state:4B	---  B  08:00 - 08:83   0E  01   4B
+00:01:25:174  VM ROOT  - LED 05   : state:4B	---  B  08:00 - 08:84   0E  01   4B
+00:01:25:277  VM ROOT  - LED 06   : state:4B	---  B  08:00 - 08:85   0E  01   4B
+00:01:25:380  VM ROOT  - LED 07   : state:4B	---  B  08:00 - 08:86   0E  01   4B
+00:01:25:484  VM ROOT  - LED 08   : state:4B	---  B  08:00 - 08:87   0E  01   4B
+00:01:25:586  VM ROOT  - LED 09   : state:4B	---  B  08:00 - 08:88   0E  01   4B
+00:01:25:640  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:25:689  VM ROOT  - LED 10   : state:4B	---  B  08:00 - 08:89   0E  01   4B
+00:01:25:792  VM ROOT  - LED 11   : state:4B	---  B  08:00 - 08:8A   0E  01   4B
+00:01:25:815  VM ROOT  - -------- : --------	---  B  08:00 - 0B:81   0E  11   C0 C0 99 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:01:25:844  VM ROOT  - -------- : --------	---  B  08:00 - 0B:81   0E  02   C4 10
+00:01:25:847  VM ROOT  - -------- : --------	---  B  08:00 - 0B:81   0E  02   E8 00
+00:01:25:871  VM ROOT  - -------- : --------	---  B  08:00 - 0B:81   0E  02   C1 01
+00:01:25:893  VM ROOT  - LED 12   : state:4B	---  B  08:00 - 08:8B   0E  01   4B
+00:01:25:996  VM ROOT  - LED 13   : state:4D	---  B  08:00 - 08:8C   0E  01   4D
+00:01:26:099  VM ROOT  - LED 14   : state:4D	---  B  08:00 - 08:8D   0E  01   4D
+00:01:26:202  VM ROOT  - LED 15   : state:4D	---  B  08:00 - 08:8E   0E  01   4D
+00:01:26:239  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:26:305  VM ROOT  - LED 16   : state:4B	---  B  08:00 - 08:8F   0E  01   4B
+00:01:26:408  VM ROOT  - LED 17   : state:4B	---  B  08:00 - 08:90   0E  01   4B
+00:01:26:511  VM ROOT  - LED 18   : state:4B	---  B  08:00 - 08:91   0E  01   4B
+00:01:26:614  VM ROOT  - LED 19   : state:4D	---  B  08:00 - 08:92   0E  01   4D
+00:01:26:717  VM ROOT  - LED 20   : state:4B	---  B  08:00 - 08:93   0E  01   4B
+00:01:26:800  VM ROOT  - -------- : --------	---  B  08:00 - 0B:82   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:26:829  VM ROOT  - LED 21   : state:4D	---  B  08:00 - 08:94   0E  01   4D
+00:01:26:832  VM ROOT  - -------- : --------	---  B  08:00 - 0B:82   0E  02   C4 00
+00:01:26:835  VM ROOT  - -------- : --------	---  B  08:00 - 0B:82   0E  02   E8 00
+00:01:26:839  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:26:858  VM ROOT  - -------- : --------	---  B  08:00 - 0B:82   0E  02   C1 01
+00:01:26:921  VM ROOT  - LED 22   : state:4B	---  B  08:00 - 08:95   0E  01   4B
+00:01:27:024  VM ROOT  - LED 23   : state:4D	---  B  08:00 - 08:96   0E  01   4D
+00:01:27:067  VM ROOT  - KEYBOARD : Row 1   	---  B  08:00 - 09:31   0E  13   00 01 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:27:097  VM ROOT  - KEYBOARD : Row 2   	---  B  08:00 - 09:31   0E  13   00 17 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:27:127  VM ROOT  - LED 24   : state:4B	---  B  08:00 - 08:97   0E  01   4B
+00:01:27:130  VM ROOT  - KEYBOARD : Row 3   	---  B  08:00 - 09:31   0E  13   00 33 16 BA B3 D3 B8 20 BA D7 D1 20 20 20 C3 DE B0 C0 20
+00:01:27:159  VM ROOT  - KEYBOARD : Row 4   	---  B  08:00 - 09:31   0E  13   00 49 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:27:189  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  09   02 00 00 00 00 00 00 00 00
+00:01:27:215  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  09   03 00 00 00 00 00 00 00 00
+00:01:27:241  VM ROOT  - LED 25   : state:4B	---  B  08:00 - 08:98   0E  01   4B
+00:01:27:244  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  07   04 00 00 00 00 54 00
+00:01:27:349  VM ROOT  - LED 26   : state:4B	---  B  08:00 - 08:99   0E  01   4B
+00:01:27:439  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:27:452  VM ROOT  - LED 27   : state:4B	---  B  08:00 - 08:9A   0E  01   4B
+00:01:27:555  VM ROOT  - LED 28   : state:4B	---  B  08:00 - 08:9B   0E  01   4B
+00:01:27:658  VM ROOT  - LED 29   : state:4B	---  B  08:00 - 08:9C   0E  01   4B
+00:01:27:760  VM ROOT  - LED 30   : state:4B	---  B  08:00 - 08:9D   0E  01   4B
+00:01:27:803  VM ROOT  - -------- : --------	---  B  08:00 - 0B:83   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:27:832  VM ROOT  - -------- : --------	---  B  08:00 - 0B:83   0E  02   C4 00
+00:01:27:835  VM ROOT  - -------- : --------	---  B  08:00 - 0B:83   0E  02   E8 00
+00:01:27:858  VM ROOT  - -------- : --------	---  B  08:00 - 0B:83   0E  02   C1 01
+00:01:28:039  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:28:640  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:28:801  VM ROOT  - -------- : --------	---  B  08:00 - 0B:84   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:28:830  VM ROOT  - -------- : --------	---  B  08:00 - 0B:84   0E  02   C4 00
+00:01:28:833  VM ROOT  - -------- : --------	---  B  08:00 - 0B:84   0E  02   E8 00
+00:01:28:856  VM ROOT  - -------- : --------	---  B  08:00 - 0B:84   0E  02   C1 01
+00:01:28:899  VM ROOT  - LED 01   : state:47	---  B  08:00 - 08:80   0E  01   47
+00:01:29:003  VM ROOT  - LED 02   : state:47	---  B  08:00 - 08:81   0E  01   47
+00:01:29:005  VM ROOT  - KEYBOARD : Row 1   	---  B  08:00 - 09:31   0E  13   00 01 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:29:035  VM ROOT  - KEYBOARD : Row 2   	---  B  08:00 - 09:31   0E  13   00 17 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:29:065  VM ROOT  - KEYBOARD : Row 3   	---  B  08:00 - 09:31   0E  13   00 33 16 BA B3 D3 B8 20 BA D7 D1 20 20 20 C3 DE B0 C0 20
+00:01:29:095  VM ROOT  - KEYBOARD : Row 4   	---  B  08:00 - 09:31   0E  13   00 49 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:29:125  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+00:01:29:128  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  09   02 00 00 00 00 00 00 00 00
+00:01:29:154  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  07   04 00 00 00 00 54 00
+00:01:29:239  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:29:242  VM ROOT  - LED 04   : state:4B	---  B  08:00 - 08:83   0E  01   4B
+00:01:29:345  VM ROOT  - LED 05   : state:4B	---  B  08:00 - 08:84   0E  01   4B
+00:01:29:448  VM ROOT  - LED 06   : state:4B	---  B  08:00 - 08:85   0E  01   4B
+00:01:29:551  VM ROOT  - LED 07   : state:4B	---  B  08:00 - 08:86   0E  01   4B
+00:01:29:654  VM ROOT  - LED 08   : state:4B	---  B  08:00 - 08:87   0E  01   4B
+00:01:29:757  VM ROOT  - LED 09   : state:4B	---  B  08:00 - 08:88   0E  01   4B
+00:01:29:800  VM ROOT  - -------- : --------	---  B  08:00 - 0B:85   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:29:830  VM ROOT  - -------- : --------	---  B  08:00 - 0B:85   0E  02   C4 00
+00:01:29:833  VM ROOT  - -------- : --------	---  B  08:00 - 0B:85   0E  02   E8 00
+00:01:29:839  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:29:855  VM ROOT  - LED 10   : state:4B	---  B  08:00 - 08:89   0E  01   4B
+00:01:29:858  VM ROOT  - -------- : --------	---  B  08:00 - 0B:85   0E  02   C1 01
+00:01:29:962  VM ROOT  - LED 11   : state:4B	---  B  08:00 - 08:8A   0E  01   4B
+00:01:30:065  VM ROOT  - LED 12   : state:4B	---  B  08:00 - 08:8B   0E  01   4B
+00:01:30:167  VM ROOT  - LED 13   : state:4D	---  B  08:00 - 08:8C   0E  01   4D
+00:01:30:271  VM ROOT  - LED 14   : state:4D	---  B  08:00 - 08:8D   0E  01   4D
+INT: AA:01,9300
+OK
+00:01:30:374  VM ROOT  - LED 15   : state:4D	---  B  08:00 - 08:8E   0E  01   4D
+00:01:30:439  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:30:477  VM ROOT  - LED 16   : state:4B	---  B  08:00 - 08:8F   0E  01   4B
+00:01:30:579  VM ROOT  - LED 17   : state:4B	---  B  08:00 - 08:90   0E  01   4B
+00:01:30:683  VM ROOT  - LED 18   : state:4B	---  B  08:00 - 08:91   0E  01   4B
+00:01:30:785  VM ROOT  - LED 19   : state:4D	---  B  08:00 - 08:92   0E  01   4D
+00:01:30:808  VM ROOT  - -------- : --------	---  B  08:00 - 0B:86   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:30:837  VM ROOT  - -------- : --------	---  B  08:00 - 0B:86   0E  02   C4 00
+00:01:30:841  VM ROOT  - -------- : --------	---  B  08:00 - 0B:86   0E  02   E8 00
+00:01:30:863  VM ROOT  - -------- : --------	---  B  08:00 - 0B:86   0E  02   C1 01
+00:01:30:887  VM ROOT  - LED 20   : state:4B	---  B  08:00 - 08:93   0E  01   4B
+00:01:30:989  VM ROOT  - LED 21   : state:4D	---  B  08:00 - 08:94   0E  01   4D
+00:01:31:039  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:31:092  VM ROOT  - LED 22   : state:4B	---  B  08:00 - 08:95   0E  01   4B
+00:01:31:195  VM ROOT  - LED 23   : state:4D	---  B  08:00 - 08:96   0E  01   4D
+00:01:31:298  VM ROOT  - LED 24   : state:4B	---  B  08:00 - 08:97   0E  01   4B
+00:01:31:402  VM ROOT  - LED 25   : state:4B	---  B  08:00 - 08:98   0E  01   4B
+00:01:31:504  VM ROOT  - LED 26   : state:4B	---  B  08:00 - 08:99   0E  01   4B
+00:01:31:607  VM ROOT  - LED 27   : state:4B	---  B  08:00 - 08:9A   0E  01   4B
+00:01:31:640  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:31:711  VM ROOT  - LED 28   : state:4B	---  B  08:00 - 08:9B   0E  01   4B
+00:01:31:793  VM ROOT  - -------- : --------	---  B  08:00 - 0B:87   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:31:823  VM ROOT  - LED 29   : state:4B	---  B  08:00 - 08:9C   0E  01   4B
+00:01:31:825  VM ROOT  - -------- : --------	---  B  08:00 - 0B:87   0E  02   C4 00
+00:01:31:828  VM ROOT  - -------- : --------	---  B  08:00 - 0B:87   0E  02   E8 00
+00:01:31:852  VM ROOT  - -------- : --------	---  B  08:00 - 0B:87   0E  02   C1 01
+00:01:31:935  VM ROOT  - LED 30   : state:4B	---  B  08:00 - 08:9D   0E  01   4B
+00:01:32:239  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:32:798  VM ROOT  - -------- : --------	---  B  08:00 - 0B:88   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:32:827  VM ROOT  - -------- : --------	---  B  08:00 - 0B:88   0E  02   C4 00
+00:01:32:830  VM ROOT  - -------- : --------	---  B  08:00 - 0B:88   0E  02   E8 00
+00:01:32:839  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:32:853  VM ROOT  - -------- : --------	---  B  08:00 - 0B:88   0E  02   C1 01
+00:01:32:996  VM ROOT  - KEYBOARD : Row 1   	---  B  08:00 - 09:31   0E  13   00 01 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:33:026  VM ROOT  - KEYBOARD : Row 2   	---  B  08:00 - 09:31   0E  13   00 17 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:33:056  VM ROOT  - LED 01   : state:47	---  B  08:00 - 08:80   0E  01   47
+00:01:33:059  VM ROOT  - KEYBOARD : Row 3   	---  B  08:00 - 09:31   0E  13   00 33 16 BA B3 D3 B8 20 BA D7 D1 20 20 20 C3 DE B0 C0 20
+00:01:33:089  VM ROOT  - KEYBOARD : Row 4   	---  B  08:00 - 09:31   0E  13   00 49 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:33:119  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  09   02 00 00 00 00 00 00 00 00
+00:01:33:145  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  07   04 00 00 00 00 54 00
+00:01:33:170  VM ROOT  - LED 02   : state:47	---  B  08:00 - 08:81   0E  01   47
+00:01:33:273  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+00:01:33:376  VM ROOT  - LED 04   : state:4B	---  B  08:00 - 08:83   0E  01   4B
+00:01:33:439  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:33:479  VM ROOT  - LED 05   : state:4B	---  B  08:00 - 08:84   0E  01   4B
+00:01:33:582  VM ROOT  - LED 06   : state:4B	---  B  08:00 - 08:85   0E  01   4B
+00:01:33:685  VM ROOT  - LED 07   : state:4B	---  B  08:00 - 08:86   0E  01   4B
+00:01:33:788  VM ROOT  - LED 08   : state:4B	---  B  08:00 - 08:87   0E  01   4B
+00:01:33:811  VM ROOT  - -------- : --------	---  B  08:00 - 0B:89   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:33:840  VM ROOT  - -------- : --------	---  B  08:00 - 0B:89   0E  02   C4 00
+00:01:33:843  VM ROOT  - -------- : --------	---  B  08:00 - 0B:89   0E  02   E8 00
+00:01:33:866  VM ROOT  - -------- : --------	---  B  08:00 - 0B:89   0E  02   C1 01
+00:01:33:889  VM ROOT  - LED 09   : state:4B	---  B  08:00 - 08:88   0E  01   4B
+00:01:33:992  VM ROOT  - LED 10   : state:4B	---  B  08:00 - 08:89   0E  01   4B
+00:01:34:039  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:34:095  VM ROOT  - LED 11   : state:4B	---  B  08:00 - 08:8A   0E  01   4B
+00:01:34:198  VM ROOT  - LED 12   : state:4B	---  B  08:00 - 08:8B   0E  01   4B
+00:01:34:300  VM ROOT  - LED 13   : state:4D	---  B  08:00 - 08:8C   0E  01   4D
+00:01:34:403  VM ROOT  - LED 14   : state:4D	---  B  08:00 - 08:8D   0E  01   4D
+00:01:34:506  VM ROOT  - LED 15   : state:4D	---  B  08:00 - 08:8E   0E  01   4D
+00:01:34:608  VM ROOT  - LED 16   : state:4B	---  B  08:00 - 08:8F   0E  01   4B
+00:01:34:639  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:34:711  VM ROOT  - LED 17   : state:4B	---  B  08:00 - 08:90   0E  01   4B
+00:01:34:814  VM ROOT  - LED 18   : state:4B	---  B  08:00 - 08:91   0E  01   4B
+00:01:34:816  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8A   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:34:846  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8A   0E  02   C4 00
+00:01:34:849  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8A   0E  02   E8 00
+00:01:34:872  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8A   0E  02   C1 01
+00:01:34:915  VM ROOT  - LED 19   : state:4D	---  B  08:00 - 08:92   0E  01   4D
+00:01:35:017  VM ROOT  - LED 20   : state:4B	---  B  08:00 - 08:93   0E  01   4B
+00:01:35:120  VM ROOT  - LED 21   : state:4D	---  B  08:00 - 08:94   0E  01   4D
+00:01:35:223  VM ROOT  - LED 22   : state:4B	---  B  08:00 - 08:95   0E  01   4B
+00:01:35:242  CLOCK    - VM ROOT  : TICKTOCK	---  B  08:18 - 08:00   0E  04   D2 0F FE 00
+00:01:35:326  VM ROOT  - LED 23   : state:4D	---  B  08:00 - 08:96   0E  01   4D
+00:01:35:429  VM ROOT  - LED 24   : state:4B	---  B  08:00 - 08:97   0E  01   4B
+00:01:35:532  VM ROOT  - LED 25   : state:4B	---  B  08:00 - 08:98   0E  01   4B
+00:01:35:635  VM ROOT  - LED 26   : state:4B	---  B  08:00 - 08:99   0E  01   4B
+00:01:35:737  VM ROOT  - LED 27   : state:4B	---  B  08:00 - 08:9A   0E  01   4B
+00:01:35:778  HEAD     - VM ROOT  : --------	---  B  09:01 - 08:00   0E  02   D1 FC
+00:01:35:803  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8B   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:35:832  VM ROOT  - LED 28   : state:4B	---  B  08:00 - 08:9B   0E  01   4B
+00:01:35:835  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8B   0E  02   C4 00
+00:01:35:837  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8B   0E  02   E8 00
+00:01:35:841  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:35:861  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8B   0E  02   C1 01
+00:01:35:944  VM ROOT  - LED 29   : state:4B	---  B  08:00 - 08:9C   0E  01   4B
+00:01:36:047  VM ROOT  - LED 30   : state:4B	---  B  08:00 - 08:9D   0E  01   4B
+00:01:36:440  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:36:810  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8C   0E  11   C0 C0 D8 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:01:36:839  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8C   0E  02   C4 01
+00:01:36:842  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8C   0E  02   E8 00
+00:01:36:865  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8C   0E  02   C1 01
+00:01:37:039  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:37:068  VM ROOT  - HEAD     : $: 0000	---  B  08:00 - 09:01   0E  08   E0 FF FF FF FF FF FF FF
+00:01:37:073  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E1 FC
+00:01:37:076  VM ROOT  - KEYBOARD : Row 1   	---  B  08:00 - 09:31   0E  13   00 01 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:37:106  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E3 FE
+00:01:37:109  VM ROOT  - KEYBOARD : Row 2   	---  B  08:00 - 09:31   0E  13   00 17 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:37:139  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E6 04
+00:01:37:142  VM ROOT  - KEYBOARD : Row 3   	---  B  08:00 - 09:31   0E  13   00 33 16 BA B3 D3 B8 20 BA D7 D1 20 20 20 C3 DE B0 C0 20
+00:01:37:172  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   B9 55
+00:01:37:175  VM ROOT  - LED 01   : state:47	---  B  08:00 - 08:80   0E  01   47
+00:01:37:177  VM ROOT  - KEYBOARD : Row 4   	---  B  08:00 - 09:31   0E  13   00 49 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:37:207  VM ROOT  - CLOCK    : --------	---  B  08:00 - 08:18   0E  05   B0 FE FF FF FF
+00:01:37:211  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  09   02 00 00 00 00 00 00 00 00
+00:01:37:237  VM ROOT  - CLOCK    : --------	---  B  08:00 - 08:18   0E  03   B1 FC FF
+00:01:37:240  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  09   03 00 00 00 00 00 00 00 00
+00:01:37:249  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  03   D3 FC FF
+00:01:37:266  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  07   04 00 00 00 00 54 00
+00:01:37:291  VM ROOT  - LED 02   : state:47	---  B  08:00 - 08:81   0E  01   47
+00:01:37:394  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+00:01:37:497  VM ROOT  - LED 04   : state:4B	---  B  08:00 - 08:83   0E  01   4B
+00:01:37:600  VM ROOT  - LED 05   : state:4B	---  B  08:00 - 08:84   0E  01   4B
+00:01:37:639  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:37:703  VM ROOT  - LED 06   : state:4B	---  B  08:00 - 08:85   0E  01   4B
+00:01:37:806  VM ROOT  - LED 07   : state:4B	---  B  08:00 - 08:86   0E  01   4B
+00:01:37:808  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8D   0E  11   C0 C0 A4 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:01:37:837  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8D   0E  02   C4 01
+00:01:37:840  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8D   0E  02   E8 00
+00:01:37:863  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8D   0E  02   C1 01
+00:01:37:906  VM ROOT  - LED 08   : state:4B	---  B  08:00 - 08:87   0E  01   4B
+00:01:37:989  VM ROOT  - KEYBOARD : Row 1   	---  B  08:00 - 09:31   0E  13   00 01 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:38:019  VM ROOT  - LED 09   : state:4B	---  B  08:00 - 08:88   0E  01   4B
+00:01:38:022  VM ROOT  - KEYBOARD : Row 2   	---  B  08:00 - 09:31   0E  13   00 17 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:38:052  VM ROOT  - KEYBOARD : Row 3   	---  B  08:00 - 09:31   0E  13   00 33 16 BA B3 D3 B8 20 BA D7 D1 20 20 20 C3 DE B0 C0 20
+00:01:38:082  VM ROOT  - KEYBOARD : Row 4   	---  B  08:00 - 09:31   0E  13   00 49 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:38:112  VM ROOT  - LED 10   : state:4B	---  B  08:00 - 08:89   0E  01   4B
+00:01:38:115  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  09   02 00 00 00 00 00 00 00 00
+00:01:38:140  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  07   04 00 00 00 00 54 00
+00:01:38:225  VM ROOT  - LED 11   : state:4B	---  B  08:00 - 08:8A   0E  01   4B
+00:01:38:239  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:38:328  VM ROOT  - LED 12   : state:4B	---  B  08:00 - 08:8B   0E  01   4B
+00:01:38:431  VM ROOT  - LED 13   : state:4D	---  B  08:00 - 08:8C   0E  01   4D
+00:01:38:534  VM ROOT  - LED 14   : state:4D	---  B  08:00 - 08:8D   0E  01   4D
+00:01:38:637  VM ROOT  - LED 15   : state:4D	---  B  08:00 - 08:8E   0E  01   4D
+00:01:38:740  VM ROOT  - LED 16   : state:4B	---  B  08:00 - 08:8F   0E  01   4B
+00:01:38:803  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8E   0E  11   C0 C0 82 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:01:38:832  VM ROOT  - LED 17   : state:4B	---  B  08:00 - 08:90   0E  01   4B
+00:01:38:835  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8E   0E  02   C4 01
+00:01:38:838  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8E   0E  02   E8 00
+00:01:38:841  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:38:861  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8E   0E  02   C1 01
+00:01:38:944  VM ROOT  - LED 18   : state:4B	---  B  08:00 - 08:91   0E  01   4B
+INT: 00:01:39:047  VM ROOT  - HEAD     : $: 0100	---  B  08:00 - 09:01   0E  08   E0 C0 C0 F9 FF FF FF FF
+00:01:39:052  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E2 FE
+05:00,0064
+OK
+00:01:39:055  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  11   50 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+INT: 00:01:39:064  VM ROOT  - LED 19   : state:4F	---  B  08:00 - 08:92   0E  01   4F
+00:01:39:087  VM ROOT  - VEND NEW : DD ARM  	---  B  08:00 - 0E:C0   0E  02   38 02
+15:0A,0000
+OK
+00:01:39:150  VM ROOT  - LED 20   : state:4B	---  B  08:00 - 08:93   0E  01   4B
+00:01:39:253  VM ROOT  - LED 21   : state:4F	---  B  08:00 - 08:94   0E  01   4F
+00:01:39:356  VM ROOT  - LED 22   : state:4B	---  B  08:00 - 08:95   0E  01   4B
+00:01:39:439  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:39:459  VM ROOT  - LED 23   : state:4F	---  B  08:00 - 08:96   0E  01   4F
+00:01:39:562  VM ROOT  - LED 24   : state:4B	---  B  08:00 - 08:97   0E  01   4B
+00:01:39:665  VM ROOT  - LED 25   : state:4B	---  B  08:00 - 08:98   0E  01   4B
+00:01:39:767  VM ROOT  - LED 26   : state:4B	---  B  08:00 - 08:99   0E  01   4B
+00:01:39:810  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8F   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:39:839  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8F   0E  02   C4 00
+00:01:39:842  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8F   0E  02   E8 00
+00:01:39:865  VM ROOT  - LED 27   : state:4B	---  B  08:00 - 08:9A   0E  01   4B
+00:01:39:867  VM ROOT  - -------- : --------	---  B  08:00 - 0B:8F   0E  02   C1 01
+00:01:39:971  VM ROOT  - LED 28   : state:4B	---  B  08:00 - 08:9B   0E  01   4B
+00:01:40:039  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+INT: 00:01:40:054  VM ROOT  - HEAD     : $: 0110	---  B  08:00 - 09:01   0E  08   E0 C0 F9 F9 FF FF FF FF
+05:00,006E
+OK
+00:01:40:080  VM ROOT  - LED 29   : state:4B	---  B  08:00 - 08:9C   0E  01   4B
+00:01:40:183  VM ROOT  - LED 30   : state:4B	---  B  08:00 - 08:9D   0E  01   4B
+INT: AA:01,A600
+OK
+00:01:40:639  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:40:806  VM ROOT  - -------- : --------	---  B  08:00 - 0B:90   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:40:835  VM ROOT  - -------- : --------	---  B  08:00 - 0B:90   0E  02   C4 00
+00:01:40:838  VM ROOT  - -------- : --------	---  B  08:00 - 0B:90   0E  02   E8 00
+00:01:40:861  VM ROOT  - -------- : --------	---  B  08:00 - 0B:90   0E  02   C1 01
+INT: 00:01:41:164  VM ROOT  - HEAD     : $: 0120	---  B  08:00 - 09:01   0E  08   E0 C0 A4 F9 FF FF FF FF
+00:01:41:169  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  11   50 FF FF FF EF FF FF FF FF FF FF FF FF FF FF FF FF
+05:00,0078
+OK
+00:01:41:239  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:41:298  VM ROOT  - LED 01   : state:4F	---  B  08:00 - 08:80   0E  01   4F
+00:01:41:401  VM ROOT  - LED 02   : state:4F	---  B  08:00 - 08:81   0E  01   4F
+00:01:41:504  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+00:01:41:607  VM ROOT  - LED 04   : state:4B	---  B  08:00 - 08:83   0E  01   4B
+00:01:41:710  VM ROOT  - LED 05   : state:4B	---  B  08:00 - 08:84   0E  01   4B
+00:01:41:812  VM ROOT  - LED 06   : state:4B	---  B  08:00 - 08:85   0E  01   4B
+00:01:41:815  VM ROOT  - -------- : --------	---  B  08:00 - 0B:91   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:41:839  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:41:844  VM ROOT  - -------- : --------	---  B  08:00 - 0B:91   0E  02   C4 00
+00:01:41:847  VM ROOT  - -------- : --------	---  B  08:00 - 0B:91   0E  02   E8 00
+00:01:41:870  VM ROOT  - -------- : --------	---  B  08:00 - 0B:91   0E  02   C1 01
+00:01:41:913  VM ROOT  - LED 07   : state:4B	---  B  08:00 - 08:86   0E  01   4B
+00:01:41:996  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  07   04 00 00 00 00 54 00
+00:01:42:021  VM ROOT  - LED 08   : state:4B	---  B  08:00 - 08:87   0E  01   4B
+00:01:42:044  VM ROOT  - VEND NEW : --------	---  B  08:00 - 0E:C0   0E  05   30 FF 06 03 00
+00:01:42:064  VEND NEW - VM ROOT  : --------	---  B  0E:C0 - 08:00   0E  07   B0 00 02 FF 06 03 00
+00:01:42:128  VM ROOT  - LED 09   : state:4B	---  B  08:00 - 08:88   0E  01   4B
+00:01:42:231  VM ROOT  - LED 10   : state:4B	---  B  08:00 - 08:89   0E  01   4B
+00:01:42:334  VM ROOT  - LED 11   : state:4B	---  B  08:00 - 08:8A   0E  01   4B
+INT: 00:01:42:428  Drnk BTN - VM ROOT  : BTN:14:P	---  B  08:8D - 08:00   0E  01   94
+00:01:42:437  VM ROOT  - LED 12   : state:4B	---  B  08:00 - 08:8B   0E  01   4B
+04:0E,0050
+OK
+00:01:42:441  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:42:460  VM ROOT  - VEND NEW : DD NEW $	---  B  08:00 - 0E:C0   0E  07   35 00 00 11 07 04 10
+INT: 00:01:42:521  Drnk BTN - VM ROOT  : BTN:14:R	---  B  08:8D - 08:00   0E  01   9C
+04:0E,0052
+OK
+00:01:42:545  VM ROOT  - LED 13   : state:4F	---  B  08:00 - 08:8C   0E  01   4F
+INT: 00:01:42:568  VM ROOT  - HEAD     : $: 0000	---  B  08:00 - 09:01   0E  08   E0 C0 FF FF FF FF FF FF
+05:00,0000
+OK
+00:01:42:653  VM ROOT  - LED 14   : state:4D	---  B  08:00 - 08:8D   0E  01   4D
+00:01:42:756  VM ROOT  - LED 15   : state:4F	---  B  08:00 - 08:8E   0E  01   4F
+00:01:42:799  VM ROOT  - -------- : --------	---  B  08:00 - 0B:92   0E  11   C0 C0 D8 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:01:42:828  VM ROOT  - -------- : --------	---  B  08:00 - 0B:92   0E  02   C4 01
+00:01:42:831  VM ROOT  - -------- : --------	---  B  08:00 - 0B:92   0E  02   E8 00
+00:01:42:854  VM ROOT  - LED 16   : state:4B	---  B  08:00 - 08:8F   0E  01   4B
+00:01:42:857  VM ROOT  - -------- : --------	---  B  08:00 - 0B:92   0E  02   C1 01
+00:01:42:960  VM ROOT  - LED 17   : state:4B	---  B  08:00 - 08:90   0E  01   4B
+00:01:43:039  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:43:063  VM ROOT  - LED 18   : state:4B	---  B  08:00 - 08:91   0E  01   4B
+00:01:43:166  VM ROOT  - LED 19   : state:4F	---  B  08:00 - 08:92   0E  01   4F
+00:01:43:269  VM ROOT  - LED 20   : state:4B	---  B  08:00 - 08:93   0E  01   4B
+00:01:43:372  VM ROOT  - LED 21   : state:4F	---  B  08:00 - 08:94   0E  01   4F
+00:01:43:475  VM ROOT  - LED 22   : state:4B	---  B  08:00 - 08:95   0E  01   4B
+00:01:43:558  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  11   50 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:01:43:587  VM ROOT  - LED 23   : state:4F	---  B  08:00 - 08:96   0E  01   4F
+00:01:43:639  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:43:690  VM ROOT  - LED 24   : state:4B	---  B  08:00 - 08:97   0E  01   4B
+INT: 00:01:43:793  VM ROOT  - VEND NEW : DISARM  	---  B  08:00 - 0E:C0   0E  02   38 00
+00:01:43:796  VM ROOT  - LED 25   : state:4B	---  B  08:00 - 08:98   0E  01   4B
+15:0D,0000
+OK
+INT: 00:01:43:819  VM ROOT  - VEND NEW : CONFIRM 	---  B  08:00 - 0E:C0   0E  02   39 01
+00:01:43:822  VM ROOT  - -------- : --------	---  B  08:00 - 0B:93   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+11:11,0704
+OK
+00:01:43:851  VM ROOT  - HEAD     : $: 0000	---  B  08:00 - 09:01   0E  08   E0 FF FF FF FF FF FF FF
+00:01:43:856  VM ROOT  - HEAD     : --------	---  B  08:00 - 09:01   0E  02   E2 FF
+00:01:43:859  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  11   50 5F FF FF AB FB BB FF FF FF FF FF FF FF FF FF FF
+00:01:43:868  VM ROOT  - -------- : --------	---  B  08:00 - 0B:93   0E  02   C4 00
+00:01:43:871  VM ROOT  - -------- : --------	---  B  08:00 - 0B:93   0E  02   E8 00
+00:01:43:894  VM ROOT  - LED 26   : state:4B	---  B  08:00 - 08:99   0E  01   4B
+00:01:43:897  VM ROOT  - -------- : --------	---  B  08:00 - 0B:93   0E  02   C1 01
+00:01:44:001  VM ROOT  - LED 27   : state:4B	---  B  08:00 - 08:9A   0E  01   4B
+00:01:44:104  VM ROOT  - LED 28   : state:4B	---  B  08:00 - 08:9B   0E  01   4B
+00:01:44:207  VM ROOT  - LED 29   : state:4B	---  B  08:00 - 08:9C   0E  01   4B
+00:01:44:238  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:44:310  VM ROOT  - LED 30   : state:4B	---  B  08:00 - 08:9D   0E  01   4B
+00:01:44:793  VM ROOT  - -------- : --------	---  B  08:00 - 0B:94   0E  11   C0 C0 90 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:01:44:822  VM ROOT  - -------- : --------	---  B  08:00 - 0B:94   0E  02   C4 01
+00:01:44:826  VM ROOT  - -------- : --------	---  B  08:00 - 0B:94   0E  02   E8 00
+00:01:44:840  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:44:849  VM ROOT  - -------- : --------	---  B  08:00 - 0B:94   0E  02   C1 01
+00:01:45:432  VM ROOT  - LED 01   : state:47	---  B  08:00 - 08:80   0E  01   47
+00:01:45:439  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:45:535  VM ROOT  - LED 02   : state:47	---  B  08:00 - 08:81   0E  01   47
+00:01:45:638  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+00:01:45:741  VM ROOT  - LED 04   : state:4B	---  B  08:00 - 08:83   0E  01   4B
+00:01:45:804  VM ROOT  - -------- : --------	---  B  08:00 - 0B:95   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:45:833  VM ROOT  - -------- : --------	---  B  08:00 - 0B:95   0E  02   C4 00
+00:01:45:836  VM ROOT  - -------- : --------	---  B  08:00 - 0B:95   0E  02   E8 00
+00:01:45:859  VM ROOT  - LED 05   : state:4B	---  B  08:00 - 08:84   0E  01   4B
+00:01:45:862  VM ROOT  - -------- : --------	---  B  08:00 - 0B:95   0E  02   C1 01
+00:01:45:965  VM ROOT  - LED 06   : state:4B	---  B  08:00 - 08:85   0E  01   4B
+00:01:46:039  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:46:068  VM ROOT  - LED 07   : state:4B	---  B  08:00 - 08:86   0E  01   4B
+00:01:46:171  VM ROOT  - LED 08   : state:4B	---  B  08:00 - 08:87   0E  01   4B
+00:01:46:274  VM ROOT  - LED 09   : state:4B	---  B  08:00 - 08:88   0E  01   4B
+00:01:46:377  VM ROOT  - LED 10   : state:4B	---  B  08:00 - 08:89   0E  01   4B
+00:01:46:480  VM ROOT  - LED 11   : state:4B	---  B  08:00 - 08:8A   0E  01   4B
+00:01:46:583  VM ROOT  - LED 12   : state:4B	---  B  08:00 - 08:8B   0E  01   4B
+00:01:46:639  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:46:686  VM ROOT  - LED 13   : state:4D	---  B  08:00 - 08:8C   0E  01   4D
+00:01:46:789  VM ROOT  - LED 14   : state:4D	---  B  08:00 - 08:8D   0E  01   4D
+00:01:46:812  VM ROOT  - -------- : --------	---  B  08:00 - 0B:96   0E  11   C0 C0 82 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:01:46:841  VM ROOT  - -------- : --------	---  B  08:00 - 0B:96   0E  02   C4 01
+00:01:46:844  VM ROOT  - -------- : --------	---  B  08:00 - 0B:96   0E  02   E8 00
+00:01:46:867  VM ROOT  - -------- : --------	---  B  08:00 - 0B:96   0E  02   C1 01
+00:01:46:890  VM ROOT  - LED 15   : state:4D	---  B  08:00 - 08:8E   0E  01   4D
+00:01:46:993  VM ROOT  - LED 16   : state:4B	---  B  08:00 - 08:8F   0E  01   4B
+00:01:46:996  VM ROOT  - KEYBOARD : Row 1   	---  B  08:00 - 09:31   0E  13   00 01 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:47:026  VM ROOT  - KEYBOARD : Row 2   	---  B  08:00 - 09:31   0E  13   00 17 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:47:056  VM ROOT  - KEYBOARD : Row 3   	---  B  08:00 - 09:31   0E  13   00 33 16 BA B3 D3 B8 20 BA D7 D1 20 20 20 C3 DE B0 C0 20
+00:01:47:086  VM ROOT  - KEYBOARD : Row 4   	---  B  08:00 - 09:31   0E  13   00 49 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:47:116  VM ROOT  - LED 17   : state:4B	---  B  08:00 - 08:90   0E  01   4B
+00:01:47:119  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  09   02 00 00 00 00 00 00 00 00
+00:01:47:145  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  09   03 00 00 00 00 00 00 00 00
+00:01:47:171  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  07   04 00 00 00 00 54 00
+00:01:47:196  VM ROOT  - KEYBOARD : Row 1   	---  B  08:00 - 09:31   0E  13   00 01 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:47:226  VM ROOT  - LED 18   : state:4B	---  B  08:00 - 08:91   0E  01   4B
+00:01:47:229  VM ROOT  - KEYBOARD : Row 2   	---  B  08:00 - 09:31   0E  13   00 17 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:47:239  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:47:258  VM ROOT  - KEYBOARD : Row 3   	---  B  08:00 - 09:31   0E  13   00 33 16 BA B3 D3 B8 20 BA D7 D1 20 20 20 C3 DE B0 C0 20
+00:01:47:328  VM ROOT  - LED 19   : state:4D	---  B  08:00 - 08:92   0E  01   4D
+00:01:47:431  VM ROOT  - LED 20   : state:4B	---  B  08:00 - 08:93   0E  01   4B
+00:01:47:534  VM ROOT  - LED 21   : state:4D	---  B  08:00 - 08:94   0E  01   4D
+00:01:47:638  VM ROOT  - LED 22   : state:4B	---  B  08:00 - 08:95   0E  01   4B
+00:01:47:740  VM ROOT  - LED 23   : state:4D	---  B  08:00 - 08:96   0E  01   4D
+00:01:47:803  VM ROOT  - -------- : --------	---  B  08:00 - 0B:97   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:47:832  VM ROOT  - LED 24   : state:4B	---  B  08:00 - 08:97   0E  01   4B
+00:01:47:835  VM ROOT  - -------- : --------	---  B  08:00 - 0B:97   0E  02   C4 00
+00:01:47:838  VM ROOT  - -------- : --------	---  B  08:00 - 0B:97   0E  02   E8 00
+00:01:47:841  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:47:861  VM ROOT  - -------- : --------	---  B  08:00 - 0B:97   0E  02   C1 01
+00:01:47:944  VM ROOT  - LED 25   : state:4B	---  B  08:00 - 08:98   0E  01   4B
+00:01:48:047  VM ROOT  - LED 26   : state:4B	---  B  08:00 - 08:99   0E  01   4B
+00:01:48:150  VM ROOT  - LED 27   : state:4B	---  B  08:00 - 08:9A   0E  01   4B
+00:01:48:253  VM ROOT  - LED 28   : state:4B	---  B  08:00 - 08:9B   0E  01   4B
+00:01:48:356  VM ROOT  - LED 29   : state:4B	---  B  08:00 - 08:9C   0E  01   4B
+00:01:48:440  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:48:459  VM ROOT  - LED 30   : state:4B	---  B  08:00 - 08:9D   0E  01   4B
+00:01:48:802  VM ROOT  - -------- : --------	---  B  08:00 - 0B:98   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:48:831  VM ROOT  - -------- : --------	---  B  08:00 - 0B:98   0E  02   C4 00
+00:01:48:834  VM ROOT  - -------- : --------	---  B  08:00 - 0B:98   0E  02   E8 00
+00:01:48:857  VM ROOT  - -------- : --------	---  B  08:00 - 0B:98   0E  02   C1 01
+00:01:49:040  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:49:580  VM ROOT  - LED 01   : state:47	---  B  08:00 - 08:80   0E  01   47
+00:01:49:640  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:49:682  VM ROOT  - LED 02   : state:47	---  B  08:00 - 08:81   0E  01   47
+00:01:49:785  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+00:01:49:808  VM ROOT  - -------- : --------	---  B  08:00 - 0B:99   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:49:837  VM ROOT  - -------- : --------	---  B  08:00 - 0B:99   0E  02   C4 00
+00:01:49:840  VM ROOT  - -------- : --------	---  B  08:00 - 0B:99   0E  02   E8 00
+00:01:49:863  VM ROOT  - -------- : --------	---  B  08:00 - 0B:99   0E  02   C1 01
+00:01:49:886  VM ROOT  - LED 04   : state:4B	---  B  08:00 - 08:83   0E  01   4B
+00:01:49:989  VM ROOT  - LED 05   : state:4B	---  B  08:00 - 08:84   0E  01   4B
+00:01:50:092  VM ROOT  - LED 06   : state:4B	---  B  08:00 - 08:85   0E  01   4B
+00:01:50:195  VM ROOT  - LED 07   : state:4B	---  B  08:00 - 08:86   0E  01   4B
+00:01:50:240  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:50:298  VM ROOT  - LED 08   : state:4B	---  B  08:00 - 08:87   0E  01   4B
+INT: AA:01,9600
+OK
+00:01:50:401  VM ROOT  - LED 09   : state:4B	---  B  08:00 - 08:88   0E  01   4B
+00:01:50:504  VM ROOT  - LED 10   : state:4B	---  B  08:00 - 08:89   0E  01   4B
+00:01:50:607  VM ROOT  - LED 11   : state:4B	---  B  08:00 - 08:8A   0E  01   4B
+00:01:50:710  VM ROOT  - LED 12   : state:4B	---  B  08:00 - 08:8B   0E  01   4B
+00:01:50:813  VM ROOT  - LED 13   : state:4D	---  B  08:00 - 08:8C   0E  01   4D
+00:01:50:816  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9A   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:50:841  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:50:845  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9A   0E  02   C4 00
+00:01:50:848  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9A   0E  02   E8 00
+00:01:50:871  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9A   0E  02   C1 01
+00:01:50:914  VM ROOT  - LED 14   : state:4D	---  B  08:00 - 08:8D   0E  01   4D
+00:01:51:017  VM ROOT  - LED 15   : state:4D	---  B  08:00 - 08:8E   0E  01   4D
+00:01:51:120  VM ROOT  - LED 16   : state:4B	---  B  08:00 - 08:8F   0E  01   4B
+00:01:51:223  VM ROOT  - LED 17   : state:4B	---  B  08:00 - 08:90   0E  01   4B
+00:01:51:326  VM ROOT  - LED 18   : state:4B	---  B  08:00 - 08:91   0E  01   4B
+00:01:51:429  VM ROOT  - LED 19   : state:4D	---  B  08:00 - 08:92   0E  01   4D
+00:01:51:440  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:51:532  VM ROOT  - LED 20   : state:4B	---  B  08:00 - 08:93   0E  01   4B
+00:01:51:635  VM ROOT  - LED 21   : state:4D	---  B  08:00 - 08:94   0E  01   4D
+00:01:51:738  VM ROOT  - LED 22   : state:4B	---  B  08:00 - 08:95   0E  01   4B
+00:01:51:801  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9B   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:51:830  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9B   0E  02   C4 00
+00:01:51:833  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9B   0E  02   E8 00
+00:01:51:856  VM ROOT  - LED 23   : state:4D	---  B  08:00 - 08:96   0E  01   4D
+00:01:51:859  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9B   0E  02   C1 01
+00:01:51:962  VM ROOT  - LED 24   : state:4B	---  B  08:00 - 08:97   0E  01   4B
+00:01:52:005  VM ROOT  - KEYBOARD : Row 1   	---  B  08:00 - 09:31   0E  13   00 01 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:52:035  VM ROOT  - KEYBOARD : Row 2   	---  B  08:00 - 09:31   0E  13   00 17 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:52:045  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:52:066  VM ROOT  - LED 25   : state:4B	---  B  08:00 - 08:98   0E  01   4B
+00:01:52:068  VM ROOT  - KEYBOARD : Row 3   	---  B  08:00 - 09:31   0E  13   00 33 16 BA B3 D3 B8 20 BA D7 D1 20 20 20 C3 DE B0 C0 20
+00:01:52:099  VM ROOT  - KEYBOARD : Row 4   	---  B  08:00 - 09:31   0E  13   00 49 16 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+00:01:52:128  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  09   02 00 00 00 00 00 00 00 00
+00:01:52:154  VM ROOT  - KEYBOARD : --------	---  B  08:00 - 09:31   0E  07   04 00 00 00 00 54 00
+00:01:52:179  VM ROOT  - LED 26   : state:4B	---  B  08:00 - 08:99   0E  01   4B
+00:01:52:282  VM ROOT  - LED 27   : state:4B	---  B  08:00 - 08:9A   0E  01   4B
+00:01:52:385  VM ROOT  - LED 28   : state:4B	---  B  08:00 - 08:9B   0E  01   4B
+00:01:52:488  VM ROOT  - LED 29   : state:4B	---  B  08:00 - 08:9C   0E  01   4B
+00:01:52:591  VM ROOT  - LED 30   : state:4B	---  B  08:00 - 08:9D   0E  01   4B
+00:01:52:640  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:52:815  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9C   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:52:843  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9C   0E  02   C4 00
+00:01:52:846  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9C   0E  02   E8 00
+00:01:52:869  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9C   0E  02   C1 01
+00:01:53:240  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:53:692  VM ROOT  - LED 01   : state:47	---  B  08:00 - 08:80   0E  01   47
+00:01:53:795  VM ROOT  - LED 02   : state:47	---  B  08:00 - 08:81   0E  01   47
+00:01:53:798  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9D   0E  11   C0 BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF
+00:01:53:827  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9D   0E  02   C4 00
+00:01:53:830  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9D   0E  02   E8 00
+00:01:53:841  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:53:853  VM ROOT  - -------- : --------	---  B  08:00 - 0B:9D   0E  02   C1 01
+00:01:53:896  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+00:01:53:999  VM ROOT  - LED 04   : state:4B	---  B  08:00 - 08:83   0E  01   4B
+00:01:54:102  VM ROOT  - LED 05   : state:4B	---  B  08:00 - 08:84   0E  01   4B
+00:01:54:205  VM ROOT  - LED 06   : state:4B	---  B  08:00 - 08:85   0E  01   4B
+00:01:54:308  VM ROOT  - LED 07   : state:4B	---  B  08:00 - 08:86   0E  01   4B
+00:01:54:411  VM ROOT  - LED 08   : state:4B	---  B  08:00 - 08:87   0E  01   4B
+00:01:54:440  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:54:514  VM ROOT  - LED 09   : state:4B	---  B  08:00 - 08:88   0E  01   4B
+00:01:54:617  VM ROOT  - LED 10   : state:4B	---  B  08:00 - 08:89   0E  01   4B
+00:01:54:720  VM ROOT  - LED 11   : state:4B	---  B  08:00 - 08:8A   0E  01   4B
+00:01:54:823  VM ROOT  - LED 12   : state:4B	---  B  08:00 - 08:8B   0E  01   4B
+00:01:54:927  VM ROOT  - LED 13   : state:4D	---  B  08:00 - 08:8C   0E  01   4D
+00:01:55:029  VM ROOT  - LED 14   : state:4D	---  B  08:00 - 08:8D   0E  01   4D
+00:01:55:040  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:55:132  VM ROOT  - LED 15   : state:4D	---  B  08:00 - 08:8E   0E  01   4D
+00:01:55:235  VM ROOT  - LED 16   : state:4B	---  B  08:00 - 08:8F   0E  01   4B
+00:01:55:338  VM ROOT  - LED 17   : state:4B	---  B  08:00 - 08:90   0E  01   4B
+00:01:55:441  VM ROOT  - LED 18   : state:4B	---  B  08:00 - 08:91   0E  01   4B
+00:01:55:544  VM ROOT  - LED 19   : state:4D	---  B  08:00 - 08:92   0E  01   4D
+00:01:55:641  CLOCK    - VM ROOT  : --------	---  B  08:18 - 08:00   0E  04   D2 0E FE 00
+00:01:55:647  VM ROOT  - LED 20   : state:4B	---  B  08:00 - 08:93   0E  01   4B
+00:01:55:750  VM ROOT  - LED 21   : state:4D	---  B  08:00 - 08:94   0E  01   4D
+00:01:55:793  VM ROOT  - -------- : --------	---  B  08:00 - 0B:80   0E  11   C0 C0 92 F9 FF FF FF FF FF FF FF FF FF FF FF FF FF
+00:01:55:822  VM ROOT  - -------- : --------	---  B  08:00 - 0B:80   0E  02   C4 10
+00:01:55:825  VM ROOT  - -------- : --------	---  B  08:00 - 0B:80   0E  02   E8 00
+00:01:55:848  VM ROOT  - LED 22   : state:4B	---  B  08:00 - 08:95   0E  01   4B
+00:01:55:851  VM ROOT  - -------- : --------	---  B  08:00 - 0B:80   0E  02   C1 01
+00:01:55:954  VM ROOT  - LED 23   : state:4D	---  B  08:00 - 08:96   0E  01   4D
+00:01:56:057  VM ROOT  - LED 24   : state:4B	---  B  08:00 - 08:97   0E  01   4B

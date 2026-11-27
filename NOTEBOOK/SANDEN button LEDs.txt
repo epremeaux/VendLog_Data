@@ -1,0 +1,113 @@
+button LEDs
+Sanden has blue, pink and orange main lamps
+top right = sold out
+bottom right = under preparation
+
+1: BLUE
+2: Purple
+3: orange
+4: sold out
+5: under preparation
+
+byte code:
+0000 40: 2, 4, 5
+0001 41: 2, 4
+0010 42: 3, 4, 5
+0011 43: 3, 4
+0100 44: 2, 5
+0101 45: 2
+0110 46: 3, 5
+0111 47: 3
+1000 48: 1, 4, 5
+1001 49: 1, 4
+1010 4A: 4, 5
+1011 4B: 4
+1100 4C: 1, 5
+1101 4D: 1
+1110 4E: 5
+1111 4F: clear all?
+
+in the stream data, 19, 20, 21 all sold out.
+
+00:26:16:674  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  0A   50 FB EF BE CF 3C F3 7D F7 DF
+00:26:16:725  VM ROOT  - LED 01   : state:4F	---  B  08:00 - 08:80   0E  01   4F
+
+00:26:20:226  VM ROOT  - LED 36   : state:47	---  B  08:00 - 08:A3   0E  01   47
+00:26:20:275  VM ROOT  - -------- : --------	---  D  08:00 - 08:80   0E  0A   50 FB EA AA CF 30 00 7D F5 55
+
+SANDEN machine at cheerio
+// in stock
+Line   22: 00:26:16:725  VM ROOT  - LED 01   : state:4F	---  B  08:00 - 08:80   0E  01   4F
+Line   22: 00:26:16:725  VM ROOT  - LED 01   : state:4F	---  B  08:00 - 08:80   0E  01   4F
+Line  360: 00:26:46:756  VM ROOT  - LED 01   : state:47	---  B  08:00 - 08:80   0E  01   47
+Line  698: 00:27:16:766  VM ROOT  - LED 01   : state:4F	---  B  08:00 - 08:80   0E  01   4F
+Line 1036: 00:27:46:818  VM ROOT  - LED 01   : state:4F	---  B  08:00 - 08:80   0E  01   4F
+Line 1373: 00:28:16:858  VM ROOT  - LED 01   : state:47	---  B  08:00 - 08:80   0E  01   47
+Line 1717: 00:28:46:908  VM ROOT  - LED 01   : state:4F	---  B  08:00 - 08:80   0E  01   4F
+Line 2057: 00:29:16:960  VM ROOT  - LED 01   : state:4D	---  B  08:00 - 08:80   0E  01   4D
+Line 2396: 00:29:46:986  VM ROOT  - LED 01   : state:4F	---  B  08:00 - 08:80   0E  01   4F
+Line 2735: 00:30:17:011  VM ROOT  - LED 01   : state:4F	---  B  08:00 - 08:80   0E  01   4F
+Line 3073: 00:30:47:021  VM ROOT  - LED 01   : state:45	---  B  08:00 - 08:80   0E  01   45
+Line 3410: 00:31:17:052  VM ROOT  - LED 01   : state:4F	---  B  08:00 - 08:80   0E  01   4F
+
+// an OOS button channel
+Line   54: 00:26:18:526  VM ROOT  - LED 19   : state:4B	---  B  08:00 - 08:92   0E  01   4B
+Line  392: 00:26:48:556  VM ROOT  - LED 19   : state:4B	---  B  08:00 - 08:92   0E  01   4B
+Line  730: 00:27:18:567  VM ROOT  - LED 19   : state:43	---  B  08:00 - 08:92   0E  01   43
+Line 1071: 00:27:48:627  VM ROOT  - LED 19   : state:41	---  B  08:00 - 08:92   0E  01   41
+Line 1409: 00:28:18:658  VM ROOT  - LED 19   : state:49	---  B  08:00 - 08:92   0E  01   49
+Line 1752: 00:28:48:709  VM ROOT  - LED 19   : state:4B	---  B  08:00 - 08:92   0E  01   4B
+Line 2090: 00:29:18:759  VM ROOT  - LED 19   : state:4B	---  B  08:00 - 08:92   0E  01   4B
+Line 2428: 00:29:48:786  VM ROOT  - LED 19   : state:4B	---  B  08:00 - 08:92   0E  01   4B
+Line 2768: 00:30:18:811  VM ROOT  - LED 19   : state:4B	---  B  08:00 - 08:92   0E  01   4B
+Line 3102: 00:30:48:828  VM ROOT  - LED 19   : state:4B	---  B  08:00 - 08:92   0E  01   4B
+Line 3440: 00:31:18:851  VM ROOT  - LED 19   : state:41	---  B  08:00 - 08:92   0E  01   41
+
+Ebina Blue JVMA
+Line  446: 00:00:47:666  VM ROOT  - LED 03   : StockOUT	---  B  08:00 - 08:82   0E  01   4B
+	Line  767: 00:01:17:717  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+	Line 1088: 00:01:47:717  VM ROOT  - LED 03   : state:43	---  B  08:00 - 08:82   0E  01   43
+	Line 1406: 00:02:17:726  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+	Line 1726: 00:02:47:771  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+	Line 2046: 00:03:17:795  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+	Line 2359: 00:03:47:815  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+	Line 2679: 00:04:17:825  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+	Line 3000: 00:04:47:825  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+	Line 3317: 00:05:17:832  VM ROOT  - LED 03   : state:43	---  B  08:00 - 08:82   0E  01   43
+
+
+Ebina red VCCS
+	Line  403: 00:00:47:930  VM ROOT  - LED 01   : StockOUT	---  B  08:00 - 08:80   0E  01   4B
+	Line  406: 00:00:48:030  VM ROOT  - LED 02   : StockOUT	---  B  08:00 - 08:81   0E  01   4B
+	Line  409: 00:00:48:129  VM ROOT  - LED 03   : StockOUT	---  B  08:00 - 08:82   0E  01   4B
+	Line  414: 00:00:48:230  VM ROOT  - LED 04   : StockOUT	---  B  08:00 - 08:83   0E  01   4B
+	Line  416: 00:00:48:332  VM ROOT  - LED 05   : state:4F	---  B  08:00 - 08:84   0E  01   4F
+	Line  419: 00:00:48:430  VM ROOT  - LED 06   : state:4F	---  B  08:00 - 08:85   0E  01   4F
+	Line  421: 00:00:48:531  VM ROOT  - LED 07   : state:4F	---  B  08:00 - 08:86   0E  01   4F
+	Line  422: 00:00:48:631  VM ROOT  - LED 08   : state:4F	---  B  08:00 - 08:87   0E  01   4F
+	Line  423: 00:00:48:730  VM ROOT  - LED 09   : state:4F	---  B  08:00 - 08:88   0E  01   4F
+	Line  424: 00:00:48:829  VM ROOT  - LED 10   : state:4F	---  B  08:00 - 08:89   0E  01   4F
+	Line  426: 00:00:48:931  VM ROOT  - LED 11   : state:4F	---  B  08:00 - 08:8A   0E  01   4F
+	Line  431: 00:00:49:031  VM ROOT  - LED 12   : state:4F	---  B  08:00 - 08:8B   0E  01   4F
+	Line  436: 00:00:49:130  VM ROOT  - LED 13   : state:4F	---  B  08:00 - 08:8C   0E  01   4F
+	Line  437: 00:00:49:230  VM ROOT  - LED 14   : state:4F	---  B  08:00 - 08:8D   0E  01   4F
+	Line  438: 00:00:49:329  VM ROOT  - LED 15   : state:4F	---  B  08:00 - 08:8E   0E  01   4F
+	Line  439: 00:00:49:431  VM ROOT  - LED 16   : StockOUT	---  B  08:00 - 08:8F   0E  01   4B
+	Line  444: 00:00:49:530  VM ROOT  - LED 17   : state:4F	---  B  08:00 - 08:90   0E  01   4F
+	Line  445: 00:00:49:630  VM ROOT  - LED 18   : StockOUT	---  B  08:00 - 08:91   0E  01   4B
+	Line  450: 00:00:49:729  VM ROOT  - LED 19   : state:4F	---  B  08:00 - 08:92   0E  01   4F
+	Line  451: 00:00:49:831  VM ROOT  - LED 20   : state:4F	---  B  08:00 - 08:93   0E  01   4F
+	Line  452: 00:00:49:929  VM ROOT  - LED 21   : StockOUT	---  B  08:00 - 08:94   0E  01   4B
+	Line  454: 00:00:50:031  VM ROOT  - LED 22   : StockOUT	---  B  08:00 - 08:95   0E  01   4B
+	Line  457: 00:00:50:131  VM ROOT  - LED 23   : StockOUT	---  B  08:00 - 08:96   0E  01   4B
+	Line  459: 00:00:50:231  VM ROOT  - LED 24   : StockOUT	---  B  08:00 - 08:97   0E  01   4B
+	Line  462: 00:00:50:330  VM ROOT  - LED 25   : state:4F	---  B  08:00 - 08:98   0E  01   4F
+	Line  463: 00:00:50:429  VM ROOT  - LED 26   : state:4F	---  B  08:00 - 08:99   0E  01   4F
+	Line  464: 00:00:50:532  VM ROOT  - LED 27   : state:4F	---  B  08:00 - 08:9A   0E  01   4F
+	Line  465: 00:00:50:631  VM ROOT  - LED 28   : state:4F	---  B  08:00 - 08:9B   0E  01   4F
+	Line  466: 00:00:50:730  VM ROOT  - LED 29   : state:4F	---  B  08:00 - 08:9C   0E  01   4F
+	Line  470: 00:00:50:831  VM ROOT  - LED 30   : state:4F	---  B  08:00 - 08:9D   0E  01   4F
+	Line  765: 00:01:17:981  VM ROOT  - LED 01   : state:4B	---  B  08:00 - 08:80   0E  01   4B
+	Line  768: 00:01:18:100  VM ROOT  - LED 02   : state:4B	---  B  08:00 - 08:81   0E  01   4B
+	Line  770: 00:01:18:181  VM ROOT  - LED 03   : state:4B	---  B  08:00 - 08:82   0E  01   4B
+
